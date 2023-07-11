@@ -1,15 +1,19 @@
 <template>
-  <div class="about">
+  <main>
     <h1>Itens</h1>
-  </div>
+    <ul>
+      <li>Itens completos</li>
+      <li>Nome dos itens</li>
+      <li>Efeito do item</li>
+      <li>Componentes individuais</li>
+      <li>Filtro</li>
+    </ul>
+  </main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+<style scoped>
+  main {
+    width: 100%;
+    background-color: white;
   }
-}
 </style>

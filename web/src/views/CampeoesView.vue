@@ -1,15 +1,22 @@
 <template>
-  <div class="about">
+  <main>
     <h1>Campeões</h1>
-  </div>
+    <ul>
+      <li>Itens</li>
+      <li>Comps</li>
+      <li>Características</li>
+      <li>Custos</li>
+      <li>Raridade</li>
+      <li>Nome</li>
+      <li>Imagem</li>
+      <li>Habilidade</li>
+    </ul>
+  </main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+<style scoped>
+  main {
+    width: 100%;
+    background-color: white;
   }
-}
 </style>
