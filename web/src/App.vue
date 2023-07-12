@@ -40,6 +40,7 @@ import { RouterLink, RouterView } from 'vue-router'
   .nav__item {
     transition: background-color .5s ease-in-out;
     text-shadow: 6px 4px 2px black;
+    padding: 0 10px;
   }
 
   .nav__item:hover {
