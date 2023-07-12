@@ -15,7 +15,8 @@ import { RouterLink, RouterView } from 'vue-router'
           <RouterLink to="/" class="nav__item">Home</RouterLink>
           <RouterLink to="/campeoes" class="nav__item">Campeões</RouterLink>
           <RouterLink to="/composicoes" class="nav__item">Composições</RouterLink>
-          <RouterLink to="/itens" class="nav__item">Itens</RouterLink>  
+          <RouterLink to="/itens" class="nav__item">Itens</RouterLink>
+          
         </nav>
         <RouterView />
       </main>
@@ -55,7 +56,7 @@ import { RouterLink, RouterView } from 'vue-router'
     height: 10vh;
   }
   .nav {
-    font-family: var(--vt-f-bree-serif);
+    font-family: var(--font-family-title);
     text-transform: uppercase;
     /* outline: 1px solid white; */
     height: 90vh;
@@ -74,6 +75,7 @@ import { RouterLink, RouterView } from 'vue-router'
   .image{ 
     width: 100%;
     height: 100vh;
-    background-image: url('/public/bg-tft.png');
+    /* background-image: url('/public/bg-tft.png'); */
+    background-color: rgb(3, 3, 59);
   }
 </style>
