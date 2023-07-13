@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+// import IndexItem from './components/IndexItem.vue';
 </script>
 
 <template>
@@ -12,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </header>
       <main class="main">
         <nav class="nav">
-          <RouterLink to="/" class="nav__item">Home</RouterLink>
+          <RouterLink to="/" class="nav__item"><span>Home</span></RouterLink>
           <RouterLink to="/campeoes" class="nav__item">Campeões</RouterLink>
           <RouterLink to="/composicoes" class="nav__item">Composições</RouterLink>
           <RouterLink to="/itens" class="nav__item">Itens</RouterLink>
@@ -22,9 +23,11 @@ import { RouterLink, RouterView } from 'vue-router'
       </main>
     </div>
   </header>
-  
+  <IndexItem/>
  
 </template>
+
+
 
 <style scoped>
 
@@ -39,13 +42,31 @@ import { RouterLink, RouterView } from 'vue-router'
   }
 
   .nav__item {
-    transition: background-color .5s ease-in-out;
+    /* transition: background-color .5s ease-in-out; */
     text-shadow: 6px 4px 2px black;
     padding: 0 10px;
+    position: relative;
+    overflow: hidden;
   }
 
-  .nav__item:hover {
+  /* .nav__item:hover {
     background-color: #00ffff;
+  } */
+
+  .nav__item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    transition: left 0.4s ease-in-out;
+    background-image: linear-gradient(to left, rgb(29,29,79), rgba(182,182,174,.5), rgba(255,255,255,0));
+  
+  }
+
+  .nav__item:hover::before {
+    left: 0;
   }
 
   .main {
@@ -64,6 +85,7 @@ import { RouterLink, RouterView } from 'vue-router'
     flex-direction: column;
     gap: 20px;
     padding: 20px 15px;
+    padding-right: 0;
     letter-spacing: 1px;
     
   }
