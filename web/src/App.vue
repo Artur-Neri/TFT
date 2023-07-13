@@ -14,9 +14,9 @@ import { RouterLink, RouterView } from 'vue-router'
       <main class="main">
         <nav class="nav">
           <RouterLink to="/" class="nav__item"><span>Home</span></RouterLink>
-          <RouterLink to="/campeoes" class="nav__item">Campeões</RouterLink>
-          <RouterLink to="/composicoes" class="nav__item">Composições</RouterLink>
-          <RouterLink to="/itens" class="nav__item">Itens</RouterLink>
+          <RouterLink to="/campeoes" class="nav__item"><span>Campeões</span></RouterLink>
+          <RouterLink to="/composicoes" class="nav__item"><span>Composições</span></RouterLink>
+          <RouterLink to="/itens" class="nav__item"><span>Itens</span></RouterLink>
           
         </nav>
         <RouterView />
@@ -67,6 +67,11 @@ import { RouterLink, RouterView } from 'vue-router'
 
   .nav__item:hover::before {
     left: 0;
+  }
+
+  .nav__item span{
+    position: relative;
+    z-index: 2;
   }
 
   .main {
