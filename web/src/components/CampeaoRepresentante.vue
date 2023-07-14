@@ -1,8 +1,15 @@
+<script setup>
+  defineProps({
+  nome: String,
+  imagem: String
+})
+</script>
+
 <template>
   <div class="campeao-representante__item">
-    <img src="../../public/lendas-tft/aurelion-sol-square.JPG" class="campeao-representante__item__img">
+    <img :src="imagem" class="campeao-representante__item__img">
     <div class="poligono-border">
-      <h3 class="campeao-representante__item__nome poligono">Aurelion Sol</h3>
+      <h3 class="campeao-representante__item__nome poligono">{{ nome }}</h3>
     </div>
   </div>
 </template>
@@ -10,12 +17,18 @@
 <style scoped>
   .campeao-representante__item {
     position: relative;
-    
+    display: flex;
   }
 
   .campeao-representante__item__img {
     border-radius: 50%;
+    width: 250px;
+    height: 250px;
     border: 5px solid rgb(163, 133, 0);
+  }
+
+  .campeao-representante__item__nome {
+    text-transform: capitalize;
   }
 
   .poligono {

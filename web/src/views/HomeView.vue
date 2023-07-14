@@ -69,20 +69,19 @@
               <h2 class="campeao-representante__cabecalho__titulo">Lendas</h2>
             </div>
             <div class="campeao-representante__container">
-              <!-- <div class="campeao-representante__item">
-                <img src="../../public/lendas-tft/aurelion-sol-square.JPG" class="campeao-representante__item__img">
-                <div class="poligono-border">
-                  <h3 class="campeao-representante__item__nome poligono">Aurelion Sol</h3>
-                </div>
-              </div> -->
-              {{campeaoApi.map((campeao) => (
+              <div class="campeao-representante__representantes">
                 <CampeaoRepresentante 
-                  key={campeao.id}
-                  nome={campeao.nome}
-                  imagem={campeao.imagem}
+                  v-for="campeao in campeaoApi"
+                  :key="campeao.id"
+                  :nome="campeao.nome"
+                  :imagem="campeao.imagem"
                 />
-              ))}}
-              <div class="campeao-representante__lenda">lenda</div>
+              </div>
+                
+              <div class="campeao-representante__lenda">
+                <img src="../../public/lendas-tft/aurelion-sol.JPG">
+                <a href="#" class="lenda__btn">Detalhes</a>  
+              </div>
             </div>
           </div>
     <!-- <ul>
@@ -97,6 +96,8 @@
 </template>
 
 <style scoped>
+
+
 
   main {
     color: white;
@@ -172,19 +173,58 @@
   .campeao-representante {
     border: 1px solid #fff;
     border-radius: 10px;
-    margin: 50px 10px;
+    margin: 50px 30px;
   }
 
+  
   .campeao-representante__cabecalho {
     background-color: blue;
+    text-transform: uppercase;
+    padding: 10px 0;
+    text-indent: 10px;
+    font-family: var(--font-family-title);
   }
-
+  
   .campeao-representante__container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: green;
-    height: 500px;
+    height: 600px;
+    width: 100%;
+  }
+  
+  .campeao-representante__representantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    padding: 40px 0;
+    overflow: auto;
+    background-color: red;
+  }
+
+  .campeao-representante__lenda {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lenda__btn {
+    background-color: rgb(78, 0, 0);
+    display: block;
+    padding: 5px 0;
+    margin: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(224, 204, 114);
+    font-family: var(--font-family-title);
+    border: 2px solid rgb(163, 133, 0);
+    width: 100%;
   }
 
 </style>
