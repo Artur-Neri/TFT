@@ -1,5 +1,7 @@
 <script setup>
   import { onMounted } from 'vue';
+  import CampeaoRepresentante from '../components/CampeaoRepresentante.vue';
+  import campeaoApi from '../api/campeao-representante.json';
 
   onMounted(() => {
     const descricaoModoJogo = document.querySelector('.modos-de-jogo__descricao')
@@ -67,7 +69,19 @@
               <h2 class="campeao-representante__cabecalho__titulo">Lendas</h2>
             </div>
             <div class="campeao-representante__container">
-              <div class="campeao-representante__conteudo">conteudo</div>
+              <!-- <div class="campeao-representante__item">
+                <img src="../../public/lendas-tft/aurelion-sol-square.JPG" class="campeao-representante__item__img">
+                <div class="poligono-border">
+                  <h3 class="campeao-representante__item__nome poligono">Aurelion Sol</h3>
+                </div>
+              </div> -->
+              {{campeaoApi.map((campeao) => (
+                <CampeaoRepresentante 
+                  key={campeao.id}
+                  nome={campeao.nome}
+                  imagem={campeao.imagem}
+                />
+              ))}}
               <div class="campeao-representante__lenda">lenda</div>
             </div>
           </div>
@@ -170,6 +184,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: green;
+    height: 500px;
   }
 
 </style>
