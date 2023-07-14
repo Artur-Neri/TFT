@@ -59,8 +59,18 @@
               <label for="modoDupla">DUPLAS DINÂMICAS (OFICINA)</label>
             </div>
           </div>
+
         </div>
       </div>
+      <div class="campeao-representante">
+            <div class="campeao-representante__cabecalho">
+              <h2 class="campeao-representante__cabecalho__titulo">Lendas</h2>
+            </div>
+            <div class="campeao-representante__container">
+              <div class="campeao-representante__conteudo">conteudo</div>
+              <div class="campeao-representante__lenda">lenda</div>
+            </div>
+          </div>
     <!-- <ul>
       <li>Modos de jogo</li>
       <li>falar sobre o campeão representante</li>
@@ -143,6 +153,23 @@
 
   .modo__item input, .modo__item label {
     cursor: pointer;
+  }
+
+  .campeao-representante {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 50px 10px;
+  }
+
+  .campeao-representante__cabecalho {
+    background-color: blue;
+  }
+
+  .campeao-representante__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
   }
 
 </style>
