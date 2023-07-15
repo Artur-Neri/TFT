@@ -1,0 +1,616 @@
+[
+  {
+    "id" : 1,
+    "nome" : "aurelion sol",
+    "imagem" : "../../public/lendas-tft/aurelion-sol.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 2,
+    "nome" : "bardo",
+    "imagem" : "../../public/lendas-tft/bardo.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 3,
+    "nome" : "caitlyn",
+    "imagem" : "../../public/lendas-tft/caitlyn.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 4,
+    "nome" : "draven",
+    "imagem" : "../../public/lendas-tft/draven.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 5,
+    "nome" : "ezreal",
+    "imagem" : "../../public/lendas-tft/ezreal.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 6,
+    "nome" : "lee sin",
+    "imagem" : "../../public/lendas-tft/lee-sin.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 7,
+    "nome" : "master yi",
+    "imagem" : "../../public/lendas-tft/master-yi.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 8,
+    "nome" : "ornn",
+    "imagem" : "../../public/lendas-tft/ornn.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 9,
+    "nome" : "pingu",
+    "imagem" : "../../public/lendas-tft/pingu.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 10,
+    "nome" : "tahm kench",
+    "imagem" : "../../public/lendas-tft/tahm-kench.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 11,
+    "nome" : "twisted fate",
+    "imagem" : "../../public/lendas-tft/twisted-fate.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 12,
+    "nome" : "urf",
+    "imagem" : "../../public/lendas-tft/urf.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 13,
+    "nome" : "veigar",
+    "imagem" : "../../public/lendas-tft/veigar.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 14,
+    "nome" : "vladmir",
+    "imagem" : "../../public/lendas-tft/vladmir.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  },
+
+  {
+    "id" : 15,
+    "nome" : "poro",
+    "imagem" : "../../public/lendas-tft/poro.JPG",
+    "cartas" : {
+        "turno1": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno2": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        },
+        "turno3": {
+          "nome" : "src",
+          "imagem" : [
+            {
+              "tier1": "src",
+              "tier2": "src",
+              "tier3": "src"
+            }
+          ],
+          "descricao" : "src"
+        }
+      }
+  }     
+]

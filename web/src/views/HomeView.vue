@@ -65,25 +65,26 @@
         </div>
       </div>
       <div class="campeao-representante">
-            <div class="campeao-representante__cabecalho">
-              <h2 class="campeao-representante__cabecalho__titulo">Lendas</h2>
-            </div>
-            <div class="campeao-representante__container">
-              <div class="campeao-representante__representantes">
-                <CampeaoRepresentante 
-                  v-for="campeao in campeaoApi"
-                  :key="campeao.id"
-                  :nome="campeao.nome"
-                  :imagem="campeao.imagem"
-                />
-              </div>
-                
-              <div class="campeao-representante__lenda">
-                <img src="../../public/lendas-tft/aurelion-sol.JPG">
-                <a href="#" class="lenda__btn">Detalhes</a>  
-              </div>
-            </div>
+        <div class="campeao-representante__cabecalho">
+          <h2 class="campeao-representante__cabecalho__titulo">Lendas</h2>
+        </div>
+
+        <div class="campeao-representante__container">
+          <div class="campeao-representante__representantes">
+            <CampeaoRepresentante 
+              v-for="campeao in campeaoApi"
+              :key="campeao.id"
+              :nome="campeao.nome"
+              :imagem="campeao.imagem"
+            />
           </div>
+                
+          <div class="campeao-representante__lenda">
+            <img src="../../public/lendas-tft/aurelion-sol.JPG">
+            <button type="button" class="lenda__btn">Detalhes</button>  
+          </div>
+        </div>
+      </div>
     <!-- <ul>
       <li>Modos de jogo</li>
       <li>falar sobre o campeão representante</li>
@@ -96,8 +97,6 @@
 </template>
 
 <style scoped>
-
-
 
   main {
     color: white;
@@ -170,13 +169,14 @@
     cursor: pointer;
   }
 
+  /* LENDAS */
+
   .campeao-representante {
     border: 1px solid #fff;
     border-radius: 10px;
     margin: 50px 30px;
   }
 
-  
   .campeao-representante__cabecalho {
     background-color: blue;
     text-transform: uppercase;
@@ -205,6 +205,10 @@
     background-color: red;
   }
 
+  .campeao-representante__lenda::-webkit-scrollbar { 
+  background: #1D1D4F;
+}
+
   .campeao-representante__lenda {
     width: fit-content;
     display: flex;
@@ -213,8 +217,14 @@
     justify-content: center;
   }
 
+  .campeao-representante__lenda img {
+    height: 500px;
+    width: 300px;
+  }
+
   .lenda__btn {
     background-color: rgb(78, 0, 0);
+    width: 100%;
     display: block;
     padding: 5px 0;
     margin: 0 30px;
@@ -223,8 +233,13 @@
     text-transform: uppercase;
     color: rgb(224, 204, 114);
     font-family: var(--font-family-title);
+    font-size: var(--vt-f-m);
     border: 2px solid rgb(163, 133, 0);
-    width: 100%;
+    transition: .3s ease-in-out;
+  }
+
+  .lenda__btn:hover {
+    cursor: pointer;
   }
 
 </style>
