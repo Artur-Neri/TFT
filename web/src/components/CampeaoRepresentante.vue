@@ -1,9 +1,11 @@
 <script setup>
   defineProps({
+  id: Int16Array,
   nome: String,
   imagem: String
 })
 </script>
+
 
 <template>
   <div class="campeao-representante__item">
@@ -12,6 +14,7 @@
       <h3 class="campeao-representante__item__nome poligono">{{ nome }}</h3>
     </div>
   </div>
+  
 </template>
 
 <style scoped>
@@ -60,4 +63,5 @@
   export default {
     name: 'CampeaoRepresentante'
   }
+  
 </script>

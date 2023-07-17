@@ -1,6 +1,8 @@
 <script setup>
+  import { ref } from 'vue'
   import { onMounted } from 'vue';
   import CampeaoRepresentante from '../components/CampeaoRepresentante.vue';
+  import CampeaoRepresentanteLenda from '../components/CampeaoRepresentanteLenda.vue';
   import campeaoApi from '../api/campeao-representante.json';
 
   onMounted(() => {
@@ -15,6 +17,19 @@
     modoFrenetica.addEventListener('click', () => descricaoModoJogo.textContent = "Frenetico");
     modoDupla.addEventListener('click', () => descricaoModoJogo.textContent = "Dupla");
   });
+
+  
+</script>
+
+<script>
+  const campeaoInfoImage = ref('../../public/lendas-tft/aurelion-sol.JPG')
+  const campeaoInfoNome = ref('Aurelion Sol')
+
+  function exibirInfoCampeao (imagem, nome) {
+    campeaoInfoImage.value = imagem.replace("-square", "")
+    campeaoInfoNome.value = nome
+  }
+
 </script>
 
 <template>
@@ -74,15 +89,17 @@
             <CampeaoRepresentante 
               v-for="campeao in campeaoApi"
               :key="campeao.id"
+              :id="campeao.id"
               :nome="campeao.nome"
               :imagem="campeao.imagem"
+              @click="exibirInfoCampeao(campeao.imagem, campeao.nome)"
             />
           </div>
                 
-          <div class="campeao-representante__lenda">
-            <img src="../../public/lendas-tft/aurelion-sol.JPG">
-            <button type="button" class="lenda__btn">Detalhes</button>  
-          </div>
+          <CampeaoRepresentanteLenda  
+          :imagem="campeaoInfoImage"
+          :nome="campeaoInfoNome"
+          />
         </div>
       </div>
     <!-- <ul>
@@ -95,6 +112,8 @@
     </ul> -->
   </main>
 </template>
+
+
 
 <style scoped>
 
@@ -203,43 +222,6 @@
     padding: 40px 0;
     overflow: auto;
     background-color: red;
-  }
-
-  .campeao-representante__lenda::-webkit-scrollbar { 
-  background: #1D1D4F;
-}
-
-  .campeao-representante__lenda {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .campeao-representante__lenda img {
-    height: 500px;
-    width: 300px;
-  }
-
-  .lenda__btn {
-    background-color: rgb(78, 0, 0);
-    width: 100%;
-    display: block;
-    padding: 5px 0;
-    margin: 0 30px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: rgb(224, 204, 114);
-    font-family: var(--font-family-title);
-    font-size: var(--vt-f-m);
-    border: 2px solid rgb(163, 133, 0);
-    transition: .3s ease-in-out;
-  }
-
-  .lenda__btn:hover {
-    cursor: pointer;
   }
 
 </style>
