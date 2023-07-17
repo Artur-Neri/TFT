@@ -5,8 +5,6 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-
-    
     <div class="image">
       <header class="nav-top">
         <img src="/public/my_tft_logo.png" alt="logo" class="header__logo">
@@ -27,18 +25,56 @@ import { RouterLink, RouterView } from 'vue-router'
  
 </template>
 
-
-
 <style scoped>
 
-  header {
+  .image{ 
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 3, 59);
+    /* background-image: url('/public/bg-tft.png'); */
+  }
+
+  .nav-top { 
+    background-color: #03033b;
+    height: 10vh;
+    width: 100%;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
   }
+
   .header__logo {
     width: 100px;
     height: 50px;
     margin-left: 15px;
+  }
+
+  .main {
+    display: flex;
+  }
+
+  .nav {
+    position: sticky;
+    top: 10vh;
+    background-color: #03033b;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 90vh;
+    font-family: var(--font-family-title);
+    text-transform: uppercase;
+    padding: 20px 15px;
+    padding-right: 0;
+    letter-spacing: 1px;
+    z-index: 2;
+    /* outline: 1px solid white; */
+  }
+  .nav a{
+    color: var(--color-text);
+    font-size: var(--font-size-nav);
+    text-decoration: none;
   }
 
   .nav__item {
@@ -49,10 +85,6 @@ import { RouterLink, RouterView } from 'vue-router'
     overflow: hidden;
   }
 
-  /* .nav__item:hover {
-    background-color: #00ffff;
-  } */
-
   .nav__item::before {
     content: '';
     display: block;
@@ -62,9 +94,8 @@ import { RouterLink, RouterView } from 'vue-router'
     left: 100%;
     transition: left 0.4s ease-in-out;
     background-image: linear-gradient(to left, rgb(29,29,79), rgba(182,182,174,.5), rgba(255,255,255,0));
-  
   }
-
+  
   .nav__item:hover::before {
     left: 0;
   }
@@ -74,35 +105,8 @@ import { RouterLink, RouterView } from 'vue-router'
     z-index: 2;
   }
 
-  .main {
-    display: flex;
-  }
-  .nav-top {
-    /* background-color: red; */
-    height: 10vh;
-  }
-  .nav {
-    font-family: var(--font-family-title);
-    text-transform: uppercase;
-    /* outline: 1px solid white; */
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px 15px;
-    padding-right: 0;
-    letter-spacing: 1px;
-    
-  }
-  .nav a{
-    color: var(--color-text);
-    font-size: var(--font-size-nav);
-    text-decoration: none;
-  }
-  .image{ 
-    width: 100%;
-    height: 100vh;
-    /* background-image: url('/public/bg-tft.png'); */
-    background-color: rgb(3, 3, 59);
-  }
+  /* .nav__item:hover {
+    background-color: #00ffff;
+  } */
+  
 </style>
