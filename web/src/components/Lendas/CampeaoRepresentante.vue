@@ -21,10 +21,22 @@
   .campeao-representante__item {
     position: relative;
     display: flex;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
   }
 
   .campeao-representante__item:hover {
     cursor: pointer;
+  }
+
+  .campeao-representante__item:hover > .campeao-representante__item__img{
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0 0 5px 5px #ffffff1e;
+  }
+
+  .campeao-representante__item:hover > .poligono-border {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 5px #ffffff1e;
   }
 
   .campeao-representante__item__img {
@@ -32,6 +44,7 @@
     width: 250px;
     height: 250px;
     border: 5px solid rgb(163, 133, 0);
+    transition: .3s ease-in-out;
   }
 
   .campeao-representante__item__nome {
@@ -60,6 +73,7 @@
     justify-content: center;
     align-items: center;
     clip-path: polygon(10% 0%,90% 0%,100% 50%,90% 100%, 10% 100%, 0% 50%);
+    transition: .3s ease-in-out;
   }
 </style>
 

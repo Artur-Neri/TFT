@@ -1,24 +1,9 @@
 <script setup>
   import { ref } from 'vue'
-  import { onMounted } from 'vue';
-  import CampeaoRepresentante from '../components/CampeaoRepresentante.vue';
-  import CampeaoRepresentanteLenda from '../components/CampeaoRepresentanteLenda.vue';
+  import CampeaoRepresentante from '../components/Lendas/CampeaoRepresentante.vue';
+  import CampeaoRepresentanteLenda from '../components/Lendas/CampeaoRepresentanteLenda.vue';
   import campeaoApi from '../api/campeao-representante.json';
-
-  onMounted(() => {
-    const descricaoModoJogo = document.querySelector('.modos-de-jogo__descricao')
-    const modoNormal = document.getElementById('modoNormal');
-    const modoRanqueada = document.getElementById('modoRanqueada');
-    const modoFrenetica = document.getElementById('modoFrenetica');
-    const modoDupla = document.getElementById('modoDupla');
-
-    modoNormal.addEventListener('click', () => descricaoModoJogo.textContent = "Normal");
-    modoRanqueada.addEventListener('click', () => descricaoModoJogo.textContent = "Rankeada");
-    modoFrenetica.addEventListener('click', () => descricaoModoJogo.textContent = "Frenetico");
-    modoDupla.addEventListener('click', () => descricaoModoJogo.textContent = "Dupla");
-  });
-
-  
+import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
 </script>
 
 <script>
@@ -43,42 +28,8 @@
       <img src="https://th.bing.com/th/id/R.8a1092521e8f042a11ac940503071b4d?rik=bV8wMNU3CbtPHA&pid=ImgRaw&r=0" alt="pinguin" class="cabecalho__img">
     </div>
 
-    <div class="modos-de-jogo">
-
-      <h2>MODOS DE JOGO</h2>
-      <div class="modos-de-jogo__content">
-        <div class="modos-de-jogo__cabecalho">
-          <h4>TFT</h4>
-          <h3>TEAMFIGHT</h3>
-          <h3>TACTICS</h3>
-        </div>
-
-          <div class="modos-de-jogo__descricao">
-            <!-- <p>Monte uma equipe de Campeões para batalhar em seu nome. Derrote os sete oponentes e sobreviva por mais tempo.</p> -->
-            <p>Normal</p>
-          </div>
-
-          <div class="modos-de-jogo__botoes">
-            <div class="modo__item">
-              <input type="radio" name="modos" id="modoNormal" checked onclick="trocarModoDeJogo(1)">
-              <label for="modoNormal">NORMAL</label>
-            </div>
-            <div class="modo__item">
-              <input type="radio" name="modos" id="modoRanqueada" onclick="trocarModoDeJogo(2)">
-              <label for="modoRanqueada">RANQUEADA</label>
-            </div>
-            <div class="modo__item">
-              <input type="radio" name="modos" id="modoFrenetica" onclick="trocarModoDeJogo(3)">
-              <label for="modoFrenetica">BATALHA FRENÉTICA</label>
-            </div>
-            <div class="modo__item">
-              <input type="radio" name="modos" id="modoDupla" onclick="trocarModoDeJogo(4)">
-              <label for="modoDupla">DUPLAS DINÂMICAS (OFICINA)</label>
-            </div>
-          </div>
-
-        </div>
-      </div>
+    <ModoDeJogo />
+    
       <div class="campeao-representante">
         <div class="campeao-representante__cabecalho">
           <h2 class="campeao-representante__cabecalho__titulo">Lendas</h2>
@@ -94,31 +45,47 @@
               :imagem="campeao.imagem"
               @click="exibirInfoCampeao(campeao.imagem, campeao.nome)"
             />
-          </div>
 
-          <!-- <div class="campeao-representante__cartas">
+            <div class="campeao-representante__cartas">
             <div class="cartas__estagio">
-              <div class="estagio__title"></div>
+              <div class="estagio__title">
+                <h3>AQUI VAI O TITULO</h3>
+              </div>
               <div class="estagio__cartas">
                 <div class="cartas__item">
                   <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
-                  <h3 class="carta__item__title">Titulo teste</h3>
-                  <p class="carta__item_description">descricao teste</p>
+                  <div class="carta__item_description">
+                    <h3 class="carta__item__title">Titulo teste</h3>
+                    <p class="carta__item_text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime quasi veritatis illo itaque corrupti dolores modi quia sapiente dignissimos. Corporis inventore autem est aliquid et cum enim molestiae sequi.
+                    </p>
+                  </div>
                 </div>
                 <div class="cartas__item">
                   <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
-                  <h3 class="carta__item__title">Titulo teste</h3>
-                  <p class="carta__item_description">descricao teste</p>
+                  <div class="carta__item_description">
+                    <h3 class="carta__item__title">Titulo teste</h3>
+                    <p class="carta__item_text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime quasi veritatis illo itaque corrupti dolores modi quia sapiente dignissimos. Corporis inventore autem est aliquid et cum enim molestiae sequi.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime quasi veritatis illo itaque corrupti dolores modi quia sapiente dignissimos. Corporis inventore autem est aliquid et cum enim molestiae sequi.
+                    </p>
+                  </div>
                 </div>
                 <div class="cartas__item">
                   <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
-                  <h3 class="carta__item__title">Titulo teste</h3>
-                  <p class="carta__item_description">descricao teste</p>
+                  <div class="carta__item_description">
+                    <h3 class="carta__item__title">Titulo teste</h3>
+                    <p class="carta__item_text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime quasi veritatis illo itaque corrupti dolores modi quia sapiente dignissimos. Corporis inventore autem est aliquid et cum enim molestiae sequi.
+                    </p>
+                  </div>
                 </div>
               </div>
-
             </div>
-          </div> -->
+          </div>
+
+          </div>
+
           <div class="campeao__representate__lenda__container">
             <CampeaoRepresentanteLenda  
             :imagem="campeaoInfoImage"
@@ -127,9 +94,27 @@
           </div>      
         </div>
       </div>
+
+      <div class="efeito-partida">
+        <h2>Efeito da partida</h2>
+      </div>
+
+      <div class="raridade-nivel">
+        <h2>chance de raridade por nível</h2>
+      </div>
+
+      <div class="juros">
+        <h2>juros</h2>
+      </div>
+
+      <div class="mobs">
+        <h2>mobs</h2>
+      </div>
+
+
     <!-- <ul>
-      <li>Modos de jogo</li>
-      <li>falar sobre o campeão representante</li>
+      <li>Modos de jogo</li> FEITO
+      <li>falar sobre o campeão representante</li> FEITO
       <li>efeito da partida</li>
       <li>chance de raridade por nível</li>
       <li>juros</li>
@@ -141,16 +126,61 @@
 
 
 <style scoped>
+
+/* ============== cartas ============== */
   .campeao-representante__cartas {
+    display: none;
     position: absolute;
-    left: 0;
+    /*QUANDO CLICAR NO DETALHES MUDAR PARA 0 */
+    left: 100%; 
     top: 0;
-    width: 100%;
+    background-image: linear-gradient(to top, rgba(53, 26, 0), rgba(0, 0, 27));
     height: 100%;
+    width: 100%;
   }
 
+  .cartas__estagio {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .estagio__cartas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+
+  .cartas__item {
+    background-color: rgb(58, 1, 1);
+    border: 2px solid #573b12;
+    border-radius: 12px;
+    padding: 0 2px;
+    width: 300px;
+  }
+
+  .cartas__item img {
+    width: 250px;
+  }
+
+  .carta__item__title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .carta__item_text {
+    overflow: auto;
+    height: 150px;
+    padding: 12px;
+    text-align: justify;
+  }
+
+  
+
+  /* ================== lendas ==================*/
   .campeao__representate__lenda__container {
-    /* background-color: red; */
     width: 100%;
     max-width: 330px;
     height: 100%;
@@ -171,7 +201,6 @@
   }
 
   .cabecalho {
-    /* background-color: white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,44 +220,6 @@
     width: 100px;
   }
 
-  .modos-de-jogo {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    margin: 0 10px;
-  }
-
-  /* MODO DE JOGO */
-
-  .modos-de-jogo__content {
-    width: 500px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-  }
-
-  .modos-de-jogo__botoes {
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-    justify-content: center;
-    gap: 10px;
-    margin-left: 200px;
-  }
-
-  .modo__item {
-    display: flex;
-    gap: 15px;
-  }
-
-  .modo__item input, .modo__item label {
-    cursor: pointer;
-  }
-
   /* LENDAS */
 
   .campeao-representante {
@@ -246,7 +237,6 @@
   }
   
   .campeao-representante__container {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -257,16 +247,16 @@
   }
   
   .campeao-representante__representantes {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     height: 100%;
     padding: 40px 0;
-    overflow: auto;
-    
-    
     border-right: 2px solid #573b12;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
 </style>

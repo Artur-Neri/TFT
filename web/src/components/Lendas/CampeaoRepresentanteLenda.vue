@@ -18,7 +18,6 @@
 <style scoped>
 
   .campeao-representante__lenda {
-    /* width: fit-content; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -43,9 +42,12 @@
   }
 
   .lenda__btn:hover {
+    box-shadow: 0 0 5px 5px #ffffff3c;
     cursor: pointer;
+    color: rgb(242, 225, 147);
+    border: 2px solid rgb(242, 225, 147);
   }
-</style>
+  </style>
 
 <script>
   export default {
