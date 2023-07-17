@@ -80,7 +80,7 @@
                 
               <div class="campeao-representante__lenda">
                 <img src="../../public/lendas-tft/aurelion-sol.JPG">
-                <a href="#" class="lenda__btn">Detalhes</a>  
+                <a href="#" class="lenda__btn">Detalhes</a>
               </div>
             </div>
           </div>
@@ -96,8 +96,6 @@
 </template>
 
 <style scoped>
-
-
 
   main {
     color: white;
