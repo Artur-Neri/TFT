@@ -14,13 +14,17 @@
       <h3 class="campeao-representante__item__nome poligono">{{ nome }}</h3>
     </div>
   </div>
-  
+
 </template>
 
 <style scoped>
   .campeao-representante__item {
     position: relative;
     display: flex;
+  }
+
+  .campeao-representante__item:hover {
+    cursor: pointer;
   }
 
   .campeao-representante__item__img {

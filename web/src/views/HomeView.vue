@@ -95,11 +95,36 @@
               @click="exibirInfoCampeao(campeao.imagem, campeao.nome)"
             />
           </div>
-                
-          <CampeaoRepresentanteLenda  
-          :imagem="campeaoInfoImage"
-          :nome="campeaoInfoNome"
-          />
+
+          <!-- <div class="campeao-representante__cartas">
+            <div class="cartas__estagio">
+              <div class="estagio__title"></div>
+              <div class="estagio__cartas">
+                <div class="cartas__item">
+                  <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
+                  <h3 class="carta__item__title">Titulo teste</h3>
+                  <p class="carta__item_description">descricao teste</p>
+                </div>
+                <div class="cartas__item">
+                  <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
+                  <h3 class="carta__item__title">Titulo teste</h3>
+                  <p class="carta__item_description">descricao teste</p>
+                </div>
+                <div class="cartas__item">
+                  <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
+                  <h3 class="carta__item__title">Titulo teste</h3>
+                  <p class="carta__item_description">descricao teste</p>
+                </div>
+              </div>
+
+            </div>
+          </div> -->
+          <div class="campeao__representate__lenda__container">
+            <CampeaoRepresentanteLenda  
+            :imagem="campeaoInfoImage"
+            :nome="campeaoInfoNome"
+            />
+          </div>      
         </div>
       </div>
     <!-- <ul>
@@ -116,6 +141,22 @@
 
 
 <style scoped>
+  .campeao-representante__cartas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .campeao__representate__lenda__container {
+    /* background-color: red; */
+    width: 100%;
+    max-width: 330px;
+    height: 100%;
+  }
+
+  /* ======================== */
 
   main {
     color: white;
@@ -191,26 +232,28 @@
   /* LENDAS */
 
   .campeao-representante {
-    border: 1px solid #fff;
-    border-radius: 10px;
+    border: 2px solid #573b12;
     margin: 50px 30px;
   }
 
   .campeao-representante__cabecalho {
-    background-color: blue;
+    background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78));
     text-transform: uppercase;
     padding: 10px 0;
     text-indent: 10px;
     font-family: var(--font-family-title);
+    border-bottom: 2px solid #573b12;
   }
   
   .campeao-representante__container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: green;
     height: 600px;
     width: 100%;
+    background-image: linear-gradient(to top, rgba(53, 26, 0, 0.705), rgba(0, 0, 27, 0.699));
+
   }
   
   .campeao-representante__representantes {
@@ -221,7 +264,9 @@
     height: 100%;
     padding: 40px 0;
     overflow: auto;
-    background-color: red;
+    
+    
+    border-right: 2px solid #573b12;
   }
 
 </style>
