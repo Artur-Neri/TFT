@@ -68,10 +68,5 @@
     "id" : 14,
     "nome" : "vladmir",
     "imagem" : "../../public/lendas-tft/vladmir-square.JPG"
-  },
-  {
-    "id" : 15,
-    "nome" : "poro",
-    "imagem" : "../../public/lendas-tft/poro-square.JPG"
   }
 ]

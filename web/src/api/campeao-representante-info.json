@@ -1,6 +1,6 @@
 [
   {
-    "id" : 1,
+    "id" : 0,
     "nome" : "aurelion sol",
     "imagem" : "../../public/lendas-tft/aurelion-sol.JPG",
     "cartas" : {
@@ -59,7 +59,7 @@
   },
 
   {
-    "id" : 2,
+    "id" : 1,
     "nome" : "bardo",
     "imagem" : "../../public/lendas-tft/bardo.JPG",
     "cartas" : {
@@ -118,7 +118,7 @@
   },
 
   {
-    "id" : 3,
+    "id" : 2,
     "nome" : "caitlyn",
     "imagem" : "../../public/lendas-tft/caitlyn.JPG",
     "cartas" : {
@@ -177,7 +177,7 @@
   },
 
   {
-    "id" : 4,
+    "id" : 3,
     "nome" : "draven",
     "imagem" : "../../public/lendas-tft/draven.JPG",
     "cartas" : {
@@ -236,7 +236,7 @@
   },
 
   {
-    "id" : 5,
+    "id" : 4,
     "nome" : "ezreal",
     "imagem" : "../../public/lendas-tft/ezreal.JPG",
     "cartas" : {
@@ -295,7 +295,7 @@
   },
 
   {
-    "id" : 6,
+    "id" : 5,
     "nome" : "lee sin",
     "imagem" : "../../public/lendas-tft/lee-sin.JPG",
     "cartas" : {
@@ -354,7 +354,7 @@
   },
 
   {
-    "id" : 7,
+    "id" : 6,
     "nome" : "master yi",
     "imagem" : "../../public/lendas-tft/master-yi.JPG",
     "cartas" : {
@@ -413,7 +413,7 @@
   },
 
   {
-    "id" : 8,
+    "id" : 7,
     "nome" : "ornn",
     "imagem" : "../../public/lendas-tft/ornn.JPG",
     "cartas" : {
@@ -472,7 +472,7 @@
   },
 
   {
-    "id" : 9,
+    "id" : 8,
     "nome" : "pingu",
     "imagem" : "../../public/lendas-tft/pingu.JPG",
     "cartas" : {
@@ -531,7 +531,7 @@
   },
 
   {
-    "id" : 10,
+    "id" : 9,
     "nome" : "tahm kench",
     "imagem" : "../../public/lendas-tft/tahm-kench.JPG",
     "cartas" : {
@@ -590,7 +590,7 @@
   },
 
   {
-    "id" : 11,
+    "id" : 10,
     "nome" : "twisted fate",
     "imagem" : "../../public/lendas-tft/twisted-fate.JPG",
     "cartas" : {
@@ -649,7 +649,7 @@
   },
 
   {
-    "id" : 12,
+    "id" : 11,
     "nome" : "urf",
     "imagem" : "../../public/lendas-tft/urf.JPG",
     "cartas" : {
@@ -708,7 +708,7 @@
   },
 
   {
-    "id" : 13,
+    "id" : 12,
     "nome" : "veigar",
     "imagem" : "../../public/lendas-tft/veigar.JPG",
     "cartas" : {
@@ -767,7 +767,7 @@
   },
 
   {
-    "id" : 14,
+    "id" : 13,
     "nome" : "vladmir",
     "imagem" : "../../public/lendas-tft/vladmir.JPG",
     "cartas" : {
@@ -823,11 +823,5 @@
           }]
         }
       }
-  },
-
-  {
-    "id" : 15,
-    "nome" : "poro",
-    "imagem" : "../../public/lendas-tft/poro.JPG"
   }
 ]

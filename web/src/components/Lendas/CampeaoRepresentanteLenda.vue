@@ -1,16 +1,17 @@
 <script setup>
   defineProps({
   nome: String,
-  imagem: String
-
+  imagem: String,
+  btnText: String,
 })
 
+  
 </script>
 
 <template>
   <div class="campeao-representante__lenda">
     <img :src="imagem" :alt="nome">
-    <button type="button" class="lenda__btn">Detalhes</button>
+    <button type="button" class="lenda__btn" id="lenda__btn">{{ btnText }}</button>
   </div>
 </template>
 

@@ -1,6 +1,5 @@
 <script setup>
   defineProps({
-  id: Int16Array,
   nome: String,
   imagem: String
 })

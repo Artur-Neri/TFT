@@ -1,19 +1,47 @@
 <script setup>
-  import { ref } from 'vue'
+  import { ref } from 'vue';
   import CampeaoRepresentante from '../components/Lendas/CampeaoRepresentante.vue';
   import CampeaoRepresentanteLenda from '../components/Lendas/CampeaoRepresentanteLenda.vue';
+  import CampeaoRepresentanteCartas from '../components/Lendas/CampeaoRepresentanteCartas.vue';
   import campeaoApi from '../api/campeao-representante.json';
-import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
+  import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
 </script>
 
 <script>
   const campeaoInfoImage = ref('../../public/lendas-tft/aurelion-sol.JPG')
   const campeaoInfoNome = ref('Aurelion Sol')
+  const campeaoId = ref(0)
+  const detail = ref('Detalhes')
+  const showCards = ref(false)
 
-  function exibirInfoCampeao (imagem, nome) {
+  function mudarId(id){
+    const botaoDetalhes = document.querySelector("#lenda__btn")
+    if (id != 15){
+      campeaoId.value = id-1
+      botaoDetalhes.disabled=false
+    } 
+    else {
+      botaoDetalhes.disabled=true
+    }
+  }
+
+  function exibirInfoCampeao (imagem, nome, id) {
     campeaoInfoImage.value = imagem.replace("-square", "")
     campeaoInfoNome.value = nome
+    mudarId(id)
   }
+
+
+  function changeReturn() {
+    if (detail.value === 'Detalhes'){
+      detail.value = 'Voltar'
+      showCards.value = true
+    } else if (detail.value === 'Voltar'){
+      detail.value = 'Detalhes'
+      showCards.value = false
+    }
+ }
+  
 
 </script>
 
@@ -37,62 +65,33 @@ import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
 
         <div class="campeao-representante__container">
           <div class="campeao-representante__representantes">
-            <CampeaoRepresentante 
-              v-for="campeao in campeaoApi"
-              :key="campeao.id"
-              :id="campeao.id"
-              :nome="campeao.nome"
-              :imagem="campeao.imagem"
-              @click="exibirInfoCampeao(campeao.imagem, campeao.nome)"
-            />
-
-            <div class="campeao-representante__cartas">
-            <div class="cartas__estagio">
-              <div class="estagio__title">
-                <h3>AQUI VAI O TITULO</h3>
-              </div>
-              <div class="estagio__cartas">
-                <div class="cartas__item">
-                  <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
-                  <div class="carta__item_description">
-                    <h3 class="carta__item__title">Titulo teste</h3>
-                    <p class="carta__item_text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime quasi veritatis illo itaque corrupti dolores modi quia sapiente dignissimos. Corporis inventore autem est aliquid et cum enim molestiae sequi.
-                    </p>
-                  </div>
-                </div>
-                <div class="cartas__item">
-                  <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
-                  <div class="carta__item_description">
-                    <h3 class="carta__item__title">Titulo teste</h3>
-                    <p class="carta__item_text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime quasi veritatis illo itaque corrupti dolores modi quia sapiente dignissimos. Corporis inventore autem est aliquid et cum enim molestiae sequi.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime quasi veritatis illo itaque corrupti dolores modi quia sapiente dignissimos. Corporis inventore autem est aliquid et cum enim molestiae sequi.
-                    </p>
-                  </div>
-                </div>
-                <div class="cartas__item">
-                  <img src="../../public/efeitos-cartas-tft/tier1/afk.jpg" alt="" class="carta__item__img">
-                  <div class="carta__item_description">
-                    <h3 class="carta__item__title">Titulo teste</h3>
-                    <p class="carta__item_text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime quasi veritatis illo itaque corrupti dolores modi quia sapiente dignissimos. Corporis inventore autem est aliquid et cum enim molestiae sequi.
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="soTestando">
+              <CampeaoRepresentante 
+                v-for="campeao in campeaoApi"
+                :key="campeao.id"
+                :id="campeao.id"
+                :nome="campeao.nome"
+                :imagem="campeao.imagem"
+                @click="exibirInfoCampeao(campeao.imagem, campeao.nome, campeao.id)"
+              />
             </div>
-          </div>
+            <CampeaoRepresentanteCartas
+            :id="campeaoId"
+            :isActive="showCards"
+            />
 
           </div>
 
           <div class="campeao__representate__lenda__container">
-            <CampeaoRepresentanteLenda  
+            <CampeaoRepresentanteLenda 
             :imagem="campeaoInfoImage"
             :nome="campeaoInfoNome"
+            :btnText="detail"
+            @click="changeReturn()"
             />
           </div>      
         </div>
+        
       </div>
 
       <div class="efeito-partida">
@@ -126,58 +125,6 @@ import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
 
 
 <style scoped>
-
-/* ============== cartas ============== */
-  .campeao-representante__cartas {
-    display: none;
-    position: absolute;
-    /*QUANDO CLICAR NO DETALHES MUDAR PARA 0 */
-    left: 100%; 
-    top: 0;
-    background-image: linear-gradient(to top, rgba(53, 26, 0), rgba(0, 0, 27));
-    height: 100%;
-    width: 100%;
-  }
-
-  .cartas__estagio {
-    padding: 20px 0;
-    text-align: center;
-  }
-
-  .estagio__cartas {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 0;
-  }
-
-  .cartas__item {
-    background-color: rgb(58, 1, 1);
-    border: 2px solid #573b12;
-    border-radius: 12px;
-    padding: 0 2px;
-    width: 300px;
-  }
-
-  .cartas__item img {
-    width: 250px;
-  }
-
-  .carta__item__title {
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 12px;
-  }
-
-  .carta__item_text {
-    overflow: auto;
-    height: 150px;
-    padding: 12px;
-    text-align: justify;
-  }
-
-  
 
   /* ================== lendas ==================*/
   .campeao__representate__lenda__container {
@@ -255,8 +202,19 @@ import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
     height: 100%;
     padding: 40px 0;
     border-right: 2px solid #573b12;
-    overflow-y: auto;
     overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .soTestando {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
 </style>
