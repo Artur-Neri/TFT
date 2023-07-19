@@ -7,6 +7,7 @@
   --vt-c-preto: #000;
   --vt-c-cinza: #606060;
 
+
   /* Fonts */
   --vt-f-bree-serif: 'Bree Serif', serif;
   --vt-f-roboto:'Roboto', sans-serif;
@@ -14,6 +15,20 @@
   --vt-f-p: 1rem;
   --vt-f-m: 1.5rem;
   --vt-f-g: 2rem;
+
+  /* REGIÕES REFORJADAS */
+  --vt-c-noxus: #3a0101;
+  --vt-c-ionia: #2f8a8d;
+  --vt-c-yordle: #999913;
+  --vt-c-shurima: #998013;
+  --vt-c-piltover: #425872;
+  --vt-c-zaun: #237005;
+  --vt-c-demacia: #dab901;
+  --vt-c-sombras: #216d37;
+  --vt-c-vazio: #510369;
+  --vt-c-freljord: #547bac;
+  --vt-c-targon: #1e0369;
+
 }
 
 /* semantic color variables for this project */

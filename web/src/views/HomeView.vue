@@ -101,9 +101,20 @@
 
         <div class="efeito__content">
           <div class="efeito__content__item">
-            <img src="../../public/bg-tft.png" alt="" class="efeito__item__img">
+            <img src="../../public/origens-tft/noxus-origem.png" alt="" class="efeito__item__img">
             <div class="efeito__content__text">
               <h3 class="efeito__item__title">Noxus</h3>
+              <p class="efeito__item__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
+              </p>
+            </div>
+          </div>
+
+          <div class="efeito__content__item ionia">
+            <img src="../../public/origens-tft/ionia-origem.png" alt="" class="efeito__item__img">
+            <div class="efeito__content__text">
+              <h3 class="efeito__item__title">Ionia</h3>
               <p class="efeito__item__description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
@@ -238,17 +249,20 @@
 
   .efeito__partida {
     margin: 0 30px;
-    
-    border: 2px solid #573b12;
+    /* border: 2px solid #573b12; */
+    /* background-color: #03033b; */
+
   }
 
   .efeito__partida__cabecalho {
-    background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78));
+    /* background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78)); */
+    /* background-color: rgb(0, 0, 78); */
+    /* background-color: #03033b; */
     text-transform: uppercase;
     padding: 10px 0;
     text-indent: 10px;
     font-family: var(--font-family-title);
-    border-bottom: 2px solid #573b12;
+    /* border-bottom: 2px solid #573b12; */
   }
 
 
@@ -260,22 +274,33 @@
     padding: 40px;
     align-items: center;
     width: 100%;
-    background-image: linear-gradient(to top,rgba(0, 0, 27, 0.699) , rgba(53, 26, 0, 0.705));
+    /* background-image: linear-gradient(to top,rgba(0, 0, 27, 0.699) , rgba(53, 26, 0, 0.705)); */
 
   }
 
   .efeito__content__item{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-content: center;
     justify-content: center;
-    width: 350px;
-    border: 3px solid rgb(163, 133, 0);
+    padding: 10px;
+    width: 500px;
+    /* border: 3px solid rgb(163, 133, 0); */
+    background-color: #3a0101;
     transition: .3s ease-in-out;
   }
 
+  .ionia {
+    background-color: #216d37;
+  }
+
+  .cor {
+    background-color: rgb(189, 189, 25);
+  }
+
   .efeito__item__img{
-    width: 100%;
+    width: 20%;
+    align-self: center;
   }
 
   .efeito__content__text {
@@ -285,17 +310,14 @@
   .efeito__item__title{
     font-family: var(--font-family-title);
     text-align: center;
-    background-color: rgb(58, 1, 1);
-    border-top: 3px solid rgb(163, 133, 0);
-    border-bottom: 3px solid rgb(163, 133, 0);
+    /* border-top: 3px solid rgb(163, 133, 0); */
+    /* border-bottom: 3px solid rgb(163, 133, 0); */
   }
 
   .efeito__item__description {
     height: 100px;
     width: 100%;
-    background-color: rgb(207, 207, 207);
-    color: black;
-    padding: 0 5px;
+    padding: 0 10px;
     font-weight: 500;
     overflow: auto;
   }

@@ -15,7 +15,6 @@ import { RouterLink, RouterView } from 'vue-router'
           <RouterLink to="/campeoes" class="nav__item"><span>Campeões</span></RouterLink>
           <RouterLink to="/composicoes" class="nav__item"><span>Composições</span></RouterLink>
           <RouterLink to="/itens" class="nav__item"><span>Itens</span></RouterLink>
-          
         </nav>
         <RouterView />
       </main>
