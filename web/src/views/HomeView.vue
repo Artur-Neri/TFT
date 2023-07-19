@@ -91,12 +91,28 @@
             />
           </div>      
         </div>
-        
       </div>
 
-      <div class="efeito-partida">
-        <h2>Efeito da partida</h2>
+
+      <div class="efeito__partida">
+        <div class="efeito__partida__cabecalho">
+          <h2>Efeito da partida</h2>
+        </div>
+
+        <div class="efeito__content">
+          <div class="efeito__content__item">
+            <img src="../../public/bg-tft.png" alt="" class="efeito__item__img">
+            <div class="efeito__content__text">
+              <h3 class="efeito__item__title">Noxus</h3>
+              <p class="efeito__item__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
 
       <div class="raridade-nivel">
         <h2>chance de raridade por nível</h2>
@@ -172,6 +188,7 @@
   .campeao-representante {
     border: 2px solid #573b12;
     margin: 50px 30px;
+    
   }
 
   .campeao-representante__cabecalho {
@@ -215,6 +232,72 @@
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+  }
+
+  /* ================== EFEITOS PARTIDA ================== */
+
+  .efeito__partida {
+    margin: 0 30px;
+    
+    border: 2px solid #573b12;
+  }
+
+  .efeito__partida__cabecalho {
+    background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78));
+    text-transform: uppercase;
+    padding: 10px 0;
+    text-indent: 10px;
+    font-family: var(--font-family-title);
+    border-bottom: 2px solid #573b12;
+  }
+
+
+  .efeito__content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0, 0, 27, 0.699) , rgba(53, 26, 0, 0.705));
+
+  }
+
+  .efeito__content__item{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 350px;
+    border: 3px solid rgb(163, 133, 0);
+    transition: .3s ease-in-out;
+  }
+
+  .efeito__item__img{
+    width: 100%;
+  }
+
+  .efeito__content__text {
+    width: 100%;
+  }
+
+  .efeito__item__title{
+    font-family: var(--font-family-title);
+    text-align: center;
+    background-color: rgb(58, 1, 1);
+    border-top: 3px solid rgb(163, 133, 0);
+    border-bottom: 3px solid rgb(163, 133, 0);
+  }
+
+  .efeito__item__description {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(207, 207, 207);
+    color: black;
+    padding: 0 5px;
+    font-weight: 500;
+    overflow: auto;
   }
 
 </style>
