@@ -1,9 +1,9 @@
 <script setup>
   import { ref } from 'vue';
+  import campeaoApi from '../api/campeao-representante-info.json';
   import CampeaoRepresentante from '../components/Lendas/CampeaoRepresentante.vue';
   import CampeaoRepresentanteLenda from '../components/Lendas/CampeaoRepresentanteLenda.vue';
   import CampeaoRepresentanteCartas from '../components/Lendas/CampeaoRepresentanteCartas.vue';
-  import campeaoApi from '../api/campeao-representante.json';
   import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
 </script>
 
@@ -71,8 +71,8 @@
                 :key="campeao.id"
                 :id="campeao.id"
                 :nome="campeao.nome"
-                :imagem="campeao.imagem"
-                @click="exibirInfoCampeao(campeao.imagem, campeao.nome, campeao.id)"
+                :imagem="campeao.imagemCircle"
+                @click="exibirInfoCampeao(campeao.imagemCircle, campeao.nome, campeao.id)"
               />
             </div>
             <CampeaoRepresentanteCartas
@@ -148,8 +148,6 @@
     </ul> -->
   </main>
 </template>
-
-
 
 <style scoped>
 

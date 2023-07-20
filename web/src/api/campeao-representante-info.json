@@ -3,6 +3,7 @@
     "id" : 0,
     "nome" : "aurelion sol",
     "imagem" : "../../public/lendas-tft/aurelion-sol.JPG",
+    "imagemCircle" : "../../public/lendas-tft/aurelion-sol-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -12,8 +13,8 @@
           }],
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/patientstudy.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/levelup.jpg"
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
             }],
           "descricao" : [{
             "tier1": "Subir de nível custa menos 3 de EXP. Agora é possível chagar até o nível 10.",
@@ -29,8 +30,8 @@
           }],
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/knowledge.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/knowledge-download.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/knowledge-download.jpg"
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 16 de EXP",
@@ -46,8 +47,8 @@
           }],
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/it-pays-to-learn.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/it-pays-to-learn.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/it-pays-to-learn.jpg"
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 10 de EXP e 10 de ouro.",
@@ -62,6 +63,7 @@
     "id" : 1,
     "nome" : "bardo",
     "imagem" : "../../public/lendas-tft/bardo.JPG",
+    "imagemCircle" : "../../public/lendas-tft/bardo-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -70,9 +72,9 @@
             "tier3": "escolhido do protetor"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/caretakers-ally.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/caretakers-favor.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/caretakers-chosen.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Ao alcançar o nível 6, recebe uma unidade tier 3 de 2 estrelas.",
@@ -87,9 +89,9 @@
             "tier3": "forja grande"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/iron-assets.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/medium-forge.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/large-forge.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe uma Bigorna de Componente e 6 de ouro.",
@@ -104,9 +106,9 @@
             "tier3": "visão dobrada iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 1 item completo a partir de dois exemplares do mesmo componente e 1 de ouro.",
@@ -121,6 +123,7 @@
     "id" : 2,
     "nome" : "caitlyn",
     "imagem" : "../../public/lendas-tft/caitlyn.JPG",
+    "imagemCircle" : "../../public/lendas-tft/caitlyn-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -129,9 +132,9 @@
             "tier3": "kit de iniciante"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/onetwosthree.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/starter-kit.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe uma unidade de Tier 1, 2 unidades de Tier 2 e uma unidade de Tier 3.",
@@ -146,9 +149,9 @@
             "tier3": "Download de conhecimento iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/knowledge.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/knowledge-download.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/knowledge-download.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 16 de EXP",
@@ -163,9 +166,9 @@
             "tier3": "troca sem fim iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/rolling-for-days.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/rolling-for-days.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/rolling-for-days.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 12 atualizações gratuitas da Loja, que acumulam entre rodads.",
@@ -180,6 +183,7 @@
     "id" : 3,
     "nome" : "draven",
     "imagem" : "../../public/lendas-tft/draven.JPG",
+    "imagemCircle" : "../../public/lendas-tft/draven-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -188,9 +192,9 @@
             "tier3": "depojos de guerra iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/spoils-of-war.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/spoils-of-war.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/spoils-of-war.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Unidades inimigas têm 25% de chance de conceder espólios ao serem abatidas.",
@@ -205,9 +209,9 @@
             "tier3": "orçamento equilibrado iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/balanced-budget.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/balanced-budget.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/balanced-budget.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "No início das próximas 4 rodadas, recebe 5 de ouro.",
@@ -222,9 +226,9 @@
             "tier3": "troca sem fim iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/rolling-for-days.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/rolling-for-days.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/rolling-for-days.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 12 atualizações gratuitas da Loja, que acumulam entre rodads.",
@@ -239,6 +243,7 @@
     "id" : 4,
     "nome" : "ezreal",
     "imagem" : "../../public/lendas-tft/ezreal.JPG",
+    "imagemCircle" : "../../public/lendas-tft/ezreal-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -247,9 +252,9 @@
             "tier3": "tesouros enterrados iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/buriedtreasures.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/buriedtreasures.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/buriedtreasures.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe um componente aleatório de item e 1 de ouro no início das próximas 2 rodadas (incluindo a rodada atual).",
@@ -264,9 +269,9 @@
             "tier3": "saco de brindes gigante"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/tiny-grab-bag.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/big-grab-bag.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/giant-grab-bag.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe um componente aleatório, 8 de ouro e um Removedor Magnético.",
@@ -281,9 +286,9 @@
             "tier3": "confortos merecidos iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/well-earned-comforts-legend.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/well-earned-comforts.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/well-earned-comforts.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Suas unidades recebem 60 de Vida por cada item equipado.",
@@ -298,6 +303,7 @@
     "id" : 5,
     "nome" : "lee sin",
     "imagem" : "../../public/lendas-tft/lee-sin.JPG",
+    "imagemCircle" : "../../public/lendas-tft/lee-sin-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -306,9 +312,9 @@
             "tier3": "maratona de compras"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/on-a-roll.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/tradesector.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Sempre que aumentar o nível de um Campeão, recebe uma atualização gratuita da Loja, até 2 vez(es) por turno.",
@@ -323,9 +329,9 @@
             "tier3": "recompensa do treinamento iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/training-reward.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/training-reward-legend.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/training-reward.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 7 de ouro e um Duplicador de Campeão Inferior.",
@@ -340,9 +346,9 @@
             "tier3": "dinheiro, dinheiro, dinheiro!"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/money.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/money.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/money.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 12 de ouro. Em 4 rodadas, recebe 12 de ouro novamente.",
@@ -357,6 +363,7 @@
     "id" : 6,
     "nome" : "master yi",
     "imagem" : "../../public/lendas-tft/master-yi.JPG",
+    "imagemCircle" : "../../public/lendas-tft/master-yi-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -365,9 +372,9 @@
             "tier3": "impulsionando iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/pumpingup.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/pumpingup.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/pumpingup.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Suas unidades recebem 8% de Velocidade de Ataque. A cada rodada, aumenta este efeito em 0.5%. (Velocidade de Ataque atual: %)",
@@ -382,9 +389,9 @@
             "tier3": "prontidão para batalha iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/battle-ready.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/battle-ready.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/battle-ready.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Sua equipe causa 3% de dano a mais e sofre 3% de dano a menos.",
@@ -399,9 +406,9 @@
             "tier3": "depressa! iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/gotta-go-fast.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/gotta-go-fast.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/gotta-go-fast.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Suas unidades geram 10% a mais de Mana e se movimentaram 20% mais rápido.",
@@ -416,6 +423,7 @@
     "id" : 7,
     "nome" : "ornn",
     "imagem" : "../../public/lendas-tft/ornn.JPG",
+    "imagemCircle" : "../../public/lendas-tft/ornn-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -424,9 +432,9 @@
             "tier3": "forja viva"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/latentforge.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/portable-forge.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/livingforge.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe uma Bigorna de Item de Ornn depois de 8 combates entre jogadores.",
@@ -441,9 +449,9 @@
             "tier3": "forja grande"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/small-forge.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/medium-forge.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/large-forge.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe uma Bigorna de Componente e 6 de ouro.",
@@ -458,9 +466,9 @@
             "tier3": "trabalho magistral"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/jobs-done.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/job-well-done.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/masterful-job.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 2 Bigornas de Componentes.",
@@ -475,6 +483,7 @@
     "id" : 8,
     "nome" : "pingu",
     "imagem" : "../../public/lendas-tft/pingu.JPG",
+    "imagemCircle" : "../../public/lendas-tft/pingu-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -483,9 +492,9 @@
             "tier3": "minititã"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/tinytitans.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/metabolicaccelerator.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/tiniesttitan.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Seu Estrategista cura 30 de Vida, cresce de tamanho e tem 130 de Vida máxima.",
@@ -500,9 +509,9 @@
             "tier3": "saco de brindes de itens iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/item-grab-bag.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/item-grab-bag.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 1 item completo aleatório.",
@@ -517,9 +526,9 @@
             "tier3": "saco de brindes do urf"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/final-grab-bag.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/final-grab-bag.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/urfsgrabbag.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe um componente aleatório, 12 de ouro e um Reforjador.",
@@ -534,6 +543,7 @@
     "id" : 9,
     "nome" : "tahm kench",
     "imagem" : "../../public/lendas-tft/tahm-kench.JPG",
+    "imagemCircle" : "../../public/lendas-tft/tahm-kench-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -542,9 +552,9 @@
             "tier3": "fundo de garantia"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/afk.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/richgetricher.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Você não pode realizar ações nas próximas 3 rodadas. Depois disso, você receberá 18 de ouro.",
@@ -559,9 +569,9 @@
             "tier3": "orçamento equilibrado iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/balanced-budget.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/balanced-budget.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/balanced-budget.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "No início das próximas 4 rodadas, recebe 5 de ouro.",
@@ -576,9 +586,9 @@
             "tier3": "dinheiro, dinheiro, dinheiro!"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/money.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/money.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/money.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 12 de ouro. Em 4 rodadas, recebe 12 de ouro novamente.",
@@ -593,6 +603,7 @@
     "id" : 10,
     "nome" : "twisted fate",
     "imagem" : "../../public/lendas-tft/twisted-fate.JPG",
+    "imagemCircle" : "../../public/lendas-tft/twisted-fate-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -601,9 +612,9 @@
             "tier3": "caixa de pandora"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/pandora.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/pandorasitems.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/pandorasbox.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe um componente aleatório. Início de Rodada: os itens na sua reserva são trocados aleatoriamente por outros (exceto Coroa do Estrategista, Espátula e consumíveis).",
@@ -618,9 +629,9 @@
             "tier3": "saco de brindes de itens iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/item-grab-bag.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/item-grab-bag.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 1 item completo aleatório.",
@@ -635,9 +646,9 @@
             "tier3": "visão dobrada iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe 1 item completo a partir de dois exemplares do mesmo componente e 1 de ouro.",
@@ -652,6 +663,7 @@
     "id" : 11,
     "nome" : "urf",
     "imagem" : "../../public/lendas-tft/urf.JPG",
+    "imagemCircle" : "../../public/lendas-tft/urf-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -660,9 +672,9 @@
             "tier3": "arquivos ancestrais ii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/branching-out.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/ancientarchives.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/ancientarchives.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe um Emblema aleatório e um Reforjador.",
@@ -677,9 +689,9 @@
             "tier3": "saco de brindes gigante"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/tiny-grab-bag.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/big-grab-bag.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/giant-grab-bag.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe um componente aleatório, 8 de ouro e um Removedor Magnético.",
@@ -694,9 +706,9 @@
             "tier3": "saco de brindes do urf"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/final-grab-bag.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/final-grab-bag.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/urfsgrabbag.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Recebe um componente aleatório, 12 de ouro e um Reforjador.",
@@ -711,6 +723,7 @@
     "id" : 12,
     "nome" : "veigar",
     "imagem" : "../../public/lendas-tft/veigar.JPG",
+    "imagemCircle" : "../../public/lendas-tft/veigar-square.JPG",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -720,8 +733,8 @@
           }],
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/jeweledlotus.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/jeweledlotus.jpg"
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Início do combate: sua unidade mais forte recebe 25% de Chance de Acerto Crítico e suas habilidades podem causar Acertos Críticos.",
@@ -736,9 +749,9 @@
             "tier3": "minipoder iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/tiny-power.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/tiny-power.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/tiny-power.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Suas unidades recebem 8% de Dano de Ataque, Poder de Habilidade e Velocidade de Ataque.",
@@ -753,9 +766,9 @@
             "tier3": "ascensão final"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/ascension.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/ascension.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/ascension.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Depois de 15s de combate, suas unidades causam mais de 30% de dano.",
@@ -770,6 +783,7 @@
     "id" : 13,
     "nome" : "vladmir",
     "imagem" : "../../public/lendas-tft/vladmir.JPG",
+    "imagemCircle" : "../../public/lendas-tft/vladmir-square.jpg",
     "cartas" : {
         "turno1": {
           "nome" : [{
@@ -779,8 +793,8 @@
           }],
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/transfusion.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/transfusion.jpg"
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Suas unidades recebem 20 de Vida mais 2 a cada ponto de Vida perdido pelo Estrategista.",
@@ -795,9 +809,9 @@
             "tier3": "prontidão para batalha iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/battle-ready.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/battle-ready.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/battle-ready.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Sua equipe causa 3% de dano a mais e sofre 3% de dano a menos.",
@@ -812,9 +826,9 @@
             "tier3": "ascensão final"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/ascension.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/ascension.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/ascension.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg",
+            "tier3": "../../public/efeitos-cartas-tft/tier1/cutting-corners.jpg"
           }],
           "descricao" : [{
             "tier1": "Depois de 15s de combate, suas unidades causam mais de 30% de dano.",
