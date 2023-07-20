@@ -15,14 +15,7 @@
   const showCards = ref(false)
 
   function mudarId(id){
-    const botaoDetalhes = document.querySelector("#lenda__btn")
-    if (id != 15){
-      campeaoId.value = id-1
-      botaoDetalhes.disabled=false
-    } 
-    else {
-      botaoDetalhes.disabled=true
-    }
+    campeaoId.value = id
   }
 
   function exibirInfoCampeao (imagem, nome, id) {
