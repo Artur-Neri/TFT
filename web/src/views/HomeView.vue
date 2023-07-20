@@ -1,9 +1,9 @@
 <script setup>
   import { ref } from 'vue';
-  import campeaoApi from '../api/campeao-representante-info.json';
   import CampeaoRepresentante from '../components/Lendas/CampeaoRepresentante.vue';
   import CampeaoRepresentanteLenda from '../components/Lendas/CampeaoRepresentanteLenda.vue';
   import CampeaoRepresentanteCartas from '../components/Lendas/CampeaoRepresentanteCartas.vue';
+  import campeaoApi from '../api/campeao-representante-info.json';
   import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
 </script>
 
@@ -168,6 +168,8 @@
     </ul> -->
   </main>
 </template>
+
+
 
 <style scoped>
 
