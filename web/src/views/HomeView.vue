@@ -60,7 +60,7 @@
     
       <div class="campeao-representante">
         <div class="campeao-representante__cabecalho">
-          <h2 class="campeao-representante__cabecalho__titulo">Lendas</h2>
+          <h2 class="campeao-representante__cabecalho__title">Lendas</h2>
         </div>
 
         <div class="campeao-representante__container">
@@ -126,15 +126,35 @@
 
 
       <div class="raridade-nivel">
-        <h2>chance de raridade por nível</h2>
+        <div class="raridade-nivel__cabecalho">
+          <h2 class="raridade-nivel__cabecalho__title">chance de raridade por nível</h2>
+        </div>
       </div>
+
+      <div class="raridade-nivel__container">
+
+      </div>
+
 
       <div class="juros">
-        <h2>juros</h2>
+        <div class="juros__cabecalho">
+          <h2 class="juros__cabecalho__title">juros</h2>
+        </div>
       </div>
 
+      <div class="juros__container">
+
+      </div>
+
+
       <div class="mobs">
-        <h2>mobs</h2>
+        <div class="mobs__cabecalho">
+          <h2 class="mobs__cabecalho__title">mobs</h2>
+        </div>
+      </div>
+
+      <div class="mobs__container">
+
       </div>
 
 
@@ -196,13 +216,13 @@
 
   /* LENDAS */
 
-  .campeao-representante {
+  .campeao-representante, .raridade-nivel, .juros, .mobs {
     border: 2px solid #573b12;
     margin: 50px 30px;
     
   }
 
-  .campeao-representante__cabecalho {
+  .campeao-representante__cabecalho, .raridade-nivel__cabecalho, .juros__cabecalho, .mobs__cabecalho {
     background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78));
     text-transform: uppercase;
     padding: 10px 0;
