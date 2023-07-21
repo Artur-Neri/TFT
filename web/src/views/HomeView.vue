@@ -5,6 +5,7 @@
   import CampeaoRepresentanteCartas from '../components/Lendas/CampeaoRepresentanteCartas.vue';
   import campeaoApi from '../api/campeao-representante-info.json';
   import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
+import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 </script>
 
 <script>
@@ -86,37 +87,23 @@
         </div>
       </div>
 
-
       <div class="efeito__partida">
         <div class="efeito__partida__cabecalho">
           <h2>Efeito da partida</h2>
         </div>
 
         <div class="efeito__content">
-          <div class="efeito__content__item">
-            <img src="../../public/origens-tft/noxus-origem.png" alt="" class="efeito__item__img">
-            <div class="efeito__content__text">
-              <h3 class="efeito__item__title">Noxus</h3>
-              <p class="efeito__item__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
-              </p>
-            </div>
-          </div>
+          <EfeitoPartida   
+            imagem="../../../public/origens-tft/noxus-origem.png"
+            nome="noxus"
+          />
 
-          <div class="efeito__content__item ionia">
-            <img src="../../public/origens-tft/ionia-origem.png" alt="" class="efeito__item__img">
-            <div class="efeito__content__text">
-              <h3 class="efeito__item__title">Ionia</h3>
-              <p class="efeito__item__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dicta corporis repellat excepturi ab impedit ut ipsa consectetur, nobis molestiae illo earum provident corrupti dolore vitae voluptates ducimus. Eum, sequi.
-              </p>
-            </div>
-          </div>
+          <EfeitoPartida   
+            imagem="../../../public/origens-tft/ionia-origem.png"
+            nome="ionia"
+          />
         </div>
       </div>
-
 
       <div class="raridade-nivel">
         <div class="raridade-nivel__cabecalho">
@@ -258,26 +245,25 @@
     overflow-y: auto;
   }
 
-  /* ================== EFEITOS PARTIDA ================== */
+  /* ========= EFEITOS DA PARIDA ================== */
 
   .efeito__partida {
     margin: 0 30px;
+    height: 400px;
     /* border: 2px solid #573b12; */
     /* background-color: #03033b; */
-
   }
 
   .efeito__partida__cabecalho {
-    /* background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78)); */
-    /* background-color: rgb(0, 0, 78); */
-    /* background-color: #03033b; */
     text-transform: uppercase;
     padding: 10px 0;
     text-indent: 10px;
     font-family: var(--font-family-title);
+    /* background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78)); */
+    /* background-color: rgb(0, 0, 78); */
+    /* background-color: #03033b; */
     /* border-bottom: 2px solid #573b12; */
   }
-
 
   .efeito__content{
     display: flex;
@@ -288,51 +274,6 @@
     align-items: center;
     width: 100%;
     /* background-image: linear-gradient(to top,rgba(0, 0, 27, 0.699) , rgba(53, 26, 0, 0.705)); */
-
-  }
-
-  .efeito__content__item{
-    display: flex;
-    /* flex-direction: column; */
-    align-content: center;
-    justify-content: center;
-    padding: 10px;
-    width: 500px;
-    /* border: 3px solid rgb(163, 133, 0); */
-    background-color: #3a0101;
-    transition: .3s ease-in-out;
-  }
-
-  .ionia {
-    background-color: #216d37;
-  }
-
-  .cor {
-    background-color: rgb(189, 189, 25);
-  }
-
-  .efeito__item__img{
-    width: 20%;
-    align-self: center;
-  }
-
-  .efeito__content__text {
-    width: 100%;
-  }
-
-  .efeito__item__title{
-    font-family: var(--font-family-title);
-    text-align: center;
-    /* border-top: 3px solid rgb(163, 133, 0); */
-    /* border-bottom: 3px solid rgb(163, 133, 0); */
-  }
-
-  .efeito__item__description {
-    height: 100px;
-    width: 100%;
-    padding: 0 10px;
-    font-weight: 500;
-    overflow: auto;
   }
 
 </style>
