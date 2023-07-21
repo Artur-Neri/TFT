@@ -107,24 +107,115 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
       <div class="raridade-nivel">
         <div class="raridade-nivel__cabecalho">
-          <h2 class="raridade-nivel__cabecalho__title">chance de raridade por nível</h2>
+          <h2 class="raridade-nivel__cabecalho__title">chance por nível</h2>
+        </div>
+
+        <div class="raridade-nivel__container">
+          <div class="raridade-nivel__seletor">
+            <h3 class="raridade-nivel__seletor__title">Nível</h3>
+            <div class="raridade-nivel__seletor__niveis">
+              <div class="niveis-cima niveis">
+                <input type="radio" name="nivel" id="nivel1" checked>
+                <label for="nivel1">1</label>
+                <input type="radio" name="nivel" id="nivel2">
+                <label for="nivel2">2</label>
+                <input type="radio" name="nivel" id="nivel3">
+                <label for="nivel3">3</label>
+                <input type="radio" name="nivel" id="nivel4">
+                <label for="nivel4">4</label>
+                <input type="radio" name="nivel" id="nivel5">
+                <label for="nivel5">5</label>
+              </div>
+              <div class="niveis-baixo niveis">
+                <input type="radio" name="nivel" id="nivel6">
+                <label for="nivel6">6</label>
+                <input type="radio" name="nivel" id="nivel7">
+                <label for="nivel7">7</label>
+                <input type="radio" name="nivel" id="nivel8">
+                <label for="nivel8">8</label>
+                <input type="radio" name="nivel" id="nivel9">
+                <label for="nivel9">9</label>
+                <input type="radio" name="nivel" id="nivel10">
+                <label for="nivel10">10</label>
+              </div>
+              
+            </div>
+          </div>
+            
+          <div class="raridade-nivel__info">
+            <div class="raridade-nivel__info__chance">
+              <h3 class="info__chance__title">chance</h3>
+              <div class="info__chance__content">
+                <div class="info__chance__t1 flex">
+                  <div class="box tier1"></div>
+                  <p class="info__chance__chance">100%</p>
+                </div>
+
+                <div class="info__chance__t2 flex">
+                  <div class="box tier2"></div>
+                  <p class="info__chance__chance">100%</p>
+                </div>
+
+                <div class="info__chance__t3 flex">
+                  <div class="box tier3"></div>
+                  <p class="info__chance__chance">100%</p>
+                </div>
+
+                <div class="info__chance__t4 flex">
+                  <div class="box tier4"></div>
+                  <p class="info__chance__chance">100%</p>
+                </div>
+
+                <div class="info__chance__t5 flex">
+                  <div class="box tier5"></div>
+                  <p class="info__chance__chance">100%</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="raridade-nivel__info__custo">
+              <h3 class="info__custo__title">custo</h3>
+              <div class="info__custo__content">
+                <div class="info__custo__t1">
+                  <p class="info__custo__custo">1</p>
+                  <img src="../../public/coin.png" alt="moedas"/>
+                </div>
+                <div class="info__custo__t2">
+                  <p class="info__custo__custo">2</p>
+                  <img src="../../public/coin.png" alt="moedas"/>
+                </div>
+                <div class="info__custo__t3">
+                  <p class="info__custo__custo">3</p>
+                  <img src="../../public/coin.png" alt="moedas"/>
+                </div>
+                <div class="info__custo__t4">
+                  <p class="info__custo__custo">4</p>
+                  <img src="../../public/coin.png" alt="moedas"/>
+                </div>
+                <div class="info__custo__t5">
+                  <p class="info__custo__custo">5</p>
+                  <img src="../../public/coin.png" alt="moedas"/>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="juros">
+          <div class="juros__cabecalho">
+            <h2 class="juros__cabecalho__title">juros</h2>
+          </div>
+        </div>
+
+        <div class="juros__container">
+
         </div>
       </div>
 
-      <div class="raridade-nivel__container">
-
-      </div>
-
-
-      <div class="juros">
-        <div class="juros__cabecalho">
-          <h2 class="juros__cabecalho__title">juros</h2>
-        </div>
-      </div>
-
-      <div class="juros__container">
-
-      </div>
+      
 
 
       <div class="mobs">
@@ -153,12 +244,107 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
 <style scoped>
 
+/* =============== Raridade Nível ================ */
+
+  .raridade-nivel__container {
+    margin: 50px 30px;
+    font-size: var(--vt-f-m);
+  }
+  .raridade-nivel__seletor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .raridade-nivel__seletor__niveis {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .raridade-nivel__seletor__niveis input {
+    display: none;
+  }
+
+  .niveis label {
+    text-align: center;
+  width: 39px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+  .niveis label:hover {
+    cursor: pointer;
+  }
+
+  .niveis input:checked+label {
+  background-color: #bbbbbb28;
+}
+
+  .niveis {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    margin: 5px;
+  }
+
+  .info__chance__content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .raridade-nivel__info {
+    display: flex;
+    gap: 50px;
+  }
+
+  .info__custo__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info__custo__content > * {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+  }
+
+  .box {
+    width: 32px;
+    height: 32px;
+  }
+
+  .tier1 {
+    background-color: var(--tier1);
+  }
+  .tier2 {
+    background-color: var(--tier2);
+  }
+  .tier3 {
+    background-color: var(--tier3);
+  }
+  .tier4 {
+    background-color: var(--tier4);
+  }
+  .tier5 {
+    background-color: var(--tier5);
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
   /* ================== lendas ==================*/
   .campeao__representate__lenda__container {
     width: 100%;
     max-width: 330px;
     height: 100%;
   }
+
 
   /* ======================== */
 
