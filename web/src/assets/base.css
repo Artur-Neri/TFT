@@ -29,6 +29,12 @@
   --vt-c-freljord: #547bac;
   --vt-c-targon: #1e0369;
 
+  /* RARIDADE */
+  --tier1: #808080;
+  --tier2: #2ec500;
+  --tier3: #0d048e;
+  --tier4: #7c0491;
+  --tier5: #e7dc07;
 }
 
 /* semantic color variables for this project */
