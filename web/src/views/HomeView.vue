@@ -1,19 +1,30 @@
 <script setup>
   import { ref } from 'vue';
+  // API
+  import campeaoApi from '../api/campeao-representante-info.json';
+  import efeitoApi from '../api/efeitos-partida.json';
+  import raridadeApi from '../api/raridade-nivel.json';
+  // COMPONENTES
+  import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
   import CampeaoRepresentante from '../components/Lendas/CampeaoRepresentante.vue';
   import CampeaoRepresentanteLenda from '../components/Lendas/CampeaoRepresentanteLenda.vue';
   import CampeaoRepresentanteCartas from '../components/Lendas/CampeaoRepresentanteCartas.vue';
-  import campeaoApi from '../api/campeao-representante-info.json';
-  import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
-import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
+  import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
+  import NivelRadio from '../components/RaridadeJuros/NivelRadio.vue';
+  import RaridadeNivel from '../components/RaridadeJuros/Raridade.vue';
+
+
 </script>
 
 <script>
+  const levelsCima = [1, 2, 3, 4, 5]
+  const levelsBaixo = [6, 7, 8, 9, 10]
   const campeaoInfoImage = ref('../../public/lendas-tft/aurelion-sol.JPG')
   const campeaoInfoNome = ref('Aurelion Sol')
   const campeaoId = ref(0)
   const detail = ref('Detalhes')
   const showCards = ref(false)
+  const raridade = ref(0)
 
   function mudarId(id){
     campeaoId.value = id
@@ -25,7 +36,6 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
     mudarId(id)
   }
 
-
   function changeReturn() {
     if (detail.value === 'Detalhes'){
       detail.value = 'Voltar'
@@ -34,6 +44,11 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
       detail.value = 'Detalhes'
       showCards.value = false
     }
+ }
+
+ function raridadeNivelSelected(level) {
+  console.log(level - 1)
+  raridade.value = level -1 
  }
   
 
@@ -59,7 +74,7 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
         <div class="campeao-representante__container">
           <div class="campeao-representante__representantes">
-            <div class="soTestando">
+            <div class="representantes__content">
               <CampeaoRepresentante 
                 v-for="campeao in campeaoApi"
                 :key="campeao.id"
@@ -94,13 +109,12 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
         <div class="efeito__content">
           <EfeitoPartida   
-            imagem="../../../public/origens-tft/noxus-origem.png"
-            nome="noxus"
-          />
-
-          <EfeitoPartida   
-            imagem="../../../public/origens-tft/ionia-origem.png"
-            nome="ionia"
+            v-for="efeito in efeitoApi"
+            v-bind:key="efeito.id"
+            :nome="efeito.nome"
+            :origem="efeito.origem"
+            :imagem="efeito.imagem"
+            :texto="efeito.descricao"
           />
         </div>
       </div>
@@ -113,33 +127,30 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
           </h2>
         </div>
 
+        <div class="raridade__juros__container">
+
         <div class="raridade-nivel__container">
           <div class="raridade-nivel__seletor">
             <h3 class="raridade-nivel__seletor__title">Nível</h3>
             <div class="raridade-nivel__seletor__niveis">
               <div class="niveis-cima niveis">
-                <input type="radio" name="nivel" id="nivel1" checked>
-                <label for="nivel1">1</label>
-                <input type="radio" name="nivel" id="nivel2">
-                <label for="nivel2">2</label>
-                <input type="radio" name="nivel" id="nivel3">
-                <label for="nivel3">3</label>
-                <input type="radio" name="nivel" id="nivel4">
-                <label for="nivel4">4</label>
-                <input type="radio" name="nivel" id="nivel5">
-                <label for="nivel5">5</label>
+
+                <NivelRadio 
+                  v-for="level in levelsCima" 
+                  :key="level" 
+                  :level="level" 
+                  :selected-level="selectedLevel"
+                  @click="raridadeNivelSelected(level)"
+                />
               </div>
               <div class="niveis-baixo niveis">
-                <input type="radio" name="nivel" id="nivel6">
-                <label for="nivel6">6</label>
-                <input type="radio" name="nivel" id="nivel7">
-                <label for="nivel7">7</label>
-                <input type="radio" name="nivel" id="nivel8">
-                <label for="nivel8">8</label>
-                <input type="radio" name="nivel" id="nivel9">
-                <label for="nivel9">9</label>
-                <input type="radio" name="nivel" id="nivel10">
-                <label for="nivel10">10</label>
+                <NivelRadio 
+                  v-for="level in levelsBaixo" 
+                  :key="level" 
+                  :level="level" 
+                  :selected-level="selectedLevel"
+                  @click="raridadeNivelSelected(level)"
+                />
               </div>
               
             </div>
@@ -147,39 +158,24 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
             
           <div class="raridade-nivel__info">
             <div class="raridade-nivel__info__chance">
-              <h3 class="info__chance__title">chance</h3>
+              <h3 class="info__chance__title">Chance</h3>
+
               <div class="info__chance__content">
-                <div class="info__chance__t1 flex">
-                  <div class="box tier1"></div>
-                  <p class="info__chance__chance">100%</p>
-                </div>
-
-                <div class="info__chance__t2 flex">
-                  <div class="box tier2"></div>
-                  <p class="info__chance__chance">100%</p>
-                </div>
-
-                <div class="info__chance__t3 flex">
-                  <div class="box tier3"></div>
-                  <p class="info__chance__chance">100%</p>
-                </div>
-
-                <div class="info__chance__t4 flex">
-                  <div class="box tier4"></div>
-                  <p class="info__chance__chance">100%</p>
-                </div>
-
-                <div class="info__chance__t5 flex">
-                  <div class="box tier5"></div>
-                  <p class="info__chance__chance">100%</p>
-                </div>
+                <RaridadeNivel 
+                :tier1= "raridadeApi[raridade].tier1"
+                :tier2= "raridadeApi[raridade].tier2"
+                :tier3= "raridadeApi[raridade].tier3"
+                :tier4= "raridadeApi[raridade].tier4"
+                :tier5= "raridadeApi[raridade].tier5"
+                />
 
               </div>
             </div>
 
             <div class="raridade-nivel__info__custo">
-              <h3 class="info__custo__title">custo</h3>
+              <h3 class="info__custo__title">Custo</h3>
               <div class="info__custo__content">
+
                 <div class="info__custo__t1">
                   <p class="info__custo__custo">1</p>
                   <img src="../../public/coin.png" alt="moedas"/>
@@ -208,10 +204,6 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
 
         <div class="juros">
-          <div class="juros__cabecalho">
-            <h2 class="juros__cabecalho__title">juros</h2>
-          </div>
-
           
           Existe 3 formas de juros, além da fixa que é ganhar 1 de ouro
           ao ganhar do oponente. As 3 formas são por acumulo de ouro, 
@@ -219,11 +211,8 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
           <div class="juros__details">
             <div class="juros__info">
-              <input type="checkbox" name="juros" id="acumuloOuro">
-              <input type="checkbox" name="juros" id="sequenciaVitDer">
-              <input type="checkbox" name="juros" id="acumuloPassivo">
 
-              <label for="acumuloOuro" class="juros__info__btn">acumulo de ouro &darr;</label>
+              <h4 class="juros__info__btn">acumulo de ouro</h4>
               <p class="juros__info__text">
                 acumulo de ouro, a cada 10 de ouro você garante 1 de ouro na proxima rodada
                 com o maximo de 5, ou seja juntando 50 de ouro voce garante o maximo de juros
@@ -231,13 +220,13 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
               </p>
             </div>
             <div class="juros__info">
-              <label for="sequenciaVitDer" class="juros__info__btn">sequencia de vitórias/derrotas &darr;</label>
+              <h4 class="juros__info__btn">vitórias ou derrotas</h4>
               <p class="juros__info__text">
-                com 3 vitorias ou derrota voce garante 1 de ouro....
+                com uma sequencia de 3 vitorias ou derrota voce garante 1 de ouro....
               </p>
             </div>
             <div class="juros__info">
-              <label for="acumuloPassivo" class="juros__info__btn">acumulo passivo &darr;</label>
+              <h4 class="juros__info__btn">acumulo passivo</h4>
               <p class="juros__info__text">
                 Voce ganha 5 de ouro....
               </p>
@@ -245,11 +234,8 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
           </div>
 
         </div>
-
-        <div class="juros__container">
-
-        </div>
       </div>
+    </div>
 
       
 
@@ -264,21 +250,18 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
       </div>
 
-
-    <!-- <ul>
-      <li>Modos de jogo</li> FEITO
-      <li>falar sobre o campeão representante</li> FEITO
-      <li>efeito da partida</li>
-      <li>chance de raridade por nível</li>
-      <li>juros</li>
-      <li>mobs</li>
-    </ul> -->
   </main>
 </template>
 
 
 
 <style scoped>
+
+.raridade__juros__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /* ------------ juros ---------------*/
 
@@ -293,144 +276,26 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
   width: 100%;
 }
 
-.juros__info input {
-  display: none;
-}
-
 .juros__info__btn {
+  width: 100%;
+  height: 50px;
   background-color: #ffffffd5;
   color: #000;
   padding: 3px 0px;
   text-transform: capitalize;
   font-weight: 600;
   display: flex;
-  width: 100%;
+  align-items: center;
   justify-content: center;
   transition: .3s ease-in-out;
 }
 
-.juros__info__btn:hover {
-  cursor: pointer;
-  background-color: #ffffffac;
-}
-
 .juros__info__text {
-  height: 130px;
+  height: 150px;
   background-color: #080e53;
-  border: 1px solid #fff;
+  padding: 5px;
+  overflow: auto;
 }
-
-
-/* =============== Raridade Nível ================ */
-/* ==== TITULO em conjuto ==== */
-.raridade-nivel__cabecalho__title {
-  display: flex;
-  justify-content: space-around;
-}
-
-  .raridade-nivel__container {
-    margin: 50px 30px;
-    font-size: var(--vt-f-m);
-  }
-  .raridade-nivel__seletor {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .raridade-nivel__seletor__niveis {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .raridade-nivel__seletor__niveis input {
-    display: none;
-  }
-
-  .niveis label {
-    text-align: center;
-    width: 39px;
-    border-radius: 50%;
-    padding: 5px;
-    border: 1px solid transparent;
-    transition: .3s ease-in-out;
-}
-
-  .niveis label:hover {
-    cursor: pointer;
-  background-color: #bbbbbb28;
-  }
-
-  .niveis input:checked+label {
-  background-color: #bbbbbb28;
-    border: 1px solid #ffffff86;
-}
-
-  .niveis {
-    display: flex;
-    gap: 5px;
-    justify-content: space-around;
-    margin: 5px;
-  }
-
-  .info__chance__content{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .raridade-nivel__info {
-    display: flex;
-    gap: 50px;
-  }
-
-  .info__custo__content {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .info__custo__content > * {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 15px;
-  }
-
-  .box {
-    width: 32px;
-    height: 32px;
-  }
-
-  .tier1 {
-    background-color: var(--tier1);
-  }
-  .tier2 {
-    background-color: var(--tier2);
-  }
-  .tier3 {
-    background-color: var(--tier3);
-  }
-  .tier4 {
-    background-color: var(--tier4);
-  }
-  .tier5 {
-    background-color: var(--tier5);
-  }
-
-  .flex {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-  /* ================== lendas ==================*/
-  .campeao__representate__lenda__container {
-    width: 100%;
-    max-width: 330px;
-    height: 100%;
-  }
-
 
   /* ======================== */
 
@@ -468,13 +333,13 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
   /* LENDAS */
 
-  .campeao-representante, .raridade-nivel, .juros, .mobs {
+  .campeao-representante, .raridade-nivel, .mobs {
     border: 2px solid #573b12;
     margin: 50px 30px;
     
   }
 
-  .campeao-representante__cabecalho, .raridade-nivel__cabecalho, .juros__cabecalho, .mobs__cabecalho {
+  .campeao-representante__cabecalho, .raridade-nivel__cabecalho, .mobs__cabecalho {
     background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78));
     text-transform: uppercase;
     padding: 10px 0;
@@ -490,7 +355,6 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
     height: 600px;
     width: 100%;
     background-image: linear-gradient(to top, rgba(53, 26, 0, 0.705), rgba(0, 0, 27, 0.699));
-
   }
   
   .campeao-representante__representantes {
@@ -506,7 +370,7 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
     overflow-y: auto;
   }
 
-  .soTestando {
+  .representantes__content {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -517,13 +381,20 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
     overflow-y: auto;
   }
 
+  .campeao__representate__lenda__container {
+    width: 100%;
+    max-width: 330px;
+    height: 100%;
+  }
+
   /* ========= EFEITOS DA PARIDA ================== */
 
   .efeito__partida {
     margin: 0 30px;
-    height: 400px;
-    /* border: 2px solid #573b12; */
-    /* background-color: #03033b; */
+    height: 450px;
+    margin-bottom: 50px;
+    border: 2px solid #573b12;
+    overflow: auto;
   }
 
   .efeito__partida__cabecalho {
@@ -531,21 +402,99 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
     padding: 10px 0;
     text-indent: 10px;
     font-family: var(--font-family-title);
-    /* background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78)); */
-    /* background-color: rgb(0, 0, 78); */
-    /* background-color: #03033b; */
-    /* border-bottom: 2px solid #573b12; */
+    background-image: linear-gradient(to top, rgba(83, 83, 230, 0.315), rgb(0, 0, 78));
+    border-bottom: 2px solid #573b12;
   }
 
   .efeito__content{
+    background-image: linear-gradient(to top,rgba(0, 0, 27, 0.699) , rgba(53, 26, 0, 0.705));
+    width: 100%;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     padding: 40px;
+  }
+
+/* =============== Raridade Nível ================ */
+/* ==== TITULO em conjuto ==== */
+.raridade-nivel__cabecalho__title {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info__chance__content, .info__custo__content {
+    margin-top: 20px;
+  }
+
+  .raridade-nivel__container {
+    margin: 50px 30px;
+    font-size: var(--vt-f-m);
+  }
+  .raridade-nivel__seletor {
+    display: flex;
     align-items: center;
-    width: 100%;
-    /* background-image: linear-gradient(to top,rgba(0, 0, 27, 0.699) , rgba(53, 26, 0, 0.705)); */
+    gap: 10px;
+  }
+
+  .raridade-nivel__seletor__niveis {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .raridade-nivel__seletor__niveis input {
+    display: none;
+  }
+
+  .niveis label {
+    text-align: center;
+    width: 39px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+
+  .niveis label:hover {
+    cursor: pointer;
+    background-color: #bbbbbb28;
+  }
+
+  .niveis input:checked+label {
+    background-color: #bbbbbb28;
+    border: 1px solid #ffffff86;
+}
+
+  .niveis {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    margin: 5px;
+  }
+
+  .info__chance__content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .raridade-nivel__info {
+    display: flex;
+    gap: 50px;
+  }
+
+  .info__custo__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info__custo__content > * {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
   }
 
 </style>

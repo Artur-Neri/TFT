@@ -57,17 +57,37 @@
   font-weight: normal;
 }
 
+.noxus {
+  background-color: var(--vt-c-noxus);
+}
+.ionia {
+  background-color: var(--vt-c-ionia);
+}
+.demacia {
+  background-color: var(--vt-c-demacia);
+}
+.zaun {
+  background-color: var(--vt-c-zaun);
+}
+.piltover {
+  background-color: var(--vt-c-piltover);
+}
+.ilha-das-sombras {
+  background-color: var(--vt-c-sombras);
+}
+.yordle {
+  background-color: var(--vt-c-yordle);
+}
+.shurima {
+  background-color: var(--vt-c-shurima);
+}
+.vazio {
+  background-color: var(--vt-c-vazio);
+}
+.targon {
+  background-color: var(--vt-c-targon);
+}
+.freljord {
+  background-color: var(--vt-c-freljord);
+}
 
-/*
-body {
-  color: var(--color-text);
-  background: var(--color-background);
-  transition: color 0.5s, background-color 0.5s;
-  line-height: 1.6;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */

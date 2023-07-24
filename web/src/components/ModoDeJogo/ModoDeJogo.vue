@@ -61,7 +61,6 @@
     justify-content: space-around;
     border: 2px solid #573b12;
     margin: 0 30px;
-    /* border-radius: 10px; */
   }
 
   .modos-de-jogo__content {

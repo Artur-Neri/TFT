@@ -9,7 +9,6 @@
 </script>
 
 <template>
-   {{console.log(cartasApi, id)}}
   <div class="campeao-representante__cartas" :class="{ showCards: isActive }">
     <div class="cartas__estagio">
       <div class="estagio__title">
