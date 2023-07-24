@@ -107,7 +107,10 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
       <div class="raridade-nivel">
         <div class="raridade-nivel__cabecalho">
-          <h2 class="raridade-nivel__cabecalho__title">chance por nível</h2>
+          <h2 class="raridade-nivel__cabecalho__title">
+            <span>chance por nível</span>
+            <span>juros</span>
+          </h2>
         </div>
 
         <div class="raridade-nivel__container">
@@ -208,6 +211,39 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
           <div class="juros__cabecalho">
             <h2 class="juros__cabecalho__title">juros</h2>
           </div>
+
+          
+          Existe 3 formas de juros, além da fixa que é ganhar 1 de ouro
+          ao ganhar do oponente. As 3 formas são por acumulo de ouro, 
+          sequencia de vitórias/derrota e acumulo passivo.
+
+          <div class="juros__details">
+            <div class="juros__info">
+              <input type="checkbox" name="juros" id="acumuloOuro">
+              <input type="checkbox" name="juros" id="sequenciaVitDer">
+              <input type="checkbox" name="juros" id="acumuloPassivo">
+
+              <label for="acumuloOuro" class="juros__info__btn">acumulo de ouro &darr;</label>
+              <p class="juros__info__text">
+                acumulo de ouro, a cada 10 de ouro você garante 1 de ouro na proxima rodada
+                com o maximo de 5, ou seja juntando 50 de ouro voce garante o maximo de juros
+                no acumulo de ouro.
+              </p>
+            </div>
+            <div class="juros__info">
+              <label for="sequenciaVitDer" class="juros__info__btn">sequencia de vitórias/derrotas &darr;</label>
+              <p class="juros__info__text">
+                com 3 vitorias ou derrota voce garante 1 de ouro....
+              </p>
+            </div>
+            <div class="juros__info">
+              <label for="acumuloPassivo" class="juros__info__btn">acumulo passivo &darr;</label>
+              <p class="juros__info__text">
+                Voce ganha 5 de ouro....
+              </p>
+            </div>
+          </div>
+
         </div>
 
         <div class="juros__container">
@@ -244,7 +280,53 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
 <style scoped>
 
+/* ------------ juros ---------------*/
+
+.juros__details {
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.juros__info {
+  width: 100%;
+}
+
+.juros__info input {
+  display: none;
+}
+
+.juros__info__btn {
+  background-color: #ffffffd5;
+  color: #000;
+  padding: 3px 0px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  transition: .3s ease-in-out;
+}
+
+.juros__info__btn:hover {
+  cursor: pointer;
+  background-color: #ffffffac;
+}
+
+.juros__info__text {
+  height: 130px;
+  background-color: #080e53;
+  border: 1px solid #fff;
+}
+
+
 /* =============== Raridade Nível ================ */
+/* ==== TITULO em conjuto ==== */
+.raridade-nivel__cabecalho__title {
+  display: flex;
+  justify-content: space-around;
+}
 
   .raridade-nivel__container {
     margin: 50px 30px;
@@ -267,17 +349,21 @@ import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
 
   .niveis label {
     text-align: center;
-  width: 39px;
-  border-radius: 50%;
-  padding: 5px;
+    width: 39px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
 }
 
   .niveis label:hover {
     cursor: pointer;
+  background-color: #bbbbbb28;
   }
 
   .niveis input:checked+label {
   background-color: #bbbbbb28;
+    border: 1px solid #ffffff86;
 }
 
   .niveis {

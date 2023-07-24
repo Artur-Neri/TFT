@@ -1,0 +1,90 @@
+[
+  {
+    "Demacia" : [
+      {
+        "nome": "Casa Lumescudo",
+        "descricao": "Coroa um de seus Campeões e tenta protegê-lo."
+      }
+    ],
+    "Freljord" : [
+      {
+        "nome": "Forja do Ornn",
+        "descricao": "Recebe um Artefato do Ornn durante a partida."
+      }
+    ],
+    "Ionia" : [
+      {
+        "nome": "Arvoredo so Salgueiro Divino",
+        "descricao": "Uma unidade na sua reserva pode contribuir com características para o tabuleiro."
+      },
+      {
+        "nome": "A Poça dos Sonhos",
+        "descricao": "No início de cada Estágio, você recebe um Campeão que se encaixa em sua equipe."
+      }
+    ],
+    "Noxus" : [
+      {
+        "nome": "Bastião Imortal",
+        "descricao": "Recebe uma Bandeira que pode ser posicionada e fortalece as unidades próximas."
+      }
+    ],
+    "Piltover" : [
+      {
+        "nome": "A Universidade",
+        "descricao": "O primeiro Aprimoramento oferecido nesta partida será Prismático."
+      }
+    ],
+    "Ilhas das Sombras" : [
+      {
+        "nome": "Santuário do Thresh",
+        "descricao": "Quando unidades são abatidas, ele coleta as almas. Receba espólio a cada 40 almas coletadas."
+      },
+      {
+        "nome": "Cemitério do Yorick",
+        "descricao": "Sempre que um jogador morrer, escolha um dos itens dele para você."
+      }
+    ],
+    "Shurima" : [
+      {
+        "nome": "Palácio do Senhor da Guerra",
+        "descricao": "A última rodada do Estágio 4 é substituída por um Arsenal de tesouros."
+      },
+      {
+        "nome": "Areias Oscilantes",
+        "descricao": "Caso não tenha um Removedor Magnético em sua reserva no início de cada rodada, você recebe um."
+      }
+    ],
+    "Targon" : [
+      {
+        "nome": "Targon Primordial",
+        "descricao": "Ao ficar com Vida baixa, recebe uma benção dos deuses targoneses."
+      }
+    ],
+    "Vazio" : [
+      {
+        "nome": "Rift Instável",
+        "descricao": "Recebe um item instável que se transforma em um novo item aleatório a cada rodada."
+      },
+      {
+        "nome": "A Ruptura",
+        "descricao": "Viaja para um local aleatório não exibido anteriormente."
+      }
+    ],
+    "Yordle" : [
+      {
+        "nome": "Zona Frenética da Yuumi",
+        "descricao": "Suba de nivel mais rápido!"
+      },
+      {
+        "nome": "Portalzinho Yordle",
+        "descricao": "Duas vezes por Estágio, recebe um Campeão grátis de tier alto."
+      }
+    ],
+    "Zaun" : [
+      {
+        "nome": "nome",
+        "descricao": "blabla"
+      }
+    ]
+  }
+]
