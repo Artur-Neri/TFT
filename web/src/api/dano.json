@@ -1,0 +1,25 @@
+[
+  {
+    "pecas": [
+      {"peca": "1","dano": 2},
+      {"peca": "2","dano": 4},
+      {"peca": "3","dano": 6},
+      {"peca": "4","dano": 8},
+      {"peca": "5","dano": 10},
+      {"peca": "6","dano": 11},
+      {"peca": "7","dano": 12},
+      {"peca": "8","dano": 13},
+      {"peca": "9","dano": 14},
+      {"peca": "10","dano": 15}
+    ],
+    "estagios": [
+      {"estagio": "1", "dano": 0},
+      {"estagio": "2", "dano": 0},
+      {"estagio": "3", "dano": 3},
+      {"estagio": "4", "dano": 4},
+      {"estagio": "5", "dano": 6},
+      {"estagio": "6", "dano": 9},
+      {"estagio": "7+", "dano": 15}
+    ]
+  }
+]
