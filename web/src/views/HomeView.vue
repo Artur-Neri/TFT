@@ -12,6 +12,7 @@
   import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
   import NivelRadio from '../components/RaridadeJuros/NivelRadio.vue';
   import RaridadeNivel from '../components/RaridadeJuros/Raridade.vue';
+  import RaridadeCusto from '../components/RaridadeJuros/Custo.vue';
 
 
 </script>
@@ -176,28 +177,12 @@
               <h3 class="info__custo__title">Custo</h3>
               <div class="info__custo__content">
 
-                <div class="info__custo__t1">
-                  <p class="info__custo__custo">1</p>
-                  <img src="../../public/coin.png" alt="moedas"/>
-                </div>
-                <div class="info__custo__t2">
-                  <p class="info__custo__custo">2</p>
-                  <img src="../../public/coin.png" alt="moedas"/>
-                </div>
-                <div class="info__custo__t3">
-                  <p class="info__custo__custo">3</p>
-                  <img src="../../public/coin.png" alt="moedas"/>
-                </div>
-                <div class="info__custo__t4">
-                  <p class="info__custo__custo">4</p>
-                  <img src="../../public/coin.png" alt="moedas"/>
-                </div>
-                <div class="info__custo__t5">
-                  <p class="info__custo__custo">5</p>
-                  <img src="../../public/coin.png" alt="moedas"/>
-                </div>
+                <RaridadeCusto 
+                v-for="level in levelsCima" 
+                  :key="level" 
+                  :texto="level"
+                />
               </div>
-
             </div>
           </div>
         </div>
