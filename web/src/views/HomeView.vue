@@ -225,18 +225,81 @@
       </div>
     </div>
 
-      
-
 
       <div class="mobs">
         <div class="mobs__cabecalho">
           <h2 class="mobs__cabecalho__title">mobs</h2>
         </div>
+        <div class="mobs__container">
+          <table>
+            <thead>
+              <tr>
+                <th>Estágio</th>
+                <th>Mob</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dado 1-1</td>
+                <td>Dado 1-2</td>
+              </tr>
+              <tr>
+                <td>Dado 2-1</td>
+                <td>Dado 2-2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
-      <div class="mobs__container">
+      <div class="dano">
+        <div class="dano__cabecalho">
+          <h2 class="dano__cabecalho__title">dano</h2>
+        </div>
+        <div class="dano__container">
+          <table>
+            <thead>
+              <tr>
+                <th>Estágio</th>
+                <th>Dano</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dado 1-1</td>
+                <td>Dado 1-2</td>
+              </tr>
+              <tr>
+                <td>Dado 2-1</td>
+                <td>Dado 2-2</td>
+              </tr>
+            </tbody>
+          </table>
 
+          <h2>+</h2>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Peças</th>
+                <th>Dano</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dado 1-1</td>
+                <td>Dado 1-2</td>
+              </tr>
+              <tr>
+                <td>Dado 2-1</td>
+                <td>Dado 2-2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
+
+      
 
   </main>
 </template>
@@ -244,6 +307,10 @@
 
 
 <style scoped>
+
+
+
+  /* ==== chance e juros ====*/
 
 .raridade__juros__container {
   height: 500px;
