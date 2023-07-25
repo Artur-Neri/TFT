@@ -190,9 +190,11 @@
 
         <div class="juros">
           
-          Existe 3 formas de juros, além da fixa que é ganhar 1 de ouro
+          <h3>
+            Existe 3 formas de juros, além da fixa que é ganhar 1 de ouro
           ao ganhar do oponente. As 3 formas são por acumulo de ouro, 
           sequencia de vitórias/derrota e acumulo passivo.
+          </h3>
 
           <div class="juros__details">
             <div class="juros__info">
@@ -207,13 +209,14 @@
             <div class="juros__info">
               <h4 class="juros__info__btn">vitórias ou derrotas</h4>
               <p class="juros__info__text">
-                com uma sequencia de 3 vitorias ou derrota voce garante 1 de ouro....
+                com uma sequencia de 3 vitorias ou derrotas voce garante 1 de ouro, 
+                com 4 você recebe 2 e com 5, 3 de ouro.
               </p>
             </div>
             <div class="juros__info">
               <h4 class="juros__info__btn">acumulo passivo</h4>
               <p class="juros__info__text">
-                Voce ganha 5 de ouro....
+                Voce ganha 5 de ouro passivamente
               </p>
             </div>
           </div>
@@ -243,26 +246,36 @@
 <style scoped>
 
 .raridade__juros__container {
+  height: 500px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* ------------ juros ---------------*/
 
+.juros {
+  width: 50%;
+  height: 500px;
+  padding: 50px 0;
+}
+
 .juros__details {
+  height: 350px;
   display: flex;
+  flex-wrap: wrap;
   align-items: self-start;
   justify-content: center;
+  margin-top: 20px;
   gap: 5px;
+  overflow: auto;
 }
 
 .juros__info {
-  width: 100%;
+  width: 32%;
 }
 
 .juros__info__btn {
-  width: 100%;
   height: 50px;
   background-color: #ffffffd5;
   color: #000;
@@ -272,7 +285,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: .3s ease-in-out;
 }
 
 .juros__info__text {

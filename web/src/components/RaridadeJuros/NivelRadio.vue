@@ -1,6 +1,10 @@
 <template>
   <div class="niveis">
-    <input type="radio" name="nivel" :id="`nivel${level}`" :value="level" :v-model="selectedLevel">
+    <input type="radio" name="nivel" 
+    :id="`nivel${level}`" 
+    :value="level" 
+    :v-model="selectedLevel"
+    >
     <label :for="`nivel${level}`">{{ level }}</label>
   </div>
 </template>
