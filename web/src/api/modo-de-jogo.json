@@ -1,0 +1,18 @@
+[
+  {
+    "nome": "NORMAL",
+    "texto": "Partida Casual, não possui ranqueeamento individual. Começa com 100 de vida."
+  },
+  {
+    "nome": "RANQUEADA",
+    "texto": "Partida Competitiva, possui ranqueamento individual. Começa com 100 de vida."
+  },
+  {
+    "nome": "BATALHA FRENÉTICA",
+    "texto": "Partida Competitiva, possui ranqueeamento individual, separado do modo RANQUEADO. Começa com 20 de vida."
+  },
+  {
+    "nome": "DUPLAS DINÂMICAS (OFICINA)",
+    "texto": "Partida Competitiva, possui ranqueeamento em dupla, separado do modo RANQUEADO. Começa com 100 de vida e possui 4 duplas"
+  }
+]
