@@ -287,7 +287,7 @@
             <table>
               <thead class="dano__thead">
                 <tr>
-                  <th>Peças</th>
+                  <th>Personagens</th>
                   <th>Dano</th>
                 </tr>
               </thead>
@@ -454,10 +454,8 @@
 
   .efeito__partida {
     margin: 0 30px;
-    height: 450px;
     margin-bottom: 50px;
     border: 2px solid #573b12;
-    overflow: auto;
   }
 
   .efeito__partida__cabecalho {
@@ -472,12 +470,14 @@
   .efeito__content{
     background-image: linear-gradient(to top,rgba(0, 0, 27, 0.699) , rgba(53, 26, 0, 0.705));
     width: 100%;
+    height: 530px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 20px;
     padding: 40px;
+    overflow: auto;
   }
 
 /* =============== Raridade Nível ================ */

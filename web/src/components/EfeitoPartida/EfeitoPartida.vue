@@ -28,11 +28,12 @@
 <style>
 
   .efeito__content__item{
+    width: 400px;
     display: flex;
     align-content: center;
     justify-content: center;
     padding: 10px;
-    width: 400px;
+    border-radius: 10px;
     transition: .3s ease-in-out;
   }
 

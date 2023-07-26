@@ -18,16 +18,16 @@
 
   /* REGIÕES REFORJADAS */
   --vt-c-noxus: linear-gradient(to left, #620e0e, #3a0101);
-  --vt-c-ionia: linear-gradient(to left, #49979b, #29767A);
-  --vt-c-yordle: linear-gradient(to left, #9e9e2c, #999913);
-  --vt-c-shurima: linear-gradient(to left, #a7902d, #998013);
+  --vt-c-ionia: linear-gradient(to left, #46b598, #29767A);
+  --vt-c-yordle: linear-gradient(to left, #81ac0b, #999913);
+  --vt-c-shurima: linear-gradient(to left, #a98215, #998013);
   --vt-c-piltover: linear-gradient(to left, #6a819e, #425872);
-  --vt-c-zaun: linear-gradient(to left, #409020, #237005);
-  --vt-c-demacia: linear-gradient(to left, #dcc74e, #dab901);
+  --vt-c-zaun: linear-gradient(to left, #173b09, #237005);
+  --vt-c-demacia: linear-gradient(to left, #dab901,#dfce6c);
   --vt-c-sombras: linear-gradient(to left, #216d37, #0000004b);
-  --vt-c-vazio: linear-gradient(to left, #620e0e, #510369);
-  --vt-c-freljord: linear-gradient(to left, #ffffff86, #547bac);
-  --vt-c-targon: linear-gradient(to left, #620e0e, #1e0369);
+  --vt-c-vazio: linear-gradient(to left, #1e0048, #510369);
+  --vt-c-freljord: linear-gradient(to left, #547bac, #8fa4bd);
+  --vt-c-targon: linear-gradient(to left, #490b0b, #1e0369);
 
   /* RARIDADE */
   --tier1: #808080;
