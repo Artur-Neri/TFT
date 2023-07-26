@@ -1,5 +1,14 @@
 [
   {
-    
+    "titulo": "acumulo de ouro",
+    "texto": "acumulo de ouro, a cada 10 de ouro você garante 1 de ouro na proxima rodada com o maximo de 5, ou seja juntando 50 de ouro voce garante o maximo de juros no acumulo de ouro."
+  },
+  {
+    "titulo": "vitória ou derrota",
+    "texto": "com uma sequencia de 3 vitorias ou derrotas voce garante 1 de ouro, com 4 você recebe 2 e com 5, 3 de ouro."
+  },
+  {
+    "titulo": "acumulo passivo",
+    "texto": "Voce ganha 5 de ouro passivamente"
   }
 ]

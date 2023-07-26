@@ -17,17 +17,17 @@
   --vt-f-g: 2rem;
 
   /* REGIÕES REFORJADAS */
-  --vt-c-noxus: #3a0101;
-  --vt-c-ionia: #29767A;
-  --vt-c-yordle: #999913;
-  --vt-c-shurima: #998013;
-  --vt-c-piltover: #425872;
-  --vt-c-zaun: #237005;
-  --vt-c-demacia: #dab901;
-  --vt-c-sombras: #216d37;
-  --vt-c-vazio: #510369;
-  --vt-c-freljord: #547bac;
-  --vt-c-targon: #1e0369;
+  --vt-c-noxus: linear-gradient(to left, #620e0e, #3a0101);
+  --vt-c-ionia: linear-gradient(to left, #49979b, #29767A);
+  --vt-c-yordle: linear-gradient(to left, #9e9e2c, #999913);
+  --vt-c-shurima: linear-gradient(to left, #a7902d, #998013);
+  --vt-c-piltover: linear-gradient(to left, #6a819e, #425872);
+  --vt-c-zaun: linear-gradient(to left, #409020, #237005);
+  --vt-c-demacia: linear-gradient(to left, #dcc74e, #dab901);
+  --vt-c-sombras: linear-gradient(to left, #216d37, #0000004b);
+  --vt-c-vazio: linear-gradient(to left, #620e0e, #510369);
+  --vt-c-freljord: linear-gradient(to left, #ffffff86, #547bac);
+  --vt-c-targon: linear-gradient(to left, #620e0e, #1e0369);
 
   /* RARIDADE */
   --tier1: #808080;
@@ -58,36 +58,36 @@
 }
 
 .noxus {
-  background-color: var(--vt-c-noxus);
+  background-image: var(--vt-c-noxus);
 }
 .ionia {
-  background-color: var(--vt-c-ionia);
+  background-image: var(--vt-c-ionia);
 }
 .demacia {
-  background-color: var(--vt-c-demacia);
+  background-image: var(--vt-c-demacia);
 }
 .zaun {
-  background-color: var(--vt-c-zaun);
+  background-image: var(--vt-c-zaun);
 }
 .piltover {
-  background-color: var(--vt-c-piltover);
+  background-image: var(--vt-c-piltover);
 }
 .ilha-das-sombras {
-  background-color: var(--vt-c-sombras);
+  background-image: var(--vt-c-sombras);
 }
 .yordle {
-  background-color: var(--vt-c-yordle);
+  background-image: var(--vt-c-yordle);
 }
 .shurima {
-  background-color: var(--vt-c-shurima);
+  background-image: var(--vt-c-shurima);
 }
 .vazio {
-  background-color: var(--vt-c-vazio);
+  background-image: var(--vt-c-vazio);
 }
 .targon {
-  background-color: var(--vt-c-targon);
+  background-image: var(--vt-c-targon);
 }
 .freljord {
-  background-color: var(--vt-c-freljord);
+  background-image: var(--vt-c-freljord);
 }
 
