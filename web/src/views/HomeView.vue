@@ -1,20 +1,20 @@
 <script setup>
   import { ref } from 'vue';
   // API
-  import campeaoApi from '../api/campeao-representante-info.json';
-  import efeitoApi from '../api/efeitos-partida.json';
-  import raridadeApi from '../api/raridade-nivel.json';
-  import mobsApi from '../api/mobs.json';
-  import danoApi from '../api/dano.json';
+  import campeaoApi from '../api/Home/campeao-representante-info.json';
+  import efeitoApi from '../api/Home/efeitos-partida.json';
+  import raridadeApi from '../api/Home/raridade-nivel.json';
+  import mobsApi from '../api/Home/mobs.json';
+  import danoApi from '../api/Home/dano.json';
   // COMPONENTES
-  import ModoDeJogo from '../components/ModoDeJogo/ModoDeJogo.vue';
-  import CampeaoRepresentante from '../components/Lendas/CampeaoRepresentante.vue';
-  import CampeaoRepresentanteLenda from '../components/Lendas/CampeaoRepresentanteLenda.vue';
-  import CampeaoRepresentanteCartas from '../components/Lendas/CampeaoRepresentanteCartas.vue';
-  import EfeitoPartida from '../components/EfeitoPartida/EfeitoPartida.vue';
-  import NivelRadio from '../components/RaridadeJuros/NivelRadio.vue';
-  import RaridadeNivel from '../components/RaridadeJuros/Raridade.vue';
-  import RaridadeCusto from '../components/RaridadeJuros/Custo.vue';
+  import ModoDeJogo from '../components/Home/ModoDeJogo/ModoDeJogo.vue';
+  import CampeaoRepresentante from '../components/Home/Lendas/CampeaoRepresentante.vue';
+  import CampeaoRepresentanteLenda from '../components/Home/Lendas/CampeaoRepresentanteLenda.vue';
+  import CampeaoRepresentanteCartas from '../components/Home/Lendas/CampeaoRepresentanteCartas.vue';
+  import EfeitoPartida from '../components/Home/EfeitoPartida/EfeitoPartida.vue';
+  import NivelRadio from '../components/Home/RaridadeJuros/NivelRadio.vue';
+  import RaridadeNivel from '../components/Home/RaridadeJuros/Raridade.vue';
+  import RaridadeCusto from '../components/Home/RaridadeJuros/Custo.vue';
 
 
 </script>

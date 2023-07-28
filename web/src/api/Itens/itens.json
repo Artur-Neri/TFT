@@ -1,0 +1,134 @@
+[
+  {
+    "componentes": [
+      {
+        "nome": "Arco Recurvo",
+        "imagem": "/public/itens-tft/componentes/arco-recurvo.jpeg",
+        "vida":     "0",
+        "mana":     "0",
+        "defesa":   "0",
+        "resMag":  "0",
+        "velAtk":  "10",
+        "danoAD":   "0",
+        "danoAP":   "0",
+        "crítico":  "0"
+      },
+      {
+        "nome": "Bastão Desnecessariamente Grande",
+        "imagem": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
+        "vida":     "0",
+        "mana":     "0",
+        "defesa":   "0",
+        "resMag":  "0",
+        "velAtk":  "0",
+        "danoAD":   "0",
+        "danoAP":   "10",
+        "crítico":  "0"
+      },
+      {
+        "nome": "Capa Negatron",
+        "imagem": "/public/itens-tft/componentes/capa-negatron.jpeg",
+        "vida":     "0",
+        "mana":     "0",
+        "defesa":   "0",
+        "resMag":  "20",
+        "velAtk":  "0",
+        "danoAD":   "0",
+        "danoAP":   "0",
+        "crítico":  "0"
+      },
+      {
+        "nome": "Cinto do Gigante",
+        "imagem": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
+        "vida":     "150",
+        "mana":     "0",
+        "defesa":   "0",
+        "resMag":  "0",
+        "velAtk":  "0",
+        "danoAD":   "0",
+        "danoAP":   "0",
+        "crítico":  "0"
+      },
+      {
+        "nome": "Cota de Malha",
+        "imagem": "/public/itens-tft/componentes/cota-de-malha.jpeg",
+        "vida":     "0",
+        "mana":     "0",
+        "defesa":   "20",
+        "resMag":  "0",
+        "velAtk":  "0",
+        "danoAD":   "0",
+        "danoAP":   "0",
+        "crítico":  "0"
+      },
+      {
+        "nome": "Espada G.p.c",
+        "imagem": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "vida":     "0",
+        "mana":     "0",
+        "defesa":   "0",
+        "resMag":  "0",
+        "velAtk":  "0",
+        "danoAD":   "10",
+        "danoAP":   "0",
+        "crítico":  "0"
+      },
+      {
+        "nome": "Lagríma da Deusa",
+        "imagem": "/public/itens-tft/componentes/lagrima-da-deusa.jpeg",
+        "vida":     "0",
+        "mana":     "15",
+        "defesa":   "0",
+        "resMag":  "0",
+        "velAtk":  "0",
+        "danoAD":   "0",
+        "danoAP":   "0",
+        "crítico":  "0"
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "vida":     "0",
+        "mana":     "0",
+        "defesa":   "0",
+        "resMag":  "0",
+        "velAtk":  "0",
+        "danoAD":   "0",
+        "danoAP":   "0",
+        "crítico":  "20"
+      },
+      {
+        "nome": "Espátula",
+        "imagem": "/public/itens-tft/componentes/espatula.jpeg",
+        "vida":     "0",
+        "mana":     "0",
+        "defesa":   "0",
+        "resMag":  "0",
+        "velAtk":  "0",
+        "danoAD":   "0",
+        "danoAP":   "0",
+        "crítico":  "0"
+      }
+    ]
+  },
+
+  {
+    "completos": [
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/componentes/arco-recurvo.jpeg",
+        "imagemComp1": "",
+        "imagemComp2": "",
+        "descricao": "",
+        "vida":     "0",
+        "mana":     "0",
+        "danoAD":   "0",
+        "danoAP":   "0",
+        "defesa":   "0",
+        "resMag":  "0",
+        "velAtk":  "0",
+        "crítico":  "0"
+      }
+    ]
+  }
+]

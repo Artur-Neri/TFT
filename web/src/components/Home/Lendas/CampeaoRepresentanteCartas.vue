@@ -1,5 +1,5 @@
 <script setup>
-  import cartasApi from '../../api/campeao-representante-info.json'
+  import cartasApi from '../../../api/Home/campeao-representante-info.json'
   defineProps({
     id: Int32Array,
     isActive: Boolean
