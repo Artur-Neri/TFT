@@ -30,6 +30,12 @@
       <div class="itens__completos__cabecalho">
         <h2>Itens Completos</h2>
       </div>
+
+      <div class="itens__completos__body">
+        <div class="completo__item">
+          
+        </div>
+      </div>
     </div>
 
     <!-- <h1>Itens</h1>
@@ -48,6 +54,10 @@
     width: 100%;
     background-color: rgba(255,255,255,0.1);
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    user-select: none;
   }
 
   .main__cabecalho {
@@ -59,18 +69,18 @@
     text-transform: uppercase;
   }
 
-  .componentes {
-    padding: 50px 20px;
+  .componentes, .itens__completos {
+    padding: 0px 20px;
   }
 
-  .componentes__cabecalho {
+  .componentes__cabecalho, .itens__completos__cabecalho {
     font-family: var(--font-family-title);
     text-transform: uppercase;
     border-bottom: 1px solid #ffffff55;
     margin-bottom: 20px;
   }
 
-  .componentes__body {
+  .componentes__body, .itens__completos__body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;

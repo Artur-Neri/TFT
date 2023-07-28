@@ -117,8 +117,8 @@
       {
         "nome": "Luvas do Pugilista",
         "imagem": "/public/itens-tft/componentes/arco-recurvo.jpeg",
-        "imagemComp1": "",
-        "imagemComp2": "",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
         "vida":     "0",
         "mana":     "0",

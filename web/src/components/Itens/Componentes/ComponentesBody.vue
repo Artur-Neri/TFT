@@ -3,7 +3,7 @@
   import EfeitoContainer from '../Componentes/EfeitoContainer.vue';
 
 defineProps({
-  id: Int32Array,
+  id: String,
   nome: String,
   imagem: String
 })
