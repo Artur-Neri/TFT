@@ -1,49 +1,15 @@
 <script setup>
 defineProps({
- vida: String,
- mana: String,
- ataque: String,
- habilidade: String,
- armadura: String,
- resMagica: String,
- velocidadeAtk: String,
- critico: String,
+  efeitos: Array,
 })
 </script>
 
 <template>
   <div class="item__efeito">
-    <div class="efeito__container">
-      <p>+{{ vida  }}</p>
-      <img src="https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg" alt="icone vida">
-    </div>
-    <div class="efeito__container">
-      <p>+{{ mana }}</p>
-      <img src="https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg" alt="icone mana">
-    </div>
-    <div class="efeito__container">
-      <p>+{{ ataque }}</p>
-      <img src="https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attack.svg" alt="icone ataque">
-    </div>
-    <div class="efeito__container">
-      <p>+{{ habilidade }}</p>
-      <img src="https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg" alt="icone habilidade">
-    </div>
-    <div class="efeito__container">
-      <p>+{{ armadura }}</p>
-      <img src="https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg" alt="icone armadura">
-    </div>
-    <div class="efeito__container">
-      <p>+{{ resMagica }}</p>
-      <img src="https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg" alt="icone restencia mágica">
-    </div>
-    <div class="efeito__container">
-      <p>{{ velocidadeAtk }}%</p>
-      <img src="https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg" alt="icone velocidade de ataque">
-    </div>
-    <div class="efeito__container">
-      <p>{{ critico }}%</p>
-      <img src="https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg" alt="icone crítico">
+    <div class="efeito__container"
+      v-for="(atributo, index) in efeitos" :key="index">
+      <p>{{atributo.efeito}}</p>
+      <img :src="atributo.imagem" alt="icone vida">
     </div>
   </div>
 </template>

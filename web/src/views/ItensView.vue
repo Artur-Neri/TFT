@@ -19,7 +19,7 @@
 
       <div class="componentes__body">
         <ComponentesBody 
-          v-for="(itens, index) in itensApi[0].componentes" :key="index"
+          v-for="(itens, index) in itensApi[1].componentes" :key="index"
           :id="index"
           :nome="itens.nome"
           :imagem="itens.imagem"

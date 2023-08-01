@@ -19,7 +19,7 @@ defineProps({
 
 <style scoped>
   .completo__item {
-    background-color: #000;
+    background-image: linear-gradient(to left, #1f52b1 0%, #180133 80%);
     padding: 5px 10px;
     border-radius: 5px;
     margin-bottom: 50px;

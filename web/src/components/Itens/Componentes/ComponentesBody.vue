@@ -1,12 +1,12 @@
 <script setup>
   import efeitosApi from '../../../api/Itens/itens'
   import EfeitoContainer from '../Componentes/EfeitoContainer.vue';
-
-defineProps({
-  id: String,
-  nome: String,
-  imagem: String
-})
+  
+  defineProps({
+    id: String,
+    nome: String,
+    imagem: String
+  })
 </script>
 
 <template>
@@ -17,15 +17,9 @@ defineProps({
     </div>
 
     <EfeitoContainer 
-      :key="efeitosApi[0].componentes[id].nome"
-      :vida="efeitosApi[0].componentes[id].vida"
-      :mana="efeitosApi[0].componentes[id].mana"
-      :ataque="efeitosApi[0].componentes[id].danoAD"
-      :habilidade="efeitosApi[0].componentes[id].danoAP"
-      :armadura="efeitosApi[0].componentes[id].defesa"
-      :resMagica="efeitosApi[0].componentes[id].resMag"
-      :velocidadeAtk="efeitosApi[0].componentes[id].velAtk"
-      :critico="efeitosApi[0].componentes[id].crítico"
+
+      :key="efeitosApi[1].componentes[id].nome"
+      :efeitos="efeitosApi[1].componentes[id].efeitos"
     />
   </div>
 
@@ -68,7 +62,7 @@ defineProps({
 </style>
 
 <script>
-export default {
-name: 'ComponentesBody'
-}
+  export default {
+  name: 'ComponentesBody'
+  }
 </script>

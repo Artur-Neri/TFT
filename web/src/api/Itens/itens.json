@@ -1,113 +1,77 @@
 [
   {
+    "vida": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg",
+    "mana": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg",
+    "defesa": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg",
+    "resMag": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg",
+    "velAtk": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg",
+    "danoAD": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attack.svg",
+    "danoAP": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg",
+    "crítico": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"
+  },
+  {
     "componentes": [
       {
         "nome": "Arco Recurvo",
         "imagem": "/public/itens-tft/componentes/arco-recurvo.jpeg",
-        "vida":     "0",
-        "mana":     "0",
-        "defesa":   "0",
-        "resMag":  "0",
-        "velAtk":  "10",
-        "danoAD":   "0",
-        "danoAP":   "0",
-        "crítico":  "0"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       },
       {
         "nome": "Bastão Desnecessariamente Grande",
         "imagem": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
-        "vida":     "0",
-        "mana":     "0",
-        "defesa":   "0",
-        "resMag":  "0",
-        "velAtk":  "0",
-        "danoAD":   "0",
-        "danoAP":   "10",
-        "crítico":  "0"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       },
       {
         "nome": "Capa Negatron",
         "imagem": "/public/itens-tft/componentes/capa-negatron.jpeg",
-        "vida":     "0",
-        "mana":     "0",
-        "defesa":   "0",
-        "resMag":  "20",
-        "velAtk":  "0",
-        "danoAD":   "0",
-        "danoAP":   "0",
-        "crítico":  "0"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       },
       {
         "nome": "Cinto do Gigante",
         "imagem": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
-        "vida":     "150",
-        "mana":     "0",
-        "defesa":   "0",
-        "resMag":  "0",
-        "velAtk":  "0",
-        "danoAD":   "0",
-        "danoAP":   "0",
-        "crítico":  "0"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       },
       {
         "nome": "Cota de Malha",
         "imagem": "/public/itens-tft/componentes/cota-de-malha.jpeg",
-        "vida":     "0",
-        "mana":     "0",
-        "defesa":   "20",
-        "resMag":  "0",
-        "velAtk":  "0",
-        "danoAD":   "0",
-        "danoAP":   "0",
-        "crítico":  "0"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       },
       {
         "nome": "Espada G.p.c",
         "imagem": "/public/itens-tft/componentes/espada-gpc.jpeg",
-        "vida":     "0",
-        "mana":     "0",
-        "defesa":   "0",
-        "resMag":  "0",
-        "velAtk":  "0",
-        "danoAD":   "10",
-        "danoAP":   "0",
-        "crítico":  "0"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       },
       {
         "nome": "Lagríma da Deusa",
         "imagem": "/public/itens-tft/componentes/lagrima-da-deusa.jpeg",
-        "vida":     "0",
-        "mana":     "15",
-        "defesa":   "0",
-        "resMag":  "0",
-        "velAtk":  "0",
-        "danoAD":   "0",
-        "danoAP":   "0",
-        "crítico":  "0"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       },
       {
         "nome": "Luvas do Pugilista",
         "imagem": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "vida":     "0",
-        "mana":     "0",
-        "defesa":   "0",
-        "resMag":  "0",
-        "velAtk":  "0",
-        "danoAD":   "0",
-        "danoAP":   "0",
-        "crítico":  "20"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       },
       {
         "nome": "Espátula",
         "imagem": "/public/itens-tft/componentes/espatula.jpeg",
-        "vida":     "0",
-        "mana":     "0",
-        "defesa":   "0",
-        "resMag":  "0",
-        "velAtk":  "0",
-        "danoAD":   "0",
-        "danoAP":   "0",
-        "crítico":  "0"
+        "efeitos": [
+        ]
       }
     ]
   },
@@ -116,18 +80,562 @@
     "completos": [
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/componentes/arco-recurvo.jpeg",
+        "imagem": "/public/itens-tft/armadura-de-warmog.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
-        "vida":     "0",
-        "mana":     "0",
-        "danoAD":   "0",
-        "danoAP":   "0",
-        "defesa":   "0",
-        "resMag":  "0",
-        "velAtk":  "0",
-        "crítico":  "0"
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/cajado-do-arcanjo.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },{
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/calice-do-poder.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/canhao-fumegante.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/capa-de-fogo-solar.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/capuz-da-morte-de-rabadon.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/centelha-ionica.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/colete-espinhoso.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/coroa-do-estrategista.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/determinacao-titanica.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/efeito-azul.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-artilheiro.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-bastiao.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-brutamontes.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-colosso.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-demacia.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-desafiante.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-duelista.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-emanador.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-estrategista.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-feiticeiro.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-freijord.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-ilha-das-sombras.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-ionia.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-ladino.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-mira-letal.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-noxus.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-piltover.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-shurima.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-targon.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-vazio.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/emblema-de-zaun.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/furacao-de-runaan.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/garra-do-dragao.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/gume-infinito.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/juramento-do-protetor.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/lamina-da-furia-de-guinsoo.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/lamina-mortal.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/lanca-de-shojin.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/limiar-da-noite.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/luvas-do-ladrao.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/manopla-adornada.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/manto-da-imobilidade.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/mao-da-justica.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/mata-gigantes.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/medalhao-dos-solari-de-ferro.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/mercurio.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/morellonomicon.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/pistola-lamina-hextec.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/placa-gargolitica.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/portal-zzrot.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/quebra-guarda.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/redencao.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/sedenta-por-sangue.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/ultimo-sussuro.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/zefiro.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
       }
     ]
   }
