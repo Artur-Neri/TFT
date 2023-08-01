@@ -1,6 +1,7 @@
 <script setup>
   import itensApi from '../api/Itens/itens.json'
   import ComponentesBody from '../components/Itens/Componentes/ComponentesBody.vue';
+  import CompletosBody from '../components/Itens/Componentes/CompletosBody.vue';
 </script>
 
 <template>
@@ -33,7 +34,7 @@
 
       <div class="itens__completos__body">
         <div class="completo__item">
-          
+          <CompletosBody />
         </div>
       </div>
     </div>
