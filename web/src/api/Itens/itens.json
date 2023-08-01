@@ -329,7 +329,7 @@
       },
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/emblema-de-mira-letal.jpeg",
+        "imagem": "/public/itens-tft/emblema-de-mira-latal.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
@@ -399,6 +399,16 @@
       },
       {
         "nome": "Luvas do Pugilista",
+        "imagem": "/public/itens-tft/faca-de-statikk.jpeg",
+        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "descricao": "",
+        "efeitos": [
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+        ]
+      },
+      {
+        "nome": "Luvas do Pugilista",
         "imagem": "/public/itens-tft/furacao-de-runaan.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
@@ -419,7 +429,7 @@
       },
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/gume-infinito.jpeg",
+        "imagem": "/public/itens-tft/gume-do-infinito.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
@@ -489,7 +499,7 @@
       },
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/manopla-adornada.jpeg",
+        "imagem": "/public/itens-tft/manopla-adornada.jpg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
@@ -559,7 +569,7 @@
       },
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/pistola-lamina-hextec.jpeg",
+        "imagem": "/public/itens-tft/pistola-laminar-hextec.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
@@ -619,7 +629,7 @@
       },
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/ultimo-sussuro.jpeg",
+        "imagem": "/public/itens-tft/ultimo-sussurro.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
