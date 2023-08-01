@@ -16,21 +16,21 @@
   {
     "estagio": "4",
     "nome": "lobos",
-    "imagem": "../../public/mobs-tft/lobo-tft.jfif",
+    "imagem": "../../public/mobs-tft/lobo-tft.png",
     "texto": "Ao decorrer do jogo, você vai encontrar os lobos, eles tem uma habilidade peculiar de ficar invulnerável o inicio da partida e pular atrás dos seus personagens então cuidado para não perder, deixando seus personagens com menos vida atrás e sozinhos"
   },
 
   {
     "estagio": "5",
     "nome": "galinha",
-    "imagem": "../../public/mobs-tft/galinha-tft.jfif",
+    "imagem": "../../public/mobs-tft/galinha-tft.png",
     "texto": "As acuaminas ficam em conjunto, causando muito dano em personagens que você deixar sozinho e que possuem menos vida. E da mesma forma dos krugs, se você matar uma as outras irão recuperar toda a vida."
   },
 
   {
     "estagio": "7",
     "nome": "dragao ancião",
-    "imagem": "../../public/mobs-tft/dragao-anciao.jfif",
+    "imagem": "../../public/mobs-tft/dragao-anciao.png",
     "texto": "Finalizando a partida você ficará cara a cara com o dragão ancião, ele possui mais vidas que os monstros anteriores, e mais dano, além de atacar em aréa. Porém é apenas um dragão, então use personagens tanques para segurar o dano e personagens de ataque a distância."
   }
 ]

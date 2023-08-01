@@ -7,7 +7,7 @@ defineProps({
 <template>
   <div>
     <p class="info__custo__custo">{{ texto }}</p>
-    <img src="../../../public/coin.png" alt="moedas"/>
+    <img src="/public/coin.png" alt="moedas"/>
   </div>
 </template>
 
