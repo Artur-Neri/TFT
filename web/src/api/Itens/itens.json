@@ -90,7 +90,7 @@
       },
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/cajado-do-arcanjo.jpeg",
+        "imagem": "/public/itens-tft/cajado-do-arcanjo.jpg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
@@ -329,7 +329,7 @@
       },
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/emblema-de-mira-latal.jpeg",
+        "imagem": "/public/itens-tft/emblema-de-mira-letal.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",
@@ -399,7 +399,7 @@
       },
       {
         "nome": "Luvas do Pugilista",
-        "imagem": "/public/itens-tft/faca-de-statikk.jpeg",
+        "imagem": "/public/itens-tft/faca-de-statikk.jpg",
         "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "",

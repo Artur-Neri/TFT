@@ -33,9 +33,13 @@
       </div>
 
       <div class="itens__completos__body">
-        <div class="completo__item">
-          <CompletosBody />
-        </div>
+        <CompletosBody 
+        v-for="(item, index) in itensApi[2].completos" :key="index"
+        :nome = "item.nome"
+        :imagem = "item.imagem"
+        :imagemComp1 = "item.imagemComp1"
+        :imagemComp2 = "item.imagemComp2"
+        />
       </div>
     </div>
 
@@ -85,6 +89,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+  }
+
+  .itens__completos__body{
+    gap: 50px;
+  }
+
+  .itens__completos__body > *{
+    flex: 1 1 25%;  
   }
 
 </style>

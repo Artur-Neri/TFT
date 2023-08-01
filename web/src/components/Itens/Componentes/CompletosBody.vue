@@ -1,25 +1,28 @@
 <script setup>
 defineProps({
-
+  nome: String,
+  imagem: String,
+  imagemComp1: String,
+  imagemComp2: String
 })
 </script>
 
 <template>
   <div class="completo__item">
-    <h3>Arauto de Zeke</h3>
+    <h3>{{nome}}</h3>
     <div class="item__imgs">
-      <img class="completo__img" src="/public/itens-tft/arauto-de-zeke.jpeg" alt="">
+      <img class="completo__img" :src="imagem" :alt="nome">
       <span>=</span>
-      <img class="componente__img" src="/public/itens-tft/arauto-de-zeke.jpeg" alt="">
+      <img class="componente__img" :src="imagemComp1" alt="imagem componente">
       <span>+</span>
-      <img class="componente__img" src="/public/itens-tft/arauto-de-zeke.jpeg" alt="">
+      <img class="componente__img" :src="imagemComp2" alt="imagem componente">
     </div>
   </div>
 </template>
 
 <style scoped>
   .completo__item {
-    background-image: linear-gradient(to left, #1f52b1 0%, #180133 80%);
+    /* background-image: linear-gradient(to left, #1f52b1 0%, #180133 80%); */
     padding: 5px 10px;
     border-radius: 5px;
     margin-bottom: 50px;
