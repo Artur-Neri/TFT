@@ -96,7 +96,7 @@
   }
 
   .itens__completos__body > *{
-    flex: 1 1 25%;  
+    flex: 1 0 25%;  
   }
 
 </style>
