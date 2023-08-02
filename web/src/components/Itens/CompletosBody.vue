@@ -28,6 +28,13 @@ defineProps({
     margin-bottom: 50px;
     border: 1px solid #ffffff2e;
     box-shadow: 0 0 10px 3px #00000042;
+    transition: .3s ease-in-out;
+  }
+
+  .completo__item:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+    box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.674)
   }
   .item__imgs {
     display: flex;

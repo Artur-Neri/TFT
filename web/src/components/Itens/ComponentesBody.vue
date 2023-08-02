@@ -1,6 +1,6 @@
 <script setup>
-  import efeitosApi from '../../../api/Itens/itens'
-  import EfeitoContainer from '../Componentes/EfeitoContainer.vue';
+  import efeitosApi from '/src/api/Itens/itens'
+  import EfeitoContainer from './EfeitoContainer.vue';
   
   defineProps({
     id: String,
