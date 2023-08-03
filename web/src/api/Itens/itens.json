@@ -199,8 +199,8 @@
       {
         "nome": "Emblema de Bastião",
         "imagem": "/public/itens-tft/emblema-de-bastiao.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/espatula.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Bastião.",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -209,8 +209,8 @@
       {
         "nome": "Emblema de Brutamontes",
         "imagem": "/public/itens-tft/emblema-de-brutamontes.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/espatula.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Brutamontes.",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -259,8 +259,8 @@
       {
         "nome": "Emblema de Emanador",
         "imagem": "/public/itens-tft/emblema-de-emanador.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/espatula.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Emanador.",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -269,8 +269,8 @@
       {
         "nome": "Emblema de Estrategista",
         "imagem": "/public/itens-tft/emblema-de-estrategista.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/espatula.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Estrategista.",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -289,8 +289,8 @@
       {
         "nome": "Emblema de Freijord",
         "imagem": "/public/itens-tft/emblema-de-freijord.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Freijord.",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -299,8 +299,8 @@
       {
         "nome": "Emblema de Ilha das Sombras",
         "imagem": "/public/itens-tft/emblema-de-ilha-das-sombras.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Ilha das Sombras.",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -319,8 +319,8 @@
       {
         "nome": "Emblema de Ladino",
         "imagem": "/public/itens-tft/emblema-de-ladino.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Ladino",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -329,8 +329,8 @@
       {
         "nome": "Emblema de Mira Letal",
         "imagem": "/public/itens-tft/emblema-de-mira-letal.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Mira Letal",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -349,8 +349,8 @@
       {
         "nome": "Emblema de Piltover",
         "imagem": "/public/itens-tft/emblema-de-piltover.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Piltover",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -369,8 +369,8 @@
       {
         "nome": "Emblema de Targon",
         "imagem": "/public/itens-tft/emblema-de-targon.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Targon",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -379,8 +379,8 @@
       {
         "nome": "Emblema de Vazio",
         "imagem": "/public/itens-tft/emblema-de-vazio.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Vazio",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
@@ -389,8 +389,8 @@
       {
         "nome": "Emblema de Zaun",
         "imagem": "/public/itens-tft/emblema-de-zaun.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Zaun",
         "efeitos": [
           {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
