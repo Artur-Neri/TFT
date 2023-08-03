@@ -41,8 +41,12 @@ defineProps({
     top: 10px;
     right: 10px;
     background-color: rgb(221, 76, 76);
-    padding: 2px;
     border: 1px solid #000;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    padding: 2px;
     transition: .3s ease-in-out;
     cursor: pointer;
   }
@@ -61,6 +65,7 @@ defineProps({
     align-items: center;
     gap: 10px;
     padding: 5px;
+    box-shadow: 0 0 500px 300px #0000009d;
   }
 
   .model__imgs {

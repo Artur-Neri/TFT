@@ -22,7 +22,7 @@
 </script>
 
 <template>
-  <main :class="{main__dark: itemActive}">
+  <main>
     <div class="main__cabecalho">
       <h1>Itens</h1>
       <h3>Descubra mais detalhes dos itens do TFT !</h3>
@@ -95,10 +95,6 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-  }
-
-  .main__dark {
-    opacity: 0.5;
   }
 
   .main__cabecalho {
