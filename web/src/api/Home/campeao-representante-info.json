@@ -106,9 +106,9 @@
             "tier3": "visão dobrada iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/visao-dobrada.png",
+            "tier2": "../../public/efeitos-cartas-tft/tier2/visao-dobrada.png",
+            "tier3": "../../public/efeitos-cartas-tft/tier3/visao-dobrada.png"
           }],
           "descricao" : [{
             "tier1": "Recebe 1 item completo a partir de dois exemplares do mesmo componente e 1 de ouro.",
@@ -133,7 +133,7 @@
           }],
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/onetwosthree.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier2/nascimento-das-estrelas.png",
             "tier3": "../../public/efeitos-cartas-tft/tier3/starter-kit.jpg"
           }],
           "descricao" : [{
@@ -314,7 +314,7 @@
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/on-a-roll.jpg",
             "tier2": "../../public/efeitos-cartas-tft/tier2/tradesector.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/.jpg"
+            "tier3": "../../public/efeitos-cartas-tft/tier3/maratona-de-compras.png"
           }],
           "descricao" : [{
             "tier1": "Sempre que aumentar o nível de um Campeão, recebe uma atualização gratuita da Loja, até 2 vez(es) por turno.",
@@ -510,7 +510,7 @@
           }],
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/item-grab-bag.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier2/saco-de-brindes.png",
             "tier3": "../../public/efeitos-cartas-tft/tier3/item-grab-bag.jpg"
           }],
           "descricao" : [{
@@ -554,7 +554,7 @@
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/afk.jpg",
             "tier2": "../../public/efeitos-cartas-tft/tier2/richgetricher.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/.jpg"
+            "tier3": "../../public/efeitos-cartas-tft/tier3/fundo-de-garantia.png"
           }],
           "descricao" : [{
             "tier1": "Você não pode realizar ações nas próximas 3 rodadas. Depois disso, você receberá 18 de ouro.",
@@ -630,7 +630,7 @@
           }],
           "imagem" : [{
             "tier1": "../../public/efeitos-cartas-tft/tier1/item-grab-bag.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
+            "tier2": "../../public/efeitos-cartas-tft/tier2/saco-de-brindes.png",
             "tier3": "../../public/efeitos-cartas-tft/tier3/item-grab-bag.jpg"
           }],
           "descricao" : [{
@@ -646,9 +646,9 @@
             "tier3": "visão dobrada iii"
           }],
           "imagem" : [{
-            "tier1": "../../public/efeitos-cartas-tft/tier1/.jpg",
-            "tier2": "../../public/efeitos-cartas-tft/tier2/.jpg",
-            "tier3": "../../public/efeitos-cartas-tft/tier3/.jpg"
+            "tier1": "../../public/efeitos-cartas-tft/tier1/visao-dobrada.png",
+            "tier2": "../../public/efeitos-cartas-tft/tier2/visao-dobrada.png",
+            "tier3": "../../public/efeitos-cartas-tft/tier3/visao-dobrada.png"
           }],
           "descricao" : [{
             "tier1": "Recebe 1 item completo a partir de dois exemplares do mesmo componente e 1 de ouro.",

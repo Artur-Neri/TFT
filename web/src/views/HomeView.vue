@@ -59,12 +59,12 @@
 <template>
   <main>
     <div class="cabecalho">
-      <img src="https://th.bing.com/th/id/R.8a1092521e8f042a11ac940503071b4d?rik=bV8wMNU3CbtPHA&pid=ImgRaw&r=0" alt="pinguin" class="cabecalho__img">
+      <img src="https://th.bing.com/th/id/R.8a1092521e8f042a11ac940503071b4d?rik=bV8wMNU3CbtPHA&pid=ImgRaw&r=0" alt="pinguin" class="cabecalho__img" draggable="false">
       <div class="cabecalho__title">
         <h1>Bem vindo!</h1>
         <p>Aqui você vai encontrar informações sobre TFT</p>
       </div>
-      <img src="https://th.bing.com/th/id/R.8a1092521e8f042a11ac940503071b4d?rik=bV8wMNU3CbtPHA&pid=ImgRaw&r=0" alt="pinguin" class="cabecalho__img">
+      <img src="https://th.bing.com/th/id/R.8a1092521e8f042a11ac940503071b4d?rik=bV8wMNU3CbtPHA&pid=ImgRaw&r=0" alt="pinguin" class="cabecalho__img" draggable="false">
     </div>
 
     <ModoDeJogo />
@@ -242,7 +242,7 @@
                 <td class="mobs__content__mob">
                   <h4 class="mobs__nome">{{  mobs.nome }}</h4>
                   <div class="mobs__descricao">
-                    <img :src="mobs.imagem" class="mobs__img" :alt="mobs.nome">
+                    <img :src="mobs.imagem" class="mobs__img" :alt="mobs.nome" draggable="false">
                     <span>{{ mobs.texto }}</span>
                   </div>
                 </td>

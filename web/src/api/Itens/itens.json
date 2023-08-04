@@ -603,7 +603,9 @@
         "imagemComp2": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
         "descricao": "Depois de causar dano a um inimigo com Escudo, habilidades e ataques causam @DamageAmpPct@% a mais de dano por 3.0s.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"},
+          {"efeito": "20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
+
         ]
       },
       {

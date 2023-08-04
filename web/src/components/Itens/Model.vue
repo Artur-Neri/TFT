@@ -13,20 +13,22 @@ defineProps({
   <div class="model">
     
     <div class="model__imgs">
-      <img src="../../../public/itens-tft/determinacao-titanica.jpeg" class="model__img__main" alt="">
+      <img :src="imagem" class="model__img__main" :alt="nome" draggable="false">
       <div class="model__components">
-        <img src="../../../public/itens-tft/componentes/arco-recurvo.jpeg" class="model__img__comp" alt="">
+        <img :src="imagemComp1" class="model__img__comp" alt="componente" draggable="false">
         <span class="model__mais">+</span>
-        <img src="../../../public/itens-tft/componentes/cota-de-malha.jpeg" class="model__img__comp" alt="">
+        <img :src="imagemComp2" class="model__img__comp" alt="componente" draggable="false">
       </div>
     </div>
 
     <div class="model__content">
-      <h2 class="model__titulo">Nome do Item</h2>
-      <p class="model__texto">Descrição do Item...</p>
+      <h2 class="model__titulo">{{ nome }}</h2>
+      <p class="model__texto">{{ descricao }}</p>
 
       <ul class="model__atributos">
-        <li class="atributos__item"></li>
+        <li class="atributos__item"
+        v-for="(atributo,index) in atributos" :key="index" 
+        >{{atributo.efeito}} <img :src="atributo.imagem" alt="atributo"></li>
       </ul>
     </div>
 
@@ -35,6 +37,7 @@ defineProps({
 </template>
 
 <style scoped>
+
 
   .modal__fechar {
     position: absolute;
@@ -65,7 +68,7 @@ defineProps({
     align-items: center;
     gap: 10px;
     padding: 5px;
-    box-shadow: 0 0 500px 300px #0000009d;
+    box-shadow: 0 0 100vw 100vw #0000009d;
   }
 
   .model__imgs {
@@ -103,6 +106,33 @@ defineProps({
     justify-content: space-between;
     padding: 10px;
   }
+
+  .model__atributos {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+  }
+
+  .model__atributos{
+    padding: 0;
+  }
+
+  .atributos__item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+  .atributos__item img {
+    width: 20px;
+    height: 20px;
+  }
+
+
 </style>
 
 <script>

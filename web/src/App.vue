@@ -30,7 +30,6 @@ import { RouterLink, RouterView } from 'vue-router'
     width: 100%;
     height: 100%;
     background-color: rgb(3, 3, 59);
-    /* background-image: url('/public/bg-tft.png'); */
   }
 
   .nav-top { 
@@ -103,9 +102,5 @@ import { RouterLink, RouterView } from 'vue-router'
     position: relative;
     z-index: 2;
   }
-
-  /* .nav__item:hover {
-    background-color: #00ffff;
-  } */
   
 </style>

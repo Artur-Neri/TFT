@@ -57,6 +57,12 @@
   font-weight: normal;
 }
 
+img {
+  pointer-events: none;
+  user-select: none;
+  drag-and-drop: none;
+}
+
 .noxus {
   background-image: var(--vt-c-noxus);
 }
