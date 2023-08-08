@@ -15,56 +15,56 @@
         "nome": "Arco Recurvo",
         "imagem": "/public/itens-tft/componentes/arco-recurvo.jpeg",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
         "nome": "Bastão Desnecessariamente Grande",
         "imagem": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"}
         ]
       },
       {
         "nome": "Capa Negatron",
         "imagem": "/public/itens-tft/componentes/capa-negatron.jpeg",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"}
         ]
       },
       {
         "nome": "Cinto do Gigante",
         "imagem": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+150", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"}
         ]
       },
       {
         "nome": "Cota de Malha",
         "imagem": "/public/itens-tft/componentes/cota-de-malha.jpeg",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"}
         ]
       },
       {
         "nome": "Espada G.p.c",
         "imagem": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attack.svg"}
         ]
       },
       {
         "nome": "Lagríma da Deusa",
         "imagem": "/public/itens-tft/componentes/lagrima-da-deusa.jpeg",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+15", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },
       {
         "nome": "Luvas do Pugilista",
         "imagem": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -93,9 +93,10 @@
         "imagem": "/public/itens-tft/cajado-do-arcanjo.jpg",
         "imagemComp1": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/lagrima-da-deusa.jpeg",
-        "descricao": "Durante o combate ganha +20 de AP a cada cinco segundos",
+        "descricao": "Durante o combate ganha +20 de AP a cada 5 segundos",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"},
+          {"efeito": "+30", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },{
         "nome": "Cálice do Poder",
@@ -104,7 +105,8 @@
         "imagemComp2": "/public/itens-tft/componentes/capa-negatron.jpeg",
         "descricao": "No início do combate, o usuário e seus aliados adjacentes recebem 30 de AP por toda a rodada",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+45", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"},
+          {"efeito": "+45", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },
       {
@@ -114,7 +116,7 @@
         "imagemComp2": "/public/itens-tft/componentes/arco-recurvo.jpeg",
         "descricao": "Aumenta o alcance de ataque básico em uma casa, aumenta em 50% a velocidade de ataque e os ataques do usuário não podem errar",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+55%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -124,7 +126,8 @@
         "imagemComp2": "/public/itens-tft/componentes/cota-de-malha.jpeg",
         "descricao": "Recebe 400 de Vida Adicional (incluindo componentes). Efeito de queimadura é aplicado a um inimigo aleatório dentro de 2 casas a cada 2s, causando 10% da vida máxima da unidade afetada como Dano Verdadeiro ao longo de 10s. O efeito também corta cura recebida pelo alvo em 50%",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"},
+          {"efeito": "+250", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"}
         ]
       },
       {
@@ -134,7 +137,7 @@
         "imagemComp2": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
         "descricao": "+75 de poder de habilidade",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+70", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"}
         ]
       },
       {
@@ -144,7 +147,8 @@
         "imagemComp2": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
         "descricao": "inimigos a até 2 casas de distância têm resistência mágica reduzida em 50%. Quando inimigos usam habilidades eles recebem dano mágico igual a 200% da mana máxima deles.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"},
+          {"efeito": "+10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"}
         ]
       },
       {
@@ -154,7 +158,7 @@
         "imagemComp2": "/public/itens-tft/componentes/cota-de-malha.jpeg",
         "descricao": "nega em 75% o dano adicional de Acertos Críticos sofridos e ao ser atingido por um ataque básico, causa 75/100/150 de dano mágico a todos os inimigos próximos (máximo de 1 vez a cada 2,5s). Escala com o Nível de Estrela do usuário.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+70", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"}
         ]
       },
       {
@@ -162,7 +166,7 @@
         "imagem": "/public/itens-tft/coroa-do-estrategista.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/espatula.jpeg",
         "imagemComp2": "/public/itens-tft/componentes/espatula.jpeg",
-        "descricao": "seu time ganha +1 em tamanho",
+        "descricao": "Sua equioe recebe +1 de tamanho máximo.",
         "efeitos": [
         ]
       },
@@ -173,7 +177,8 @@
         "imagemComp2": "/public/itens-tft/componentes/arco-recurvo.jpeg",
         "descricao": "ao sofrer dano ou causar um acerto crítico, o usuário ganha 2 de AD e AP até 25 acúmulos. Ao atingir 25 acúmulos, o usuário recebe 25 de Armadura e RM",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"},
+          {"efeito": "+10%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -183,17 +188,17 @@
         "imagemComp2": "/public/itens-tft/componentes/lagrima-da-deusa.jpeg",
         "descricao": "Concede 10 de Mana inicial adicional e 15 de poder de habilidade. Conjurar habilidades custa 10 a menos de Mana. Caso consiga uma eliminação em até 3 segundos após conjurar uma habilidade, ganha 10 de Mana.",
         "efeitos": [
+          {"efeito": "10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"},
           {"efeito": "40", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },
       {
         "nome": "Emblema de Artilheiro",
         "imagem": "/public/itens-tft/emblema-de-artilheiro.jpeg",
-        "imagemComp1": "/public/itens-tft/componentes/espatula.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
+        "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Artilheiro.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -203,7 +208,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Bastião.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -213,17 +217,16 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Brutamontes.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
         "nome": "Emblema de Colosso",
         "imagem": "/public/itens-tft/emblema-de-colosso.jpeg",
         "imagemComp1": "/public/itens-tft/componentes/espatula.jpeg",
-        "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
+        "imagemComp2": "/public/itens-tft/componentes/cota-de-malha.jpeg",
         "descricao": "O usuário ganha a característica Colosso.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"}
         ]
       },
       {
@@ -233,7 +236,7 @@
         "imagemComp2": "/public/itens-tft/componentes/capa-negatron.jpeg",
         "descricao": "O usuário ganha a característica Demacia.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"}
         ]
       },
       {
@@ -243,7 +246,7 @@
         "imagemComp2": "/public/itens-tft/componentes/arco-recurvo.jpeg",
         "descricao": "O usuário ganha a característica Desafiante.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -253,7 +256,7 @@
         "imagemComp2": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "descricao": "O usuário ganha a característica Dizimador.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -263,7 +266,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Emanador.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -273,7 +275,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Estrategista.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -283,7 +284,7 @@
         "imagemComp2": "/public/itens-tft/componentes/lagrima-da-deusa.jpeg",
         "descricao": "O usuário ganha a característica Feiticeiro.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+15", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },
       {
@@ -293,7 +294,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Freijord.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -303,7 +303,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Ilha das Sombras.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -313,7 +312,7 @@
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "O usuário ganha a característica Ionia",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attack.svg"}
         ]
       },
       {
@@ -323,7 +322,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Ladino",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -333,7 +331,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Mira Letal",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -343,7 +340,7 @@
         "imagemComp2": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
         "descricao": "O usuário ganha a característica Noxus",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+150", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"}
         ]
       },
       {
@@ -353,7 +350,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Piltover",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -363,7 +359,7 @@
         "imagemComp2": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
         "descricao": "O usuário ganha a característica Shurima",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"}
         ]
       },
       {
@@ -373,7 +369,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Targon",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -383,7 +378,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Vazio",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -393,7 +387,6 @@
         "imagemComp2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ__B5Ne_JQ3i4TKTKfPUh45OqeOFuPnPWkg&usqp=CAU",
         "descricao": "O usuário ganha a característica Zaun",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -403,7 +396,9 @@
         "imagemComp2": "/public/itens-tft/componentes/lagrima-da-deusa.jpeg",
         "descricao": "Cada terceiro ataque desfere uma cadeia de relâmpagos que ricocheteia em 4 inimigos, causando 30 de Dano Mágico e 50% de Fragmentação por 5.0s. Fragmentação: reduz a Resistência Mágica.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+15", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"},
+          {"efeito": "+10%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"},
+          {"efeito": "+15", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },
       {
@@ -413,7 +408,8 @@
         "imagemComp2": "/public/itens-tft/componentes/capa-negatron.jpeg",
         "descricao": "Os ataques disparam um projétil em um inimigo próximo, causando 50% do Dano de Ataque AD como Dano Físico.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"},
+          {"efeito": "+10%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -423,7 +419,7 @@
         "imagemComp2": "/public/itens-tft/componentes/capa-negatron.jpeg",
         "descricao": "A cada 2seg, regenera 5% de vida máxima.",
         "efeitos": [
-          {"efeito": "75", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+75", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"}
         ]
       },
       {
@@ -433,7 +429,7 @@
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "O dano de uma habilidade pode causar Acerto Crítico.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+35", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -443,7 +439,8 @@
         "imagemComp2": "/public/itens-tft/componentes/cota-de-malha.jpeg",
         "descricao": "Uma vez por combate: ao ficar com 40% de Vida, recebe um Escudo de 25% da Vida máxima que dura até 5.0s e Armor @Stats@ de Armadura e MR @Stats@ de Resistência Mágica pelo resto do combate.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"},
+          {"efeito": "+45", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },
       {
@@ -453,7 +450,8 @@
         "imagemComp2": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
         "descricao": "Ataques concedem AS 4% de Velocidade de Ataque adicional. Esse efeito acumula.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"},
+          {"efeito": "+18%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -473,7 +471,8 @@
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "Os ataques restauram Mana 5 de Mana adicional.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+25", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"},
+          {"efeito": "+30", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },
       {
@@ -483,7 +482,7 @@
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "Uma vez por combate: ao ficar com 60% de Vida, torna-se brevemente inalvejável e livra-se de efeitos negativos. Então, recebe AS 15% de Velocidade de Ataque adicional.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"}
         ]
       },
       {
@@ -493,7 +492,7 @@
         "imagemComp2": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "descricao": "A cada rodada: equipe dois itens aleatórios.",
         "efeitos": [
-          {"efeito": "40%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+40%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -503,7 +502,8 @@
         "imagemComp2": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
         "descricao": "",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+30", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"},
+          {"efeito": "+35%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -513,7 +513,9 @@
         "imagemComp2": "/public/itens-tft/componentes/cota-de-malha.jpeg",
         "descricao": "Início do combate: dispara um raio que causa 30% de aumento de custo de Mana aos inimigos. Aumento de custo de Mana: aumenta o Mana máximo até a próxima conjuração.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"},
+          {"efeito": "+250", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"},
+          {"efeito": "+20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -523,7 +525,8 @@
         "imagemComp2": "/public/itens-tft/componentes/lagrima-da-deusa.jpeg",
         "descricao": "",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+15", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"},
+          {"efeito": "+20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -533,7 +536,8 @@
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "Habilidades e ataques causam 25% a mais de dano a inimigos com mais de 1600 de Vida máxima.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"},
+          {"efeito": "+10%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -543,7 +547,8 @@
         "imagemComp2": "/public/itens-tft/componentes/bastao-desnecessariamente-grande.jpeg",
         "descricao": "Início do combate: o usuário e os aliados em até 1 casa(s) adjacente(s) na mesma linha recebem um Escudo que absorve 250.0/300.0/350 ★ de dano por 8.0s.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"},
+          {"efeito": "+10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"}
         ]
       },
       {
@@ -553,7 +558,9 @@
         "imagemComp2": "/public/itens-tft/componentes/luvas-do-pugilista.jpeg",
         "descricao": "Início do combate: concede imunidade a Controle de Grupo por 18.0s.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+30", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"},
+          {"efeito": "+30%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"},
+          {"efeito": "+20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -563,7 +570,8 @@
         "imagemComp2": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
         "descricao": "Dano Mágico ou Dano Verdadeiro da habilidade do usuário causam 1% de Queimadura e 33% de Ferimentos aos inimigos por 10.0s Queimadura: causa dano equivalente a uma porcentagem da Vida máxima do alvo como Dano Verdadeiro a cada segundo. Ferimento: reduz a cura recebida..",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+150", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"},
+          {"efeito": "+25", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"}
         ]
       },
       {
@@ -573,7 +581,7 @@
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "Concede 22% de Vampirismo Universal, que também cura o aliado com a menor porcentagem de Vida. Cura: @TFTUnitProperty.item:TFT_Tracker_Value1@Vampirismo Universal: cura-se em parte do dano causado.",
         "efeitos": [
-          {"efeito": "10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-power.svg"}
         ]
       },
       {
@@ -583,7 +591,8 @@
         "imagemComp2": "/public/itens-tft/componentes/capa-negatron.jpeg",
         "descricao": "Concede Armor 15 de Armadura e MR 15 de Resistência Mágica para cada inimigo que tiver o usuário como alvo.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+30", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-armor.svg"},
+          {"efeito": "+30", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"}
         ]
       },
       {
@@ -593,7 +602,8 @@
         "imagemComp2": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
         "descricao": "Início do combate: Provoca.Ao morrer, uma Criatura do Vazio surge, Provocando os inimigos próximos. As Criaturas do Vazio têm eficácia muito reduzida quando criadas por uma unidade invocada. Provocação: os inimigos que são capazes e estão ao alcance devem atacar quem os provoca.",
         "efeitos": [
-          {"efeito": "150", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+150", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"},
+          {"efeito": "+10%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       },
       {
@@ -603,8 +613,9 @@
         "imagemComp2": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
         "descricao": "Depois de causar dano a um inimigo com Escudo, habilidades e ataques causam @DamageAmpPct@% a mais de dano por 3.0s.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"},
-          {"efeito": "20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
+          {"efeito": "+20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"},
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"},
+          {"efeito": "+150", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"}
 
         ]
       },
@@ -615,7 +626,8 @@
         "imagemComp2": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
         "descricao": "A cada 5.0s, cura os aliados em até 1 casa adjacente em 15% da Vida perdida. Eles também sofrem 25% a menos de dano de vários alvos por 5.0s (a redução de dano não acumula).Cura: @TFTUnitProperty.item:TFT_Tracker_Value1@Dano bloqueado de habilidades com vários alvos: @TFTUnitProperty.item:TFT_Tracker_Value2@",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+150", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"},
+          {"efeito": "+15", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mana.svg"}
         ]
       },
       {
@@ -625,7 +637,7 @@
         "imagemComp2": "/public/itens-tft/componentes/espada-gpc.jpeg",
         "descricao": "oncede 20% de Vampirismo Universal.Uma vez por combate, ao ficar com 40% de Vida, recebe um Escudo de 25% da Vida máxima que dura até 5.0s.Vampirismo Universal: cura-se em parte do dano causado.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"}
         ]
       },
       {
@@ -635,7 +647,8 @@
         "imagemComp2": "/public/itens-tft/componentes/arco-recurvo.jpeg",
         "descricao": "Qualquer Dano Físico causado também causa 50% de Fatiamento ao alvo por 3.0s. Esse efeito não acumula. Fatiamento: reduz a Armadura.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+10%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"},
+          {"efeito": "+20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-crit.svg"}
         ]
       },
       {
@@ -645,7 +658,9 @@
         "imagemComp2": "/public/itens-tft/componentes/cinto-do-gigante.jpeg",
         "descricao": "Início do combate: invoca um furacão no lado oposto da arena que remove do combate o inimigo mais próximo por 5.0s.",
         "efeitos": [
-          {"efeito": "20%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
+          {"efeito": "+20", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-mr.svg"},
+          {"efeito": "+150", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-health.svg"},
+          {"efeito": "+15%", "imagem": "https://lolg-cdn.porofessor.gg/img/s/tft/items/icon-attackSpeed.svg"}
         ]
       }
     ]
