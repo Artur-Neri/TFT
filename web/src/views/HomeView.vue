@@ -21,7 +21,7 @@
 
 <script>
   const numberOfRepetitions = 5
-  const campeaoInfoImage = ref('../../public/lendas-tft/aurelion-sol.JPG')
+  const campeaoInfoImage = ref('lendas-tft/aurelion-sol.JPG')
   const campeaoInfoNome = ref('Aurelion Sol')
   const campeaoId = ref(0)
   const detail = ref('Detalhes')
@@ -33,7 +33,7 @@
   }
 
   function exibirInfoCampeao (imagem, nome, id) {
-    campeaoInfoImage.value = imagem.replace("-square", "")
+    campeaoInfoImage.value = imagem.replace("-square.jpg", ".JPG")
     campeaoInfoNome.value = nome
     mudarId(id)
   }
