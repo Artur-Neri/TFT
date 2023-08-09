@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 :root {
   /* Colors */
@@ -11,6 +12,7 @@
   /* Fonts */
   --vt-f-bree-serif: 'Bree Serif', serif;
   --vt-f-roboto:'Roboto', sans-serif;
+  --vt-f-inter: 'Inter', sans-serif;
 
   --vt-f-p: 1rem;
   --vt-f-m: 1.5rem;
@@ -32,9 +34,10 @@
   /* RARIDADE */
   --tier1: #808080;
   --tier2: #2ec500;
-  --tier3: #0d048e;
-  --tier4: #7c0491;
+  --tier3: #359af8;
+  --tier4: #9022c5;
   --tier5: #e7dc07;
+
 }
 
 /* semantic color variables for this project */

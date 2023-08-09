@@ -6,9 +6,9 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="image">
-      <header class="nav-top">
+      <div class="nav-top">
         <img src="/public/my_tft_logo.png" alt="logo" class="header__logo">
-      </header>
+      </div>
       <main class="main">
         <nav class="nav">
           <RouterLink to="/" class="nav__item"><span>Home</span></RouterLink>
