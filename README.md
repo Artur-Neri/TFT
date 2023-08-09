@@ -67,7 +67,7 @@ Projeto desenvolvido clonando a própria [Riot Games](https://teamfighttactics.l
   <div>
    <img  src="https://avatars.githubusercontent.com/u/110543447?v=4" width="100px;" alt="Artur"/>
    <br />
-   <sub><b>Artur Neri</b></sub></a> <a href="https:github.com/Artur-Neri/" target="_blank">🧨
+   <a href="https:github.com/Artur-Neri/" target="_blank"><sub><b>Artur Neri</b></sub></a> 🧨
   
   👋🏽 Entre em contato!
   
