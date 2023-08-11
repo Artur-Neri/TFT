@@ -3,7 +3,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Artur-Neri/TFT">
   
-  <a href="https://github.com/Artur-Neri/TFT/commits/master">
+  <a href="https://github.com/Artur-Neri/TFT/commits/master" target="_blank">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Artur-Neri/TFT">
   </a>
     
@@ -65,9 +65,9 @@ Projeto desenvolvido clonando a própria [Riot Games](https://teamfighttactics.l
 ---
 <section>
   <div>
-   <img  src="https://avatars.githubusercontent.com/u/110543447?v=4" width="100px;" alt="Artur"/>
+   <a href="https://github.com/Artur-Neri"><img  src="https://avatars.githubusercontent.com/u/110543447?v=4" width="100px;" alt="Artur"/></a>
    <br />
-   <sub><b>Artur Neri</b></sub></a> <a href="https:github.com/Artur-Neri/" title="Portfólio">🧨
+   <sub><b>Artur Neri</b></sub> 🧨
   
   👋🏽 Entre em contato!
   
@@ -76,9 +76,9 @@ Projeto desenvolvido clonando a própria [Riot Games](https://teamfighttactics.l
 </div>
 
   <div>
-   <img  src="https://avatars.githubusercontent.com/u/92743903?v=4" width="100px;" alt="Vitor"/>
+   <a href="https://github.com/Vitor-HenriqueAS"><img  src="https://avatars.githubusercontent.com/u/92743903?v=4" width="100px;" alt="Vitor"/></a>
    <br />
-   <sub><b>Vitor Henrique</b></sub></a> <a href="https:github.com/Vitor-HenriqueAS/" title="Portfólio">👻
+   <sub><b>Vitor Henrique</b></sub>👻
   
   👋🏽 Entre em contato!
   
