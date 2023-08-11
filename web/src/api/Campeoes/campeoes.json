@@ -1,8 +1,15 @@
 [
   
   [
-    {"nome": "aatrox", "img": "campeoes-tft/aatrox.jpg"},
-    {"nome": "aatrox", "img": "campeoes-tft/orianna.jpg"}
+    {
+      "nome": "aatrox", 
+      "img": "campeoes-tft/aatrox.jpg",
+      "descricao": "Aqui vai um breve texto das habilidades",
+      "caracteristica": [
+        {"nome": "demacia", "img": "origens-tft/demacia-origem.png"}
+      ]
+    },
+    {"nome": "orianna", "img": "campeoes-tft/orianna.jpg"}
   ],
   
   [
