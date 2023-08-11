@@ -63,7 +63,8 @@
 img {
   pointer-events: none;
   user-select: none;
-  drag-and-drop: none;
+  -webkit-user-drag: none;
+
 }
 
 .noxus {

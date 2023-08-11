@@ -44,14 +44,17 @@
           </div>
         </div>
         <div class="campeoes__conteudo">
-          <img v-for="(campeao, index) in campeaoApi[tier-1]" 
-          :key="index" 
-          :src="campeao.img" 
-          :alt="campeao.nome" 
-          :title="campeao.nome"
-          :class="'tier'+tier"
-          @click="ativa(tier, index)"
-          />
+          <div v-for="(campeao, index) in campeaoApi[tier-1]" 
+          :key="index"  
+          @click="ativa(tier, index)">          
+            <img 
+            :src="campeao.img" 
+            :alt="campeao.nome" 
+            :title="campeao.nome"
+            :class="'tier'+tier"
+           
+            />
+        </div>
         </div>
       </div>
     </div>
@@ -227,13 +230,12 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    flex: wrap;
+    flex-wrap: wrap;
   }
 
   .campeoes__conteudo img{
     width: 100px;
-    height: 100px;
-    cursor: pointer;
+    height: 100px;    
   }
 
   .tier1 {
