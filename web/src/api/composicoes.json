@@ -71,12 +71,6 @@
   },
 
   {
-    "classe": "Zaun",
-    "efeitos": "Campeões de Zaun criam Módulos Quimtec aleatórios que só podem ser usados por eles. Campeões podem ser modificados uma vez, enquanto Módulos só podem ser removidos ao vender o Campeão.",
-    "efeitoAdicional": "(2) Recebe 1 Módulo Quimtec\n(4) Recebe 2 Módulos Quimtec\n(6) Recebe 3 Módulos Quimtec e Módulos de Sobrecarga"
-  },
-
-  {
     "classe": "Bastião",
     "efeitos": "Campeões Bastião recebem Armadura e Resistência Mágica. Isso aumenta em 100% nos primeiros 10s do combate.",
     "efeitoAdicional": "(2) +20 de defesa\n(4) +45 de defesa\n(6) +90 de defesa\n(8) +180 de defesa"

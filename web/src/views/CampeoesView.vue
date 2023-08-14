@@ -1,5 +1,5 @@
 <script setup>
-  import campeaoApi from '../api/Campeoes/campeoes.json';
+  import campeaoApi from '../api/Campeoes/campeoes.js';
   import {ref} from 'vue'
 </script>
 
@@ -46,7 +46,8 @@
         <div class="campeoes__conteudo">
           <div v-for="(campeao, index) in campeaoApi[tier-1]" 
           :key="index"  
-          @click="ativa(tier, index)">          
+          @click="ativa(tier, index)"
+          class="campeoes__conteudo__img">          
             <img 
             :src="campeao.img" 
             :alt="campeao.nome" 
@@ -94,6 +95,10 @@
 </template>
 
 <style scoped>
+
+  .campeoes__conteudo__img {
+    cursor: pointer;
+  }
 
   .campeao__banner {
     height: 100%;
