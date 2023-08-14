@@ -6,9 +6,10 @@
 <script>
   const tiers = 5
   const modal= ref(false)
-  const descricao= ref(campeaoApi[tierSelecionado][idCampeaoSelecionado].descricao)
   const tierSelecionado = ref(0)
   const idCampeaoSelecionado = ref(0)
+  const campeaoteste = campeaoApi[0][0].descricao
+  const descricao= ref(campeaoteste)
 
   function mostraDescricao(texto) {
     descricao.value = texto
@@ -70,15 +71,16 @@
     > 
       <div class="campeao__info">
         <div class="info__cabecalho">
-          <h3>Skill</h3>
+          <h3 @click="mostraDescricao(campeaoApi[tierSelecionado][idCampeaoSelecionado].descricao)">Skill</h3>
           <div 
-          v-for="(camp, index) in campeaoApi[tierSelecionado][idCampeaoSelecionado].caracteristica" :key="index"
-          class="info__caracteristica" 
-          @click="mostraDescricao(camp.descricao)">
+            v-for="(camp, index) in campeaoApi[tierSelecionado][idCampeaoSelecionado].caracteristica" :key="index"
+            class="info__caracteristica" 
+            @click="mostraDescricao(camp.descricao)">
             <img
               :src="camp.img" 
               :alt="camp.nome"
-              >
+            >
+            {{ console.log(camp.nome) }}
           </div>
         </div>
 
@@ -102,6 +104,11 @@
 </template>
 
 <style scoped>
+
+  .campeoes__cabecalho {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.116);
+    margin-bottom: 10px;
+  }
 
   .campeoes__conteudo__img {
     cursor: pointer;
@@ -241,7 +248,7 @@
   .campeoes__conteudo {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     flex-wrap: wrap;
   }
 
