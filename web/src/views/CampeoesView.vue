@@ -6,11 +6,15 @@
 <script>
   const tiers = 5
   const modal= ref(false)
+  const descricao= ref(campeaoApi[tierSelecionado][idCampeaoSelecionado].descricao)
   const tierSelecionado = ref(0)
   const idCampeaoSelecionado = ref(0)
 
+  function mostraDescricao(texto) {
+    descricao.value = texto
+  }
+
   function ativa(tier, index) {
-    console.log("opa")
     modal.value = true
     tierSelecionado.value = tier - 1
     idCampeaoSelecionado.value = index
@@ -67,8 +71,11 @@
       <div class="campeao__info">
         <div class="info__cabecalho">
           <h3>Skill</h3>
-          <div class="info__caracteristica">
-            <img v-for="(camp, index) in campeaoApi[tierSelecionado][idCampeaoSelecionado].caracteristica" :key="index"
+          <div 
+          v-for="(camp, index) in campeaoApi[tierSelecionado][idCampeaoSelecionado].caracteristica" :key="index"
+          class="info__caracteristica" 
+          @click="mostraDescricao(camp.descricao)">
+            <img
               :src="camp.img" 
               :alt="camp.nome"
               >
@@ -77,7 +84,7 @@
 
         <div class="info__descricao">
           <p>
-            {{campeaoApi[tierSelecionado][idCampeaoSelecionado].descricao}}
+            {{ descricao }}
           </p>
         </div>
       </div>
