@@ -61,8 +61,7 @@
             </div>
             <div class="campeoes__conteudo">
               <div v-for="(campeao, index) in campeaoApi[tier-1]" 
-              :key="index"  
-              @click="ativa(tier, index)"
+              :key="index"
               class="campeoes__conteudo__img">          
                 <img 
                 :src="campeao.img" 
