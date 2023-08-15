@@ -10,7 +10,7 @@
 
 <template>
   <div class="campeao"
-  v-for="(campeao, index) in campeaoApi" :key="index"
+  v-for="(campeao, index) in campeaoApi" :key="index" 
   >
     <div class="campeoes__cabecalho">
       <h3>Tier {{index+1}}</h3>
