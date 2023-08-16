@@ -19,7 +19,7 @@
 
   function removerCampeao(id) {
     const slots = document.querySelectorAll('.slot_img')
-    slots[id].src = 'elmo-capacete.png'
+    slots[id].src = '/public/elmo-capacete.png'
     arrayVerifica[id] = 'vazio'
   }
 
@@ -72,7 +72,7 @@
               <img
                 class="slot_img"
                 :id="indexColuna + 7 * indexLinha"
-                src="elmo-capacete.png"
+                src="/public/elmo-capacete.png"
                >
             </div>
           </slot>
