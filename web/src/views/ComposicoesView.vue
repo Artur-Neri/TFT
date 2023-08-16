@@ -12,16 +12,16 @@
 
 <script>
 
-const slots = document.querySelectorAll('.slot_img').length
-console.log(slots)
-for (let i = 0; i < slots; i++){
-  console.log(i)
-}
-const campeaoImg = ref('')
+// const slots = document.querySelectorAll('.slot_img')
+// const campeaoImg = ref('')
+  let vazio = 0
+  function adicionaCampeao(img){
+    // campeaoImg.value = img
+    // nome, tier
+    const slots = document.querySelectorAll('.slot_img')
 
-  function adicionaCampeao(img, nome, tier){
-    nome, tier
-    campeaoImg.value = img
+    slots[vazio].src = img
+    vazio++
   }
 
 </script>
@@ -57,7 +57,7 @@ const campeaoImg = ref('')
             <div class="slot" >
               <img
                 class="slot_img"
-                :src="campeaoImg"
+                src=""
                >
             </div>
           </slot>
