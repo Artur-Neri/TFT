@@ -19,7 +19,7 @@
 
   function removerCampeao(id) {
     const slots = document.querySelectorAll('.slot_img')
-    slots[id].src = '/public/elmo-capacete.png'
+    slots[id].src = 'elmo-capacete.png'
     arrayVerifica[id] = 'vazio'
   }
 
