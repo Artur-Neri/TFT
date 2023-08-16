@@ -2,7 +2,6 @@
   import campeaoApi from '../api/Campeoes/campeoes.js';
   import itensApi from '../api/Itens/itens.json';
   import { Icon } from '@iconify/vue';
-  import { ref } from 'vue';
 
   const linhas = 4
   const colunas = 7
@@ -11,17 +10,32 @@
 </script>
 
 <script>
+  const vazio = []
+  const arrayVerifica = []
 
-// const slots = document.querySelectorAll('.slot_img')
-// const campeaoImg = ref('')
-  let vazio = 0
-  function adicionaCampeao(img){
-    // campeaoImg.value = img
-    // nome, tier
+  for (let i = 0; i < 28; i++) {
+    arrayVerifica[i] = 'vazio';
+  }
+
+  function removerCampeao(id) {
     const slots = document.querySelectorAll('.slot_img')
+    slots[id].src = 'elmo-capacete.png'
+    arrayVerifica[id] = 'vazio'
+  }
 
-    slots[vazio].src = img
-    vazio++
+  function verifica() {
+    for(let i=0;i<28;i++){
+      if (arrayVerifica[i] == 'vazio') {
+        arrayVerifica[i] = 'preenchido'
+        vazio.push(i)
+        return i
+      }
+    }
+  }
+
+  function adicionaCampeao(img){
+    const slots = document.querySelectorAll('.slot_img')
+    slots[verifica()].src = img
   }
 
 </script>
@@ -54,10 +68,11 @@
           <slot class="coluna" name="slot"
           v-for="(coluna, indexColuna) in colunas" :key="indexColuna"
           >
-            <div class="slot" >
+            <div class="slot" @click="removerCampeao(indexColuna + 7 * indexLinha)">
               <img
                 class="slot_img"
-                src=""
+                :id="indexColuna + 7 * indexLinha"
+                src="elmo-capacete.png"
                >
             </div>
           </slot>
@@ -113,7 +128,6 @@
 
 
 <style scoped>
-
   .master {
     color: white;
     background-color: rgba(255,255,255,0.1);
@@ -170,6 +184,11 @@
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
+  }
+
+  .slot img {
+    width: 100%;
+    height: 100%;
   }
 
   .botoes {
