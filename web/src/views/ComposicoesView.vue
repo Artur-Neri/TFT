@@ -1,12 +1,31 @@
 <script setup>
   import campeaoApi from '../api/Campeoes/campeoes.js';
-  import itensApi from '../api/Itens/itens.json'
+  import itensApi from '../api/Itens/itens.json';
+  import { Icon } from '@iconify/vue';
+  import { ref } from 'vue';
 
   const linhas = 4
   const colunas = 7
   const tiers = 5
+  
+</script>
+
+<script>
+
+const slots = document.querySelectorAll('.slot_img').length
+console.log(slots)
+for (let i = 0; i < slots; i++){
+  console.log(i)
+}
+const campeaoImg = ref('')
+
+  function adicionaCampeao(img, nome, tier){
+    nome, tier
+    campeaoImg.value = img
+  }
 
 </script>
+
 
 <template>
   <section class="master">
@@ -16,7 +35,7 @@
       <h3>Faca sua composição vitoriosa</h3>
     </header>
 
-    <div class="caracteristicas__slots">
+    <div class="caract__e__slots">
       <div class="caracteristicas">
         <div class="caracteristica_ativa">
           <img src="https://github.com/Artur-Neri.png" alt="caracteristica">
@@ -30,19 +49,24 @@
 
       <div class="slots">
         <div class="linha"
-        v-for="linha in linhas" :key="linha"
+        v-for="(linha, indexLinha) in linhas" :key="indexLinha"
         >
-          <slot class="slot" name="slot"
-          v-for="coluna in colunas" :key="coluna"
+          <slot class="coluna" name="slot"
+          v-for="(coluna, indexColuna) in colunas" :key="indexColuna"
           >
-          <p>opinha</p>
+            <div class="slot" >
+              <img
+                class="slot_img"
+                :src="campeaoImg"
+               >
+            </div>
           </slot>
         </div>
       </div>
 
       <div class="botoes">
-        <button type="button">teste</button>
-        <button type="button">teste diferente</button>
+        <Icon icon="mdi:share" class="btn__export"/>
+        <Icon icon="ic:baseline-download" class="btn__export"/>
       </div>
     </div>
 
@@ -62,7 +86,9 @@
             <div class="campeoes__conteudo">
               <div v-for="(campeao, index) in campeaoApi[tier-1]" 
               :key="index"
-              class="campeoes__conteudo__img">          
+              class="campeoes__conteudo__img"
+              @click="adicionaCampeao(campeao.img, campeao.nome, tier)"
+              >          
                 <img 
                 :src="campeao.img" 
                 :alt="campeao.nome" 
@@ -85,6 +111,7 @@
   </section>
 </template>
 
+
 <style scoped>
 
   .master {
@@ -100,20 +127,71 @@
     margin-bottom: 30px;
   }
 
-  .caracteristicas__slots {
+  .caract__e__slots {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-evenly;
+  }
+
+  .caracteristicas {
+    min-height: 100%;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, 0.299);
+    border-radius: 5px;
+  }
+
+  .caracteristica_ativa {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 5px;
+    margin: 5px 0;
+  }
+
+  .caracteristica_ativa span{
+    font-family: var(--vt-f-inter);
+    font-size: var(--vt-f-p);
   }
 
   .caracteristica_ativa img {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
   }
 
   .linha {
     display: flex;
     gap: 20px;
+  }
+
+  .slot {
+    border:2px solid black;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .btn__export {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.34);
+    border-radius: 5px;
+    filter: brightness(70%);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+  }
+
+  .btn__export:hover {
+    filter: brightness(100%);
   }
 
   .itens__img {
@@ -129,6 +207,7 @@
   }
 
   .campeao__main {
+    
     width: fit-content;
     background-color: red;
   }
