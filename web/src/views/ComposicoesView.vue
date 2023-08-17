@@ -23,12 +23,26 @@
   }
 
   function removerCampeao(id) {
+    console.log("id", id)
     const slots = document.querySelectorAll('.slot_img')
     if(arrayVerifica[id] == 'preenchido'){
       slots[id].src = 'elmo-capacete.png'
       slots[id].alt = 'elmo capacete'
       
       arrayVerifica[id] = 'vazio'
+
+    for (let i = 0; i < equipe[id].qtdCaract; i++) {
+      // console.log(equipe[id].caract[i].nome)
+      if (caracteristicaAtiva.includes(equipe[id].caract[i].nome)){
+          let posicao = caracteristicaAtiva.indexOf(equipe[id].caract[i].nome)  
+          caracteristicaAtiva.splice(posicao, 1)
+          qtdCaracteristica.value = caracteristicaAtiva.length
+      } else {
+        console.log(equipe[id].caract[i].nome)
+        console.log("ativo", caracteristicaAtiva)
+      }
+    }
+    
     }
   }
 
@@ -50,13 +64,16 @@
     slots[idVerifica].alt = nome
 
     //ID e Posição do Campeão
-    equipe.push({"id":id, "pos":idVerifica, "qtdCaract": caract.length})
+    equipe.push({"id":id, "pos":idVerifica, "qtdCaract": caract.length, "caract": caract})
 
     for (let i=0; i<caract.length; i++) {
       if(!caracteristicaAtiva.includes(caract[i].nome))
         caracteristicaAtiva.push(caract[i].nome)
         qtdCaracteristica.value = caracteristicaAtiva.length
     }
+
+    console.log(caracteristicaAtiva)
+
     
   }
 
