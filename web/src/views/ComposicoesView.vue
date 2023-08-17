@@ -1,7 +1,9 @@
 <script setup>
+  import CaracteristicaQuant from '../components/Composicoes/CaracteristicaQuant.vue';
   import campeaoApi from '../api/Campeoes/campeoes.js';
   import itensApi from '../api/Itens/itens.json';
   import { Icon } from '@iconify/vue';
+  import { ref } from 'vue'
 
   const linhas = 4
   const colunas = 7
@@ -12,6 +14,9 @@
 <script>
   // const vazio = []
   const arrayVerifica = []
+  const equipe = []
+  const qtdCaracteristica = ref(0)
+  const caracteristicaAtiva = []
 
   for (let i = 0; i < 28; i++) {
     arrayVerifica[i] = 'vazio';
@@ -19,10 +24,12 @@
 
   function removerCampeao(id) {
     const slots = document.querySelectorAll('.slot_img')
-    if(!arrayVerifica[id] == 'vazio'){
+    if(arrayVerifica[id] == 'preenchido'){
       slots[id].src = 'elmo-capacete.png'
+      slots[id].alt = 'elmo capacete'
+      
       arrayVerifica[id] = 'vazio'
-    }
+    } 
   }
 
   function verifica() {
@@ -34,12 +41,28 @@
     }
   }
 
-  function adicionaCampeao(img, nome, id, tier){
-    console.log(nome, id, tier)
+  function adicionaCampeao(id, nome, img, caract){
+    //Alterar img e classe do slot
     const slots = document.querySelectorAll('.slot_img')
-    slots[verifica()].src = img
+    let idVerifica = verifica()
+  
+    slots[idVerifica].src = img
+    slots[idVerifica].alt = nome
 
+    //ID e Posição do Campeão
+    equipe.push({"id":id, "pos":idVerifica, "qtdCaract": caract.length})
 
+    console.log("antes = "+caracteristicaAtiva)
+    console.log("antes = "+qtdCaracteristica.value)
+
+    for (let i=0; i<caract.length; i++) {
+      if(!caracteristicaAtiva.includes(caract[i].nome))
+        caracteristicaAtiva.push(caract[i].nome)
+        qtdCaracteristica.value = caracteristicaAtiva.length
+    }
+    
+      console.log("depois = "+caracteristicaAtiva)
+      console.log("depois = "+qtdCaracteristica.value)
   }
 
 </script>
@@ -54,15 +77,14 @@
     </header>
 
     <div class="caract__e__slots">
-      <div class="caracteristicas">
-        <div class="caracteristica_ativa">
-          <img src="https://github.com/Artur-Neri.png" alt="caracteristica">
-          <span>1/8</span>
-        </div>
-        <div class="caracteristica_ativa">
-          <img src="https://github.com/Vitor-HenriqueAS.png" alt="caracteristica">
-          <span>1/5</span>
-        </div>
+      <div v-if="qtdCaracteristica > 0" class="caracteristicas">
+        <CaracteristicaQuant 
+          v-for="qtd in qtdCaracteristica" :key="qtd"
+          :nome="'Elmo'"
+          :imagem="'/public/elmo-capacete.png'"
+          :quant="'1'"
+          :max="'8'"
+        />
       </div>
 
       <div class="slots">
@@ -106,7 +128,12 @@
               <div v-for="(campeao, index) in campeaoApi[tier-1]" 
               :key="index"
               class="campeoes__conteudo__img"
-              @click="adicionaCampeao(campeao.img, campeao.nome, index,tier)"
+              @click="adicionaCampeao(
+                campeao.id, 
+                campeao.nome,
+                campeao.img, 
+                campeao.caracteristica
+                )"
               >          
                 <img 
                 :src="campeao.img" 
@@ -158,24 +185,6 @@
     flex-direction: column;
     border: 2px solid rgba(255, 255, 255, 0.299);
     border-radius: 5px;
-  }
-
-  .caracteristica_ativa {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin: 5px 0;
-  }
-
-  .caracteristica_ativa span{
-    font-family: var(--vt-f-inter);
-    font-size: var(--vt-f-p);
-  }
-
-  .caracteristica_ativa img {
-    width: 30px;
-    height: 30px;
-    border: 1px solid white;
   }
 
   .linha {

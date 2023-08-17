@@ -1,5 +1,6 @@
 const comp = [
   {
+    "max":"1",
     "nome": "Darkin",
     "img": "origens-tft/darkin-origem.png",
     "efeitos": "Quando Aatrox ou o usuário da Espada Darkin morre, a Espada Darkin é equipada no Campeão aliado mais próximo, concedendo a ele 450 de Vida e 20% de Vampirismo Universal.",
@@ -7,6 +8,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Demacia",
     "img": "origens-tft/demacia-origem.png",
     "efeitos": "Quando Aatrox ou o usuário da Espada Darkin morre, a Espada Darkin é equipada no Campeão aliado mais próximo, concedendo a ele 450 de Vida e 20% de Vampirismo Universal.",
@@ -14,6 +16,7 @@ const comp = [
   },
 
   {
+    "max":"4",
     "nome": "Freljord",
     "img": "origens-tft/freljord-origem.png",
     "efeitos": "Depois de 5s, uma tempestade de neve atinge o campo de batalha. Inimigos sofrem uma porcentagem da Vida máxima deles como Dano Verdadeiro e recebem efeitos negativos por 15s.\n\n(2) 5% de Vida, inimigos sofrem 40% de Fatiamento e Fragmentação\n(3) 12% de Vida, inimigos também sofrem 50% de Aumento do Custo de Mana\n(4) 20% de Vida, inimigos também ficam atordoados por 1,5s",
@@ -21,6 +24,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Ionia",
     "img": "origens-tft/ionia-origem.png",
     "efeitos": "A cada 4s, seus Ionianos mais fortes são iluminados para a forma de espírito e recebem 20 de Mana.\n\nCada Ioniano tem um efeito único com sua respectiva habilidade, dobrando quando estiver na forma de espírito.",
@@ -28,6 +32,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Noxus",
     "img": "origens-tft/noxus-origem.png",
     "efeitos": "Unidades de Noxus recebem Vida, Poder de Habilidade e Dano de Ataque. Isso aumenta em 10% para cada tipo de adversário diferente que você venceu ou que morreu.",
@@ -35,6 +40,7 @@ const comp = [
   },
 
   {
+    "max":"5",
     "nome": "Piltover",
     "img": "origens-tft/piltover-origem.png",
     "efeitos": "Recebe uma T-Hex. Sempre que perder um combate contra jogador, a T-Hex recebe Cargas. Vencer converte as Cargas em Poder para a T-Hex.\n\n Você também pode vender a T-Hex se ela tiver alguma Carga, redefinindo-a e convertendo o Poder dela em espólios.",
@@ -42,12 +48,14 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Redentora",
     "img": "origens-tft/redentora-origem.png",
     "efeitos": "Sempre que um aliado ganha Escudo, concede a ele 7% de Velocidade de Ataque cumulativa pelo resto do combate."
   },
 
   {
+    "max":"1",
     "nome": "Ilhas das Sombras",
     "img": "origens-tft/ilha-das-sombras-origem.png",
     "efeitos": "Após causar ou sofrer dano 8 vezes, unidades das Ilhas das Sombras recebem um Escudo por 8s e se tornam Espectrais pelo resto do combate. Unidades Espectrais recebem Mana a cada segundo.",
@@ -55,6 +63,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Shurima",
     "img": "origens-tft/shurima-origem.png",
     "efeitos": "A cada 4s, Shurimanes curam 7% da Vida máxima. Depois de 8s, Shurimanes selecionados ascendem e ganham 40% de Vida máxima e 40% de Velocidade de Ataque.",
@@ -62,6 +71,7 @@ const comp = [
   },
 
   {
+    "max":"4",
     "nome": "Targon",
     "img": "origens-tft/targon-origem.png",
     "efeitos": "Suas curas e Escudos são aumentados.",
@@ -69,6 +79,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Vazio",
     "img": "origens-tft/vazio-origem.png",
     "efeitos": "Recebe um Ovo do Vazio que pode ser posicionado. No início do combate, ele eclode e revela um horror inexplicável que arremessa os inimigos adjacentes pelos ares.\n\nTodos os níveis de estrela do Vazio aumentam a Vida e o Poder de Habilidade do horror em 25%",
@@ -76,6 +87,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Yordle",
     "img": "origens-tft/yordle-origem.png",
     "efeitos": "Suas unidades recebem 10% de Velocidade de Ataque por nível de estrela.\n\nSe você tiver três Campeões 3 estrelas, seus Yordles se tornam 4 estrelas, deixando as habilidades deles bem bizarras!\n\nEmpates de itens são decididos pelo Yordle que foi colocado no campo mais recentemente.",
@@ -83,6 +95,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Bastião",
     "img": "origens-tft/bastiao-origem.png",
     "efeitos": "Campeões Bastião recebem Armadura e Resistência Mágica. Isso aumenta em 100% nos primeiros 10s do combate.",
@@ -90,6 +103,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Zaun",
     "img": "origens-tft/zaun-origem.png",
     "efeitos": "Campeões de Zaun criam Módulos Quimtec aleatórios que só podem ser usados por eles. Campeões podem ser modificados uma vez, enquanto Módulos só podem ser removidos ao vender o Campeão.",
@@ -97,6 +111,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Brutamontes",
     "img": "origens-tft/brutamontes-origem.png",
     "efeitos": "Suas unidades recebem 100 de Vida. Brutamontes recebem mais ainda.",
@@ -104,6 +119,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Desafiante",
     "img": "origens-tft/desafiante-origem.png",
     "efeitos": "Desafiantes recebem Velocidade de Ataque adicional. Quando o alvo morre, Desafiantes avançam para um novo alvo e aumentam a Velocidade de Ataque adicional em 50% por 2,5s.",
@@ -111,6 +127,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Mira Letal",
     "img": "origens-tft/mira-letal-origem.png",
     "efeitos": "Inato: +1 de alcance\n\nA cada 3s, Miras Letais atacam o inimigo com o maior percentual de Vida e causam dano adicional.",
@@ -118,6 +135,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Imperatriz",
     "img": "origens-tft/imperatriz-origem.png",
     "efeitos": "Quando Bel'Veth mata inimigos, os abates deixam um rastro de Coral do Vazio que ela consome. O primeiro Coral aumenta a Vida máxima dela em 50%, e Corais posteriores a curam em 20% da Vida máxima.",
@@ -125,6 +143,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Artilheiro",
     "img": "origens-tft/artilheiro-origem.png",
     "efeitos": "Quando Campeões Artilheiros atacam, eles recebem Dano de Ataque adicional, até um máximo de 8 acúmulos.",
@@ -132,6 +151,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Emanador",
     "img": "origens-tft/emanador-origem.png",
     "efeitos": "A cada 3s, suas unidades recebem Mana.",
@@ -139,6 +159,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Colosso",
     "img": "origens-tft/colosso-origem.svg",
     "efeitos": "Campeões Colossos sofrem menos dano conforme perdem Vida.",
@@ -146,6 +167,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Multiconjurador",
     "img": "origens-tft/multiconjurador-origem.png",
     "efeitos": "Multiconjuradores conjuram suas habilidades múltiplas vezes. Conjurações adicionais têm 50% de eficácia reduzida.",
@@ -153,6 +175,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Ladino",
     "img": "origens-tft/ladino-origem.png",
     "efeitos": "(2) Quando um Ladino fica com menos de 50% de Vida, ele fica inalvejável temporariamente e avança até um inimigo a até 4 casas de distância (dando preferência a inimigos na retaguarda).",
@@ -160,6 +183,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Dizimador",
     "dizimadorImg": "origens-tft/dizimador-origem.svg",
     "efeitos": "Dizimadores recebem 15% de Vampirismo Universal.\n\nDizimadores causam dano adicional, duplicado contra unidades com menos de 60% de Vida.",
@@ -167,6 +191,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Feiticeiro",
     "img": "origens-tft/feiticeiro-origem.png",
     "efeitos": "Feiticeiros ganham Poder de Habilidade adicional.\n\nQuando um inimigo morre após sofrer dano de um Feiticeiro, ele causa uma porcentagem da Vida máxima da vítima a outros inimigos.",
@@ -174,6 +199,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Estratégico",
     "img": "origens-tft/estrategico-origem.png",
     "efeitos": "Início do combate: aliados nas 2 primeiras linhas recebem Escudo por 8s. Aliados nas 2 últimas linhas recebem Poder de Habilidade.",
@@ -181,6 +207,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Tecnogênio",
     "img": "origens-tft/tecnogenio-origem.png",
     "efeitos": "Recebe uma Torre Apex que pode ser posicionada e tem 3 espaços para melhorias. Aprimoramentos da Torre Apex aparecem na sua loja por 6 de ouro. A Torre Apex compartilha a Velocidade de Ataque e o Poder de Habilidade de Heimerdinger.",
@@ -188,6 +215,7 @@ const comp = [
   },
 
   {
+    "max":"1",
     "nome": "Errante",
     "img": "origens-tft/errante-origem.png",
     "efeitos": "A habilidade de Ryze muda de acordo com o Portal de Região escolhido pelos jogadores no início da partida."
@@ -227,11 +255,10 @@ const errante = comp[27]
 
 // [ "posicao" "boneco" ]
 
-
-
 export default ([
   [
     {
+      "id": "0",
       "nome": "cassiopeia", 
       "img": "campeoes-tft/cassiopeia.jpg",
       "descricao": "Habilidade",
@@ -243,6 +270,7 @@ export default ([
       
     },
     {
+      "id": "1",
       "nome": "chogath", 
       "img": "campeoes-tft/chogath.jpg",
       "descricao": "Habilidade",
@@ -253,6 +281,7 @@ export default ([
       
     },
     {
+      "id": "2",
       "nome": "irelia", 
       "img": "campeoes-tft/irelia.jpg",
       "descricao": "Habilidade",
@@ -263,6 +292,7 @@ export default ([
       
     },
     {
+      "id": "3",
       "nome": "jhin", 
       "img": "campeoes-tft/jhin.jpg",
       "descricao": "Habilidade",
@@ -273,6 +303,7 @@ export default ([
       
     },
     {
+      "id": "4",
       "nome": "kayle", 
       "img": "campeoes-tft/kayle.jpg",
       "descricao": "Habilidade",
@@ -283,6 +314,7 @@ export default ([
       
     },
     {
+      "id": "5",
       "nome": "malzahar", 
       "img": "campeoes-tft/malzahar.jpg",
       "descricao": "Habilidade",
@@ -293,6 +325,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "maokai", 
       "img": "campeoes-tft/maokai.jpg",
       "descricao": "Habilidade",
@@ -303,6 +336,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "orianna", 
       "img": "campeoes-tft/orianna.jpg",
       "descricao": "Habilidade",
@@ -313,6 +347,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "poppy", 
       "img": "campeoes-tft/poppy.jpg",
       "descricao": "Habilidade",
@@ -323,6 +358,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "renekton", 
       "img": "campeoes-tft/renekton.jpg",
       "descricao": "Habilidade",
@@ -333,6 +369,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "samira", 
       "img": "campeoes-tft/samira.jpg",
       "descricao": "Habilidade",
@@ -343,6 +380,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "tristana", 
       "img": "campeoes-tft/tristana.jpg",
       "descricao": "Habilidade",
@@ -353,6 +391,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "viego", 
       "img": "campeoes-tft/viego.jpg",
       "descricao": "Habilidade",
@@ -368,6 +407,7 @@ export default ([
 
   [
     {
+      "id": "0",
       "nome": "ashe", 
       "img": "campeoes-tft/ashe.jpg",
       "descricao": "Habilidade",
@@ -378,6 +418,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "galio", 
       "img": "campeoes-tft/galio.jpg",
       "descricao": "Habilidade",
@@ -388,6 +429,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "jinx", 
       "img": "campeoes-tft/jinx.jpg",
       "descricao": "Habilidade",
@@ -398,6 +440,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "kassadin", 
       "img": "campeoes-tft/kassadin.jpg",
       "descricao": "Habilidade",
@@ -408,6 +451,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "kled", 
       "img": "campeoes-tft/kled.jpg",
       "descricao": "Habilidade",
@@ -419,6 +463,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "sett", 
       "img": "campeoes-tft/sett.jpg",
       "descricao": "Habilidade",
@@ -429,6 +474,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "soraka", 
       "img": "campeoes-tft/soraka.jpg",
       "descricao": "Habilidade",
@@ -439,6 +485,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "swain", 
       "img": "campeoes-tft/swain.jpg",
       "descricao": "Habilidade",
@@ -450,6 +497,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "taliyah", 
       "img": "campeoes-tft/taliyah.jpg",
       "descricao": "Habilidade",
@@ -460,6 +508,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "teemo", 
       "img": "campeoes-tft/teemo.jpg",
       "descricao": "Habilidade",
@@ -471,6 +520,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "vi", 
       "img": "campeoes-tft/vi.jpg",
       "descricao": "Habilidade",
@@ -481,6 +531,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "warwick", 
       "img": "campeoes-tft/warwick.jpg",
       "descricao": "Habilidade",
@@ -492,6 +543,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "zed", 
       "img": "campeoes-tft/zed.jpg",
       "descricao": "Habilidade",
@@ -509,6 +561,7 @@ export default ([
   [
     
     {
+      "id": "0",
       "nome": "akshan", 
       "img": "campeoes-tft/akshan.jpg",
       "descricao": "Habilidade",
@@ -519,6 +572,7 @@ export default ([
       
     },
     {
+      "id": "1",
       "nome": "darius", 
       "img": "campeoes-tft/darius.jpg",
       "descricao": "Habilidade",
@@ -529,6 +583,7 @@ export default ([
       
     },
     {
+      "id": "2",
       "nome": "ekko", 
       "img": "campeoes-tft/ekko.jpg",
       "descricao": "Habilidade",
@@ -539,6 +594,7 @@ export default ([
       
     },
     {
+      "id": "3",
       "nome": "garen", 
       "img": "campeoes-tft/garen.jpg",
       "descricao": "Habilidade",
@@ -549,6 +605,7 @@ export default ([
       
     },
     {
+      "id": "4",
       "nome": "jayce", 
       "img": "campeoes-tft/jayce.jpg",
       "descricao": "Habilidade",
@@ -559,6 +616,7 @@ export default ([
       
     },
     {
+      "id": "5",
       "nome": "kalista", 
       "img": "campeoes-tft/kalista.jpg",
       "descricao": "Habilidade",
@@ -569,6 +627,7 @@ export default ([
       
     },
     {
+      "id": "6",
       "nome": "karma", 
       "img": "campeoes-tft/karma.jpg",
       "descricao": "Habilidade",
@@ -579,6 +638,7 @@ export default ([
       
     },
     {
+      "id": "7",
       "nome": "katarina", 
       "img": "campeoes-tft/katarina.jpg",
       "descricao": "Habilidade",
@@ -589,6 +649,7 @@ export default ([
       
     },
     {
+      "id": "8",
       "nome": "lissandra", 
       "img": "campeoes-tft/lissandra.jpg",
       "descricao": "Habilidade",
@@ -599,6 +660,7 @@ export default ([
       
     },
     {
+      "id": "9",
       "nome": "reksai", 
       "img": "campeoes-tft/reksai.jpg",
       "descricao": "Habilidade",
@@ -609,6 +671,7 @@ export default ([
       
     },
     {
+      "id": "10",
       "nome": "sona", 
       "img": "campeoes-tft/sona.jpg",
       "descricao": "Habilidade",
@@ -619,6 +682,7 @@ export default ([
       
     },
     {
+      "id": "11",
       "nome": "taric", 
       "img": "campeoes-tft/taric.jpg",
       "descricao": "Habilidade",
@@ -630,6 +694,7 @@ export default ([
       
     },
     {
+      "id": "12",
       "nome": "velkoz", 
       "img": "campeoes-tft/velkoz.jpg",
       "descricao": "Habilidade",
@@ -646,6 +711,7 @@ export default ([
 
   [
     {
+      "id": "13",
       "nome": "aphelios", 
       "img": "campeoes-tft/aphelios.jpg",
       "descricao": "Habilidade",
@@ -656,6 +722,7 @@ export default ([
       
     },
     {
+      "id": "14",
       "nome": "azir", 
       "img": "campeoes-tft/azir.jpg",
       "descricao": "Habilidade",
@@ -666,6 +733,7 @@ export default ([
       
     },
     {
+      "id": "15",
       "nome": "gwen", 
       "img": "campeoes-tft/gwen.jpg",
       "descricao": "Habilidade",
@@ -676,6 +744,7 @@ export default ([
       
     },
     {
+      "id": "16",
       "nome": "jarvaniv", 
       "img": "campeoes-tft/jarvaniv.jpg",
       "descricao": "Habilidade",
@@ -686,6 +755,7 @@ export default ([
       
     },
     {
+      "id": "17",
       "nome": "kaisa", 
       "img": "campeoes-tft/kaisa.jpg",
       "descricao": "Habilidade",
@@ -696,6 +766,7 @@ export default ([
       
     },
     {
+      "id": "18",
       "nome": "lux", 
       "img": "campeoes-tft/lux.jpg",
       "descricao": "Habilidade",
@@ -706,6 +777,7 @@ export default ([
       
     },
     {
+      "id": "19",
       "nome": "nasus", 
       "img": "campeoes-tft/nasus.jpg",
       "descricao": "Habilidade",
@@ -716,6 +788,7 @@ export default ([
       
     },
     {
+      "id": "20",
       "nome": "sejuani", 
       "img": "campeoes-tft/sejuani.jpg",
       "descricao": "Habilidade",
@@ -726,6 +799,7 @@ export default ([
       
     },
     {
+      "id": "21",
       "nome": "shen", 
       "img": "campeoes-tft/shen.jpg",
       "descricao": "Habilidade",
@@ -736,6 +810,7 @@ export default ([
       
     },
     {
+      "id": "22",
       "nome": "urgot", 
       "img": "campeoes-tft/urgot.jpg",
       "descricao": "Habilidade",
@@ -746,6 +821,7 @@ export default ([
       
     },
     {
+      "id": "23",
       "nome": "yasuo", 
       "img": "campeoes-tft/yasuo.jpg",
       "descricao": "Habilidade",
@@ -756,6 +832,7 @@ export default ([
       
     },
     {
+      "id": "24",
       "nome": "zeri", 
       "img": "campeoes-tft/zeri.jpg",
       "descricao": "Habilidade",
@@ -771,6 +848,7 @@ export default ([
 
   [
     {
+      "id": "25",
       "nome": "aatrox", 
       "img": "campeoes-tft/aatrox.jpg",
       "descricao": "Habilidade",
@@ -782,6 +860,7 @@ export default ([
       
     },
     {
+      "id": "26",
       "nome": "ahri", 
       "img": "campeoes-tft/ahri.jpg",
       "descricao": "Habilidade",
@@ -792,6 +871,7 @@ export default ([
       
     },
     {
+      "id": "27",
       "nome": "belveth", 
       "img": "campeoes-tft/belveth.jpg",
       "descricao": "Habilidade",
@@ -802,6 +882,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "heimerdinger", 
       "img": "campeoes-tft/heimerdinger.jpg",
       "descricao": "Habilidade",
@@ -813,6 +894,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "ksante", 
       "img": "campeoes-tft/ksante.jpg",
       "descricao": "Habilidade",
@@ -823,6 +905,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "ryze", 
       "img": "campeoes-tft/ryze.jpg",
       "descricao": "Habilidade",
@@ -833,6 +916,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "senna", 
       "img": "campeoes-tft/senna.jpg",
       "descricao": "Habilidade",
@@ -844,6 +928,7 @@ export default ([
       
     },
     {
+      "id": "0",
       "nome": "sion", 
       "img": "campeoes-tft/sion.jpg",
       "descricao": "Habilidade",
