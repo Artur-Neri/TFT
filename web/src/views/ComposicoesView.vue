@@ -29,7 +29,7 @@
       slots[id].alt = 'elmo capacete'
       
       arrayVerifica[id] = 'vazio'
-    } 
+    }
   }
 
   function verifica() {
@@ -52,17 +52,12 @@
     //ID e Posição do Campeão
     equipe.push({"id":id, "pos":idVerifica, "qtdCaract": caract.length})
 
-    console.log("antes = "+caracteristicaAtiva)
-    console.log("antes = "+qtdCaracteristica.value)
-
     for (let i=0; i<caract.length; i++) {
       if(!caracteristicaAtiva.includes(caract[i].nome))
         caracteristicaAtiva.push(caract[i].nome)
         qtdCaracteristica.value = caracteristicaAtiva.length
     }
     
-      console.log("depois = "+caracteristicaAtiva)
-      console.log("depois = "+qtdCaracteristica.value)
   }
 
 </script>
