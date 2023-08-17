@@ -10,7 +10,7 @@
 </script>
 
 <script>
-  const vazio = []
+  // const vazio = []
   const arrayVerifica = []
 
   for (let i = 0; i < 28; i++) {
@@ -19,23 +19,27 @@
 
   function removerCampeao(id) {
     const slots = document.querySelectorAll('.slot_img')
-    slots[id].src = 'elmo-capacete.png'
-    arrayVerifica[id] = 'vazio'
+    if(!arrayVerifica[id] == 'vazio'){
+      slots[id].src = 'elmo-capacete.png'
+      arrayVerifica[id] = 'vazio'
+    }
   }
 
   function verifica() {
     for(let i=0;i<28;i++){
       if (arrayVerifica[i] == 'vazio') {
         arrayVerifica[i] = 'preenchido'
-        vazio.push(i)
         return i
       }
     }
   }
 
-  function adicionaCampeao(img){
+  function adicionaCampeao(img, nome, id, tier){
+    console.log(nome, id, tier)
     const slots = document.querySelectorAll('.slot_img')
     slots[verifica()].src = img
+
+
   }
 
 </script>
@@ -102,7 +106,7 @@
               <div v-for="(campeao, index) in campeaoApi[tier-1]" 
               :key="index"
               class="campeoes__conteudo__img"
-              @click="adicionaCampeao(campeao.img, campeao.nome, tier)"
+              @click="adicionaCampeao(campeao.img, campeao.nome, index,tier)"
               >          
                 <img 
                 :src="campeao.img" 

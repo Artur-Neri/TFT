@@ -223,6 +223,11 @@ const estrategico = comp[25]
 const tecno = comp[26]
 const errante = comp[27]
 
+// {0: cassipe, 1:}
+
+// [ "posicao" "boneco" ]
+
+
 
 export default ([
   [
