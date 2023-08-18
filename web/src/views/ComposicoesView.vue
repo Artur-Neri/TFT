@@ -22,7 +22,6 @@
   }
 
   function removerCampeao(posicaoCampeao) {
-    console.log("caracteristicaAtiva = ",caracteristicaAtiva)
 
     const slots = document.querySelectorAll('.slot_img')
     if(arrayVerifica[posicaoCampeao] == 'filled'){
@@ -31,23 +30,28 @@
       arrayVerifica[posicaoCampeao] = 'empty'
 
       for (let i = 0; i < equipe[posicaoCampeao].qtdCaract; i++) {
+        let posicao = caracteristicaAtiva.map(function (e) {
+        return e.nome;
+        }).indexOf(equipe[posicaoCampeao].caract[i].nome);
+        console.log("Posição >>> ", posicao)
+
         for(let caractAtiva in caracteristicaAtiva) {
-          var posicao = caracteristicaAtiva[caractAtiva].nome.indexOf(equipe[posicaoCampeao].caract[i].nome)
 
           if(caracteristicaAtiva[caractAtiva].nome == equipe[posicaoCampeao].caract[i].nome){
-            console.log("\n\ncaractAtiva = ",caractAtiva)
-            if(caracteristicaAtiva[caractAtiva].qtd <= 1) {
+            if (caracteristicaAtiva[caractAtiva].qtd <= 1){
+              console.log(`Removendo ${equipe[posicaoCampeao].caract[i].nome}`)
               caracteristicaAtiva.splice(posicao, 1)
-              console.log("posicaoCaract : ",posicao)
             } else {
               caracteristicaAtiva[caractAtiva].qtd--
             }
+            break
           }
         }
-        console.log("caracteristicaAtiva = ",caracteristicaAtiva)
+
         qtdCaracteristica.value = caracteristicaAtiva.length
 
       }
+      console.log(caracteristicaAtiva)
     }
   }
 
@@ -70,53 +74,48 @@
 
     //ID e Posição do Campeão
     equipe[idVerifica] = ({"id":id, "pos":idVerifica, "qtdCaract": caract.length, "caract": caract})
-    console.log(equipe)
 
     for (let i=0; i<caract.length; i++) {
-      let quantidadeCaract = 0
       var caractExiste = false
 
-      if (caracteristicaAtiva.length == 0) {
-        caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
-      }
-      else {
-        for(let caractAtiva in caracteristicaAtiva){
-          if(caracteristicaAtiva[caractAtiva].nome == caract[i].nome) {
-            caracteristicaAtiva[caractAtiva].qtd++
-            caractExiste = true
-            break
-          }
-          console.log("I", i, "\n CaractAtiva",caractAtiva)
-          console.log("\ncaracteristicaAtiva[caractAtiva].nome = ",caracteristicaAtiva[caractAtiva].nome)
-          console.log("\ncaract[i].nome = ",caract[i].nome)
-          // if(caracteristicaAtiva[caractAtiva].nome != caract[i].nome) {
-          //   caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
-          //   console.log("adicionou = ", caract[i].nome)
-          // } else {
-          //   console.log("acho")
-          // }
+      // if (caracteristicaAtiva.length == 0) {
+      //   caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
+      // }
+      // else {
+      //   for(let caractAtiva in caracteristicaAtiva){
+      //     if(caracteristicaAtiva[caractAtiva].nome == caract[i].nome) {
+      //       caracteristicaAtiva[caractAtiva].qtd++
+      //       caractExiste = true
+      //       break
+      //     }
+      //   }
+      //   if (!caractExiste) {
+      //     caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
+      //     console.log("adicionou = ", caract[i].nome)
+      //   }
+      // }
+
+      // TESTANDO IF-ELSE ACIMA 
+
+       
+      for (let caractAtiva in caracteristicaAtiva) {
+        if (caracteristicaAtiva[caractAtiva].nome == caract[i].nome) {
+          caracteristicaAtiva[caractAtiva].qtd++
+          caractExiste = true
+          break
         }
-        console.log("saiu")
-        if (!caractExiste) {
-          caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
-          console.log("adicionou = ", caract[i].nome)
-        }
       }
+      if (!caractExiste) {
+        caracteristicaAtiva.push({ "nome": caract[i].nome, "qtd": 1 })
+        console.log("adicionou = ", caract[i].nome)
+      }
+
         qtdCaracteristica.value = caracteristicaAtiva.length
 
-      
-      // if(!caracteristicaAtiva.includes(caract[i].nome)) {
-      //   caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
-      //   qtdCaracteristica.value = caracteristicaAtiva.length
-      // } else {
-      //   caracteristicaAtiva[i].qtd
-      //   console.log(i, " = ", caract[i].nome)
-      // }
     }
 
-    console.log(caracteristicaAtiva)
+    console.log("Características ativas >>> ", caracteristicaAtiva, "\n\n")
 
-    
   }
 
 </script>
