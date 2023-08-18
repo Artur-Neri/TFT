@@ -12,44 +12,49 @@
 </script>
 
 <script>
-  // const vazio = []
   const arrayVerifica = []
   const equipe = []
   const qtdCaracteristica = ref(0)
   const caracteristicaAtiva = []
 
   for (let i = 0; i < 28; i++) {
-    arrayVerifica[i] = 'vazio';
+    arrayVerifica[i] = 'empty';
   }
 
-  function removerCampeao(id) {
-    console.log("id", id)
-    const slots = document.querySelectorAll('.slot_img')
-    if(arrayVerifica[id] == 'preenchido'){
-      slots[id].src = 'elmo-capacete.png'
-      slots[id].alt = 'elmo capacete'
-      
-      arrayVerifica[id] = 'vazio'
+  function removerCampeao(posicaoCampeao) {
+    console.log("caracteristicaAtiva = ",caracteristicaAtiva)
 
-    for (let i = 0; i < equipe[id].qtdCaract; i++) {
-      // console.log(equipe[id].caract[i].nome)
-      if (caracteristicaAtiva.includes(equipe[id].caract[i].nome)){
-          let posicao = caracteristicaAtiva.indexOf(equipe[id].caract[i].nome)  
-          caracteristicaAtiva.splice(posicao, 1)
-          qtdCaracteristica.value = caracteristicaAtiva.length
-      } else {
-        console.log(equipe[id].caract[i].nome)
-        console.log("ativo", caracteristicaAtiva)
+    const slots = document.querySelectorAll('.slot_img')
+    if(arrayVerifica[posicaoCampeao] == 'filled'){
+      slots[posicaoCampeao].src = 'elmo-capacete.png'
+      slots[posicaoCampeao].alt = 'elmo capacete'
+      arrayVerifica[posicaoCampeao] = 'empty'
+
+      for (let i = 0; i < equipe[posicaoCampeao].qtdCaract; i++) {
+        for(let caractAtiva in caracteristicaAtiva) {
+          var posicao = caracteristicaAtiva[caractAtiva].nome.indexOf(equipe[posicaoCampeao].caract[i].nome)
+
+          if(caracteristicaAtiva[caractAtiva].nome == equipe[posicaoCampeao].caract[i].nome){
+            console.log("\n\ncaractAtiva = ",caractAtiva)
+            if(caracteristicaAtiva[caractAtiva].qtd <= 1) {
+              caracteristicaAtiva.splice(posicao, 1)
+              console.log("posicaoCaract : ",posicao)
+            } else {
+              caracteristicaAtiva[caractAtiva].qtd--
+            }
+          }
+        }
+        console.log("caracteristicaAtiva = ",caracteristicaAtiva)
+        qtdCaracteristica.value = caracteristicaAtiva.length
+
       }
-    }
-    
     }
   }
 
   function verifica() {
     for(let i=0;i<28;i++){
-      if (arrayVerifica[i] == 'vazio') {
-        arrayVerifica[i] = 'preenchido'
+      if (arrayVerifica[i] == 'empty') {
+        arrayVerifica[i] = 'filled'
         return i
       }
     }
@@ -64,12 +69,49 @@
     slots[idVerifica].alt = nome
 
     //ID e Posição do Campeão
-    equipe.push({"id":id, "pos":idVerifica, "qtdCaract": caract.length, "caract": caract})
+    equipe[idVerifica] = ({"id":id, "pos":idVerifica, "qtdCaract": caract.length, "caract": caract})
+    console.log(equipe)
 
     for (let i=0; i<caract.length; i++) {
-      if(!caracteristicaAtiva.includes(caract[i].nome))
-        caracteristicaAtiva.push(caract[i].nome)
+      let quantidadeCaract = 0
+      var caractExiste = false
+
+      if (caracteristicaAtiva.length == 0) {
+        caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
+      }
+      else {
+        for(let caractAtiva in caracteristicaAtiva){
+          if(caracteristicaAtiva[caractAtiva].nome == caract[i].nome) {
+            caracteristicaAtiva[caractAtiva].qtd++
+            caractExiste = true
+            break
+          }
+          console.log("I", i, "\n CaractAtiva",caractAtiva)
+          console.log("\ncaracteristicaAtiva[caractAtiva].nome = ",caracteristicaAtiva[caractAtiva].nome)
+          console.log("\ncaract[i].nome = ",caract[i].nome)
+          // if(caracteristicaAtiva[caractAtiva].nome != caract[i].nome) {
+          //   caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
+          //   console.log("adicionou = ", caract[i].nome)
+          // } else {
+          //   console.log("acho")
+          // }
+        }
+        console.log("saiu")
+        if (!caractExiste) {
+          caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
+          console.log("adicionou = ", caract[i].nome)
+        }
+      }
         qtdCaracteristica.value = caracteristicaAtiva.length
+
+      
+      // if(!caracteristicaAtiva.includes(caract[i].nome)) {
+      //   caracteristicaAtiva.push({"nome":caract[i].nome, "qtd":++quantidadeCaract})
+      //   qtdCaracteristica.value = caracteristicaAtiva.length
+      // } else {
+      //   caracteristicaAtiva[i].qtd
+      //   console.log(i, " = ", caract[i].nome)
+      // }
     }
 
     console.log(caracteristicaAtiva)

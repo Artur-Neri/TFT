@@ -251,10 +251,6 @@ const estrategico = comp[25]
 const tecno = comp[26]
 const errante = comp[27]
 
-// {0: cassipe, 1:}
-
-// [ "posicao" "boneco" ]
-
 export default ([
   [
     {
@@ -325,7 +321,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "6",
       "nome": "maokai", 
       "img": "campeoes-tft/maokai.jpg",
       "descricao": "Habilidade",
@@ -336,7 +332,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "7",
       "nome": "orianna", 
       "img": "campeoes-tft/orianna.jpg",
       "descricao": "Habilidade",
@@ -347,7 +343,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "8",
       "nome": "poppy", 
       "img": "campeoes-tft/poppy.jpg",
       "descricao": "Habilidade",
@@ -358,7 +354,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "9",
       "nome": "renekton", 
       "img": "campeoes-tft/renekton.jpg",
       "descricao": "Habilidade",
@@ -369,7 +365,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "10",
       "nome": "samira", 
       "img": "campeoes-tft/samira.jpg",
       "descricao": "Habilidade",
@@ -380,7 +376,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "11",
       "nome": "tristana", 
       "img": "campeoes-tft/tristana.jpg",
       "descricao": "Habilidade",
@@ -391,7 +387,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "12",
       "nome": "viego", 
       "img": "campeoes-tft/viego.jpg",
       "descricao": "Habilidade",
@@ -407,7 +403,7 @@ export default ([
 
   [
     {
-      "id": "0",
+      "id": "13",
       "nome": "ashe", 
       "img": "campeoes-tft/ashe.jpg",
       "descricao": "Habilidade",
@@ -418,7 +414,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "14",
       "nome": "galio", 
       "img": "campeoes-tft/galio.jpg",
       "descricao": "Habilidade",
@@ -429,7 +425,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "15",
       "nome": "jinx", 
       "img": "campeoes-tft/jinx.jpg",
       "descricao": "Habilidade",
@@ -440,7 +436,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "16",
       "nome": "kassadin", 
       "img": "campeoes-tft/kassadin.jpg",
       "descricao": "Habilidade",
@@ -451,7 +447,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "17",
       "nome": "kled", 
       "img": "campeoes-tft/kled.jpg",
       "descricao": "Habilidade",
@@ -463,7 +459,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "18",
       "nome": "sett", 
       "img": "campeoes-tft/sett.jpg",
       "descricao": "Habilidade",
@@ -474,7 +470,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "19",
       "nome": "soraka", 
       "img": "campeoes-tft/soraka.jpg",
       "descricao": "Habilidade",
@@ -485,7 +481,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "20",
       "nome": "swain", 
       "img": "campeoes-tft/swain.jpg",
       "descricao": "Habilidade",
@@ -497,7 +493,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "21",
       "nome": "taliyah", 
       "img": "campeoes-tft/taliyah.jpg",
       "descricao": "Habilidade",
@@ -508,7 +504,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "22",
       "nome": "teemo", 
       "img": "campeoes-tft/teemo.jpg",
       "descricao": "Habilidade",
@@ -520,7 +516,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "23",
       "nome": "vi", 
       "img": "campeoes-tft/vi.jpg",
       "descricao": "Habilidade",
@@ -531,7 +527,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "24",
       "nome": "warwick", 
       "img": "campeoes-tft/warwick.jpg",
       "descricao": "Habilidade",
@@ -543,7 +539,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "25",
       "nome": "zed", 
       "img": "campeoes-tft/zed.jpg",
       "descricao": "Habilidade",
@@ -561,7 +557,7 @@ export default ([
   [
     
     {
-      "id": "0",
+      "id": "26",
       "nome": "akshan", 
       "img": "campeoes-tft/akshan.jpg",
       "descricao": "Habilidade",
@@ -572,7 +568,7 @@ export default ([
       
     },
     {
-      "id": "1",
+      "id": "27",
       "nome": "darius", 
       "img": "campeoes-tft/darius.jpg",
       "descricao": "Habilidade",
@@ -583,7 +579,7 @@ export default ([
       
     },
     {
-      "id": "2",
+      "id": "28",
       "nome": "ekko", 
       "img": "campeoes-tft/ekko.jpg",
       "descricao": "Habilidade",
@@ -594,7 +590,7 @@ export default ([
       
     },
     {
-      "id": "3",
+      "id": "29",
       "nome": "garen", 
       "img": "campeoes-tft/garen.jpg",
       "descricao": "Habilidade",
@@ -605,7 +601,7 @@ export default ([
       
     },
     {
-      "id": "4",
+      "id": "30",
       "nome": "jayce", 
       "img": "campeoes-tft/jayce.jpg",
       "descricao": "Habilidade",
@@ -616,7 +612,7 @@ export default ([
       
     },
     {
-      "id": "5",
+      "id": "31",
       "nome": "kalista", 
       "img": "campeoes-tft/kalista.jpg",
       "descricao": "Habilidade",
@@ -627,7 +623,7 @@ export default ([
       
     },
     {
-      "id": "6",
+      "id": "32",
       "nome": "karma", 
       "img": "campeoes-tft/karma.jpg",
       "descricao": "Habilidade",
@@ -638,7 +634,7 @@ export default ([
       
     },
     {
-      "id": "7",
+      "id": "33",
       "nome": "katarina", 
       "img": "campeoes-tft/katarina.jpg",
       "descricao": "Habilidade",
@@ -649,7 +645,7 @@ export default ([
       
     },
     {
-      "id": "8",
+      "id": "34",
       "nome": "lissandra", 
       "img": "campeoes-tft/lissandra.jpg",
       "descricao": "Habilidade",
@@ -660,7 +656,7 @@ export default ([
       
     },
     {
-      "id": "9",
+      "id": "35",
       "nome": "reksai", 
       "img": "campeoes-tft/reksai.jpg",
       "descricao": "Habilidade",
@@ -671,7 +667,7 @@ export default ([
       
     },
     {
-      "id": "10",
+      "id": "36",
       "nome": "sona", 
       "img": "campeoes-tft/sona.jpg",
       "descricao": "Habilidade",
@@ -682,7 +678,7 @@ export default ([
       
     },
     {
-      "id": "11",
+      "id": "37",
       "nome": "taric", 
       "img": "campeoes-tft/taric.jpg",
       "descricao": "Habilidade",
@@ -694,7 +690,7 @@ export default ([
       
     },
     {
-      "id": "12",
+      "id": "38",
       "nome": "velkoz", 
       "img": "campeoes-tft/velkoz.jpg",
       "descricao": "Habilidade",
@@ -711,7 +707,7 @@ export default ([
 
   [
     {
-      "id": "13",
+      "id": "39",
       "nome": "aphelios", 
       "img": "campeoes-tft/aphelios.jpg",
       "descricao": "Habilidade",
@@ -722,7 +718,7 @@ export default ([
       
     },
     {
-      "id": "14",
+      "id": "40",
       "nome": "azir", 
       "img": "campeoes-tft/azir.jpg",
       "descricao": "Habilidade",
@@ -733,7 +729,7 @@ export default ([
       
     },
     {
-      "id": "15",
+      "id": "41",
       "nome": "gwen", 
       "img": "campeoes-tft/gwen.jpg",
       "descricao": "Habilidade",
@@ -744,7 +740,7 @@ export default ([
       
     },
     {
-      "id": "16",
+      "id": "42",
       "nome": "jarvaniv", 
       "img": "campeoes-tft/jarvaniv.jpg",
       "descricao": "Habilidade",
@@ -755,7 +751,7 @@ export default ([
       
     },
     {
-      "id": "17",
+      "id": "43",
       "nome": "kaisa", 
       "img": "campeoes-tft/kaisa.jpg",
       "descricao": "Habilidade",
@@ -766,7 +762,7 @@ export default ([
       
     },
     {
-      "id": "18",
+      "id": "44",
       "nome": "lux", 
       "img": "campeoes-tft/lux.jpg",
       "descricao": "Habilidade",
@@ -777,7 +773,7 @@ export default ([
       
     },
     {
-      "id": "19",
+      "id": "45",
       "nome": "nasus", 
       "img": "campeoes-tft/nasus.jpg",
       "descricao": "Habilidade",
@@ -788,7 +784,7 @@ export default ([
       
     },
     {
-      "id": "20",
+      "id": "46",
       "nome": "sejuani", 
       "img": "campeoes-tft/sejuani.jpg",
       "descricao": "Habilidade",
@@ -799,7 +795,7 @@ export default ([
       
     },
     {
-      "id": "21",
+      "id": "47",
       "nome": "shen", 
       "img": "campeoes-tft/shen.jpg",
       "descricao": "Habilidade",
@@ -810,7 +806,7 @@ export default ([
       
     },
     {
-      "id": "22",
+      "id": "48",
       "nome": "urgot", 
       "img": "campeoes-tft/urgot.jpg",
       "descricao": "Habilidade",
@@ -821,7 +817,7 @@ export default ([
       
     },
     {
-      "id": "23",
+      "id": "49",
       "nome": "yasuo", 
       "img": "campeoes-tft/yasuo.jpg",
       "descricao": "Habilidade",
@@ -832,7 +828,7 @@ export default ([
       
     },
     {
-      "id": "24",
+      "id": "50",
       "nome": "zeri", 
       "img": "campeoes-tft/zeri.jpg",
       "descricao": "Habilidade",
@@ -848,7 +844,7 @@ export default ([
 
   [
     {
-      "id": "25",
+      "id": "51",
       "nome": "aatrox", 
       "img": "campeoes-tft/aatrox.jpg",
       "descricao": "Habilidade",
@@ -860,7 +856,7 @@ export default ([
       
     },
     {
-      "id": "26",
+      "id": "52",
       "nome": "ahri", 
       "img": "campeoes-tft/ahri.jpg",
       "descricao": "Habilidade",
@@ -871,7 +867,7 @@ export default ([
       
     },
     {
-      "id": "27",
+      "id": "53",
       "nome": "belveth", 
       "img": "campeoes-tft/belveth.jpg",
       "descricao": "Habilidade",
@@ -882,7 +878,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "54",
       "nome": "heimerdinger", 
       "img": "campeoes-tft/heimerdinger.jpg",
       "descricao": "Habilidade",
@@ -894,7 +890,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "55",
       "nome": "ksante", 
       "img": "campeoes-tft/ksante.jpg",
       "descricao": "Habilidade",
@@ -905,7 +901,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "56",
       "nome": "ryze", 
       "img": "campeoes-tft/ryze.jpg",
       "descricao": "Habilidade",
@@ -916,7 +912,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "57",
       "nome": "senna", 
       "img": "campeoes-tft/senna.jpg",
       "descricao": "Habilidade",
@@ -928,7 +924,7 @@ export default ([
       
     },
     {
-      "id": "0",
+      "id": "58",
       "nome": "sion", 
       "img": "campeoes-tft/sion.jpg",
       "descricao": "Habilidade",
